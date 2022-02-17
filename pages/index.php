@@ -7,8 +7,8 @@
 <body>
 <h1>Hello World</h1>
 <?php
-    include('footer.php');
-    ?>
+include('shared/footer.php');
+?>
 </body>
 </html>
 <script type="text/javascript" src="/./script.js"></script>
