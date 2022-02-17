@@ -7,7 +7,7 @@
 <body>
 <h1>Hello World</h1>
 <?php
-    include('pages/footer.php');
+    include('footer.php');
     ?>
 </body>
 </html>
