@@ -6,7 +6,9 @@
 </head>
 <body>
 <h1>Hello World</h1>
-<div id ="footer"></div>
+<?php
+    include('pages/footer.php');
+    ?>
 </body>
 </html>
 <script type="text/javascript" src="/./script.js"></script>
