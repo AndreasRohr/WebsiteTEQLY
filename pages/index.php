@@ -7,7 +7,7 @@
 <body>
 <h1>Hello World</h1>
 <?php
-include('shared/footer.php');
+include('./shared/footer.php');
 ?>
 </body>
 </html>
