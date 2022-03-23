@@ -1,9 +1,412 @@
-h1 {
-    color: white;
-    text-align: center;
-    font-size: 200px;
+@font-face{
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
 }
 
-#test {
-    color: aqua;
+/* Screen larger than 600px? 2 column */
+@media (min-width: 300px) {
+    .header-row { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
+    .row-footer { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
 }
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 1000px) {
+    .header-row { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
+    .row-footer { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
+}
+
+@media (min-width: 1500px) {
+    .header-row { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
+    .row-footer { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .index-col-left h1 {
+        font-size: 30px;
+        font-family: "JetBrains Mono";
+    }
+    .indextitle{
+        font-size: 30px;
+    }
+}
+
+body{
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    max-width: 1500px;
+    font-family: "JetBrains Mono";
+}
+
+
+/*!*HEADER*!*/
+
+.header-container {
+    width: 100%;
+    top: 1rem;
+    font-family: "JetBrainsMono";
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+.header-col {
+    display: table-cell;
+    vertical-align: top;
+}
+.homebtnContact{
+    height: 2.5rem;
+    background-color: white;
+    border: solid 1px;
+    font-family: "JetBrainsMono";
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.homebtnBurger {
+    height: 2.5rem;
+    background-color: white;
+    border-left: solid 0;
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    width: 3rem;
+    margin-right: 3rem;
+    float: right;
+}
+.header-container .header-col .Logo {
+    margin-left: 1rem;
+}
+
+.navbtnContact{
+    height: 2.5rem;
+    float: right;
+    background-color: #111;
+    border: solid white 1px;
+    font-family: "JetBrainsMono";
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+}
+
+.navbtnClose {
+    height: 2.5rem;
+    float: right;
+    background-color: white;
+    border-left: solid 0;
+    border-top: solid white 1px;
+    border-right: solid white 1px;
+    border-bottom: solid white 1px;
+    width: 3rem;
+    margin-right: 3rem;
+}
+
+
+/*FOOTER*/
+.row-footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    max-width: 1500px;
+    font-family: "JetBrainsMono";
+    width: 100%;
+}
+
+.col-footer{
+    max-width: 30rem;
+}
+
+.row-footer .col-footer .fa-linkedin {
+    background: black;
+    color: white;
+    border-radius: 2rem;
+}
+
+.fa-youtube {
+    background: black;
+    color: white;
+    border-radius: 2rem;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+    border-radius: 2rem;
+}
+
+.fa {
+    padding: 0.35rem;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.row-footer .col-footer .fa-linkedin {
+    background: black;
+    color: white;
+    border-radius: 2rem;
+}
+
+.row-footer .col-footer .fa-youtube {
+    background: black;
+    color: white;
+    border-radius: 2rem;
+}
+
+.row-footer .col-footer .fa-instagram {
+    background: black;
+    color: white;
+    border-radius: 2rem;
+}
+
+
+/*SIDENAVIGATION*/
+
+.sidenav-col{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.header-row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    max-width: 1500px;
+    font-family: "JetBrainsMono";
+}
+
+.header-container-nav .header-col .navbtnContact{
+    height: 2.5rem;
+    background-color: #111;
+    border: solid white 1px;
+    font-family: "JetBrainsMono";
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    position: fixed;
+    right: 0;
+    visibility: hidden;
+}
+
+
+.header-container-nav .header-col .navbtnClose{
+    height: 2.5rem;
+    background-color: white;
+    border-left: solid 0;
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    width: 3rem;
+    margin-right: 3rem;
+
+}
+#navigation{
+    color: white;
+    font-family: "JetBrainsMono";
+    margin-bottom: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0s;
+}
+
+.sidenav .header-container .header-col .Logo {
+    margin-left: 1rem;
+    color: white;
+}
+
+.column-sidenav{
+    max-width: 30rem;
+    margin-right: 2rem;
+}
+
+.sidenav .header-container{
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    max-width: 1500px;
+}
+.sidenav a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #818181;
+    display: block;
+    transition: 0.1s;
+    margin-bottom: 20px;
+
+}
+
+.sidenav .navContainer{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.columnnav-2{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    margin-right: 2rem;
+}
+
+.columnnav-2 iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.navBlack a{
+    margin-top: 40px;
+}
+
+
+/*LINES*/
+
+.lineblack {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+
+.linewhite {
+    border-top: 1px solid white;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.lineblack-index{
+    border-top: 1px solid black;
+    width: 95%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*CONTACTFORM*/
+
+.popupform {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    font-family: "JetBrainsMono";
+}
+
+.popupform-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+.popupform-content {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/*BLOG*/
+
+.post-content{
+    color: white;
+}
+
+/*INDEX*/
+.index-col-left{
+    margin-left: 2rem;
+}
+
+.index-col-right{
+    width: 65%;
+    margin-left: auto;
+    margin-right: 2rem;
+    display: block;
+}
+
+.indextitle{
+    font-family: JetBrainsMono;
+    font-size: 6rem;
+    font-weight: lighter;
+}
+
+
