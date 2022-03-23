@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="/Website/normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="/Website/style.css" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 </head>
+
 <body>
 <?php include 'header.php' ?>
 <div id="main" style="margin-top: 4rem">
