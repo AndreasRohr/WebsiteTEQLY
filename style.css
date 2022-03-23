@@ -409,4 +409,37 @@ input[type=submit]:hover {
     font-weight: lighter;
 }
 
+/*REFERENZEN*/
 
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    height: 100px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.collapse-row{
+    display: flex;
+}
+
+.collapse-card{
+    width: 33%;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
