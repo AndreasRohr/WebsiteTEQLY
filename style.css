@@ -414,7 +414,36 @@ input[type=submit]:hover {
     color: black;
 }
 
+/*Produkte&Services*/
+
+.products-col-top{
+    margin-left: 2rem;
+}
+.products-wrapper{
+    display: block;
+    overflow: hidden;
+
+}
+
+.products-col-left{
+    margin-left: 2rem;
+    max-height: 300px;
+    width: 35%;
+    float:left; /* add this */
+}
+
+.products-col-right{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: 2rem;
+    display: block;
+}
+
+
+
+
 /*INDEX*/
+
 .index-col-left{
     margin-left: 2rem;
 }
