@@ -30,7 +30,7 @@
 @media only screen and (max-width: 600px) {
     .index-col-left h1 {
         font-size: 30px;
-        font-family: "JetBrains Mono";
+        font-family: "JetBrainsMono";
     }
     .indextitle{
         font-size: 30px;
@@ -42,7 +42,7 @@ body{
     margin-top: 10px;
     margin-right: auto;
     max-width: 1500px;
-    font-family: "JetBrains Mono";
+    font-family: "JetBrainsMono";
 }
 
 
@@ -414,7 +414,47 @@ input[type=submit]:hover {
     color: black;
 }
 
-/*Produkte&Services*/
+/*KONTAKT*/
+.contact-title{
+    font-family: JetBrainsMono;
+    font-size: 6rem;
+    font-weight: lighter;
+    margin-left: 2rem;
+}
+
+.contact-subtitle{
+    font-family: JetBrainsMono;
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-left: 2rem;
+}
+
+
+.contact-col-top{
+    margin-left: 2rem;
+}
+.contact-wrapper{
+    display: block;
+    overflow: hidden;
+
+}
+.contact-col-left{
+    margin-left: 2rem;
+    max-height: 300px;
+    width: 35%;
+    float:left; /* add this */
+}
+
+.contact-col-right{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: 2rem;
+    display: block;
+}
+
+
+
+/*PRODUCTS*/
 
 .products-col-top{
     margin-left: 2rem;
