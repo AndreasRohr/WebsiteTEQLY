@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TEQLY Referenzen</title>
     <style>
         .collapsible1, .collapsible2 {
             background-color: #777;
@@ -51,9 +52,9 @@
             <button id="1" class="collapsible1" onClick="addDesc1(meier, this.id)">Bäckerei Meier</button>
         </div>
 
-       <div class="collapse-card">
+        <div class="collapse-card">
             <button id="2" class="collapsible1" onClick="addDesc1(lelocle, this.id)">Guesthouse Lelocle</button>
-       </div>
+        </div>
 
         <div class="collapse-card">
             <button id="3" class="collapsible1" onClick="addDesc1(emma, this.id)">Emma Bed&Breakfast</button>
@@ -105,7 +106,7 @@
 
         content.innerHTML = text;
 
-      //  document.getElementById("content1").innerHTML=text;
+        //  document.getElementById("content1").innerHTML=text;
 
         var btns = document.querySelectorAll(".collapsible1");
 
