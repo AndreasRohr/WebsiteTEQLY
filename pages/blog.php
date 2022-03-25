@@ -1,3 +1,4 @@
+
 <?php
 
 $url = "https://blog.teqly.ch/c58698ebfd3b763bd64860a78a99a4/rss";
@@ -39,7 +40,7 @@ if(!empty($feeds)){
                 <h2><a class="feed_title" href="<?php echo $link; ?>"><?php echo $title; ?></a></h2>
                 <span style="color: white"><?php echo $pubDate; ?></span>
             </div>
-            <div class="post-content" style="color: white">
+            <div class="post-content">
                 <?php echo implode(' ', array_slice(explode(' ', $description), 0, 20)) . "..."; ?> <a href="<?php echo $link; ?>">Mehr erfahren</a>
             </div>
         </div>

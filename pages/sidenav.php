@@ -13,16 +13,12 @@
 </head>
 <body>
 <div id="mySidenav" class="sidenav">
-    <div class="header-container-nav">
-        <div class="sidenav-col">
-            <h1 class="Logo">TQ</h1>
-        </div>
-        <div class="sidenav-col">
-            <button class="navbtnClose"  onclick="closeNav()">
-                <img src="/Website/assets/x.svg" aria-hidden="true">
-            </button>
-            <button id="navbtnContact" class="navbtnContact">Jetzt kontaktieren!</button>
-        </div>
+    <div class="sidenav-col" style="max-width: 1500px;max-height: 4rem">
+        <h1 style="float: left; color: white" class="Logo">TQ</h1>
+        <button style="margin-top:0.5rem;" class="navbtnClose"  onclick="closeNav()">
+            <img src="/Website/assets/x.svg" aria-hidden="true">
+        </button>
+        <button style="margin-top:0.5rem; "id="navbtnContact" class="navbtnContact">Jetzt kontaktieren!</button>
     </div>
     <div class="header-row">
         <div class="column-sidenav">
@@ -39,7 +35,7 @@
         <div class="column-sidenav">
             <div class="linewhite"></div>
             <p id="navigation">BLOG</p>
-            <div class="content">
+            <div class="blog-content">
                 <?php include 'blog.php' ?>
             </div>
         </div>
