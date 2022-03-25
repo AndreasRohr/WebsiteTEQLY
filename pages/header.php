@@ -26,7 +26,7 @@
         <button id="homebtnContact" class="homebtnContact" ">Jetzt kontaktieren!</button>
     </div>
     <div class="header-col">
-        <h1 class="Logo">TQ</h1>
+        <a href="/Website/pages/index.php">TQ</a>
     </div>
 </div>
 

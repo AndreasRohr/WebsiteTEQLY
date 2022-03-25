@@ -19,12 +19,12 @@
         .md-text-center {
             text-align: center;
             font-size: 25px;
-            opacity: 80%;
+
         }
 
         .md-text {
             font-size: 25px;
-            opacity: 80%;
+
         }
 
         .picture{
@@ -35,7 +35,7 @@
         }
 
 
-        br{
+        .md-text-center br, lg-text-center br{
             display: block; /* makes it have a width */
             content: ""; /* clears default height */
             margin-top: -5px; /* change this to whatever height you want it */
@@ -49,7 +49,7 @@
 <?php include 'header.php' ?>
 
 <div id="main" style="margin-top: 4rem">
-    <p class="lg-text-center">
+    <p class="lg-text-center" style="margin-top: 8rem">
         Offenheit <br>
         Innovation <br>
         Transparenz <br>
@@ -85,7 +85,7 @@
             </button>
         </div>
     </div>
-
+<br>
 
     <div class="emp">
         <p class="md-text" style="font-weight: bold">Sandro Bütler</p>
@@ -100,7 +100,7 @@
             </button>
         </div>
     </div>
-
+<br>
 
     <div class="emp">
         <p class="md-text" style="font-weight: bold">Andreas Rohr</p>
@@ -116,6 +116,8 @@
         </div>
     </div>
 </div>
+
+<?php include 'footer.php' ?>
 <script>
 
 </script>

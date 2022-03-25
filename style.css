@@ -9,19 +9,21 @@
 
 /* Screen larger than 600px? 2 column */
 @media (min-width: 300px) {
-    .header-row { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
-    .row-footer { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
+    .header-row {
+        grid-template-columns: repeat(auto-fill, 20rem);
+    }
+    .row-footer { grid-template-columns: repeat(auto-fill, 20rem); }
 }
 
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 1000px) {
-    .header-row { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
-    .row-footer { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
+    .header-row { grid-template-columns: repeat(auto-fill, 20rem); }
+    .row-footer { grid-template-columns: repeat(auto-fill, 20rem); }
 }
 
 @media (min-width: 1500px) {
-    .header-row { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
-    .row-footer { grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr)); }
+    .header-row { grid-template-columns: repeat(auto-fill, 20rem); }
+    .row-footer { grid-template-columns: repeat(auto-fill, 20rem); }
 
 }
 
@@ -64,6 +66,7 @@ body{
     font-family: "JetBrainsMono";
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-top: 0.5rem;
 
 }
 
@@ -77,6 +80,7 @@ body{
     width: 3rem;
     margin-right: 3rem;
     float: right;
+    margin-top: 0.5rem;
 }
 .header-container .header-col .Logo {
     margin-left: 1rem;
@@ -183,12 +187,12 @@ max-width: 1500px;
     overflow: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1.3rem;
+    margin-top: 1.8rem;
 }
 
 .header-row{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fill, 30rem);
     padding: 10px;
     margin-left: auto;
     margin-top: 10px;
@@ -460,4 +464,15 @@ input[type=submit]:hover {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
+}
+
+.header-col a{
+    color: black;
+    font-size: 40px;
+    top: 0;
+}
+
+.index-col-left a{
+    color: black;
+    font-size: 2.5rem;
 }

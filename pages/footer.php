@@ -21,8 +21,9 @@
     </div>
     </div>
     <div style="margin-right: 2rem;" class="col-footer">
-        <br>
+        Copyright
         <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
+        <br>
         © 2022 TEQLY GmbH
         <div></div>
         <br>
