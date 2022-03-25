@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        .collapsible {
+        .collapsible1, .collapsible2 {
             background-color: #777;
             color: white;
             cursor: pointer;
@@ -16,7 +16,7 @@
             height: 100px;
         }
 
-        .active, .collapsible:hover {
+        .active, .collapsible1:hover, .collapsible2:hover {
             background-color: #555;
         }
 
@@ -38,103 +38,123 @@
     </style>
 </head>
 <body>
+<?php include 'header.php' ?>
 
-<h2>Unsere Referenzen</h2>
+<div id="main" style="margin-top: 4rem">
 
-<h3>Netzwerk & Support</h3>
+    <h2>Unsere Referenzen</h2>
 
-<div class="collapse-row">
-    <div class="collapse-card">
-        <button id="1" class="collapsible">Bäckerei Meier</button>
-    </div>
+    <h3>Netzwerk & Support</h3>
 
-    <div class="collapse-card">
-        <button id="2" class="collapsible">Guesthouse Lelocle</button>
-        <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="collapse-row">
+        <div class="collapse-card">
+            <button id="1" class="collapsible1" onClick="addDesc1(meier, this.id)">Bäckerei Meier</button>
+        </div>
+
+       <div class="collapse-card">
+            <button id="2" class="collapsible1" onClick="addDesc1(lelocle, this.id)">Guesthouse Lelocle</button>
+       </div>
+
+        <div class="collapse-card">
+            <button id="3" class="collapsible1" onClick="addDesc1(emma, this.id)">Emma Bed&Breakfast</button>
         </div>
     </div>
+    <div id="content1" class="content">
+        <p></p>
+    </div>
 
-    <div class="collapse-card">
-        <button id="3" class="collapsible">Emma Bed&Breakfast</button>
-        <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    <div class="collapse-row">
+        <div class="collapse-card">
+            <button id="4" class="collapsible2" onClick="addDesc2(meier, this.id)">Bäckerei Meier</button>
+        </div>
+
+        <div class="collapse-card">
+            <button id="5" class="collapsible2" onClick="addDesc2(lelocle, this.id)">Guesthouse Lelocle</button>
+        </div>
+
+        <div class="collapse-card">
+            <button id="6" class="collapsible2" onClick="addDesc2(emma, this.id)">Emma Bed&Breakfast</button>
         </div>
     </div>
+    <div id="content2" class="content">
+        <p></p>
+    </div>
+
+
+
+
+
+
 </div>
-<div id="content" class="content"></div>
+
 
 <script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
 
     var emma = "emma";
     var meier = "meier";
     var lelocle = "lelocle";
+    var text
+    var btnid;
+    var lastButtonPressed1;
+    var lastButtonPressed2;
 
+    function addDesc1(text, btnid){
 
-    for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = document.getElementById("content");
+        var content = document.getElementById("content1");
 
-            switch (this.id) {
-                case "1":
-                    content.innerHTML = meier;
+        content.innerHTML = text;
 
-                    if(document.getElementById("1").classList.contains("active")){
-                        content.style.maxHeight = content.scrollHeight + "px";
-                    }else{
-                        content.style.maxHeight = null;
-                    }
+      //  document.getElementById("content1").innerHTML=text;
 
-                    if(document.getElementById("2").classList.contains("active")){
-                        document.getElementById("2").classList.toggle("active");
-                    }
-                    if(document.getElementById("3").classList.contains("active")){
-                        document.getElementById("3").classList.toggle("active");
-                    }
+        var btns = document.querySelectorAll(".collapsible1");
 
-                    break;
-                case "2":
-                    content.innerHTML = lelocle;
-
-                    if(document.getElementById("2").classList.contains("active")){
-                        content.style.maxHeight = content.scrollHeight + "px";
-                    }else{
-                        content.style.maxHeight = null;
-                    }
-
-                    if(document.getElementById("1").classList.contains("active")){
-                        document.getElementById("1").classList.toggle("active");
-                    }
-                    if(document.getElementById("3").classList.contains("active")){
-                        document.getElementById("3").classList.toggle("active");
-                    }
-
-                    break;
-                case "3":
-                    content.innerHTML = emma;
-                    if(document.getElementById("3").classList.contains("active")){
-                        content.style.maxHeight = content.scrollHeight + "px";
-                    }else{
-                        content.style.maxHeight = null;
-                    }
-
-                    if(document.getElementById("1").classList.contains("active")){
-                        document.getElementById("1").classList.toggle("active");
-                    }
-                    if(document.getElementById("2").classList.contains("active")){
-                        document.getElementById("2").classList.toggle("active");
-                    }
-
-                    break;
-                default:
-                    break;
+        btns.forEach(el => {
+            if(el.classList.contains("active")){
+                el.classList.toggle("active");
             }
+        })
 
-        });
+        if(lastButtonPressed1 === btnid){
+            content.style.maxHeight = null;
+            document.getElementById(btnid).classList.toggle("active");
+            lastButtonPressed1 = null;
+        }else{
+            content.style.maxHeight = content.scrollHeight + "px";
+            lastButtonPressed1 = btnid;
+        }
+
+        document.getElementById(btnid).classList.toggle("active");
     }
+
+    function addDesc2(text, btnid){
+
+        var content = document.getElementById("content2");
+
+        content.innerHTML=text;
+
+        var btns = document.querySelectorAll(".collapsible2");
+
+        btns.forEach(el => {
+            if(el.classList.contains("active")){
+                el.classList.toggle("active");
+            }
+        })
+
+        if(lastButtonPressed2 === btnid){
+            content.style.maxHeight = null;
+            document.getElementById(btnid).classList.toggle("active");
+            lastButtonPressed2 = null;
+        }else{
+            content.style.maxHeight = content.scrollHeight + "px";
+            lastButtonPressed2 = btnid;
+        }
+
+        document.getElementById(btnid).classList.toggle("active");
+
+
+    }
+
 </script>
 
 </body>
