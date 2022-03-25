@@ -105,6 +105,10 @@ body{
     margin-right: 3rem;
 }
 
+.header-container-nav{
+
+}
+
 
 /*FOOTER*/
 .row-footer{
@@ -175,8 +179,11 @@ body{
 /*SIDENAVIGATION*/
 
 .sidenav-col{
-    display: table-cell;
-    vertical-align: top;
+max-width: 1500px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.3rem;
 }
 
 .header-row{
@@ -187,6 +194,7 @@ body{
     margin-top: 10px;
     margin-right: auto;
     max-width: 1500px;
+    width: 100%;
     font-family: "JetBrainsMono";
 }
 
@@ -257,6 +265,18 @@ body{
     transition: 0.1s;
     margin-bottom: 20px;
 
+}
+
+.blog-content h1{
+    color: white;
+}
+.sidenav .post-content{
+    color: white;
+}
+
+
+.sidenav .post-head{
+    color: white;
 }
 
 .sidenav .navContainer{
@@ -386,9 +406,8 @@ input[type=submit]:hover {
 
 
 /*BLOG*/
-
-.post-content{
-    color: white;
+.index-col-right a{
+    color: black;
 }
 
 /*INDEX*/
@@ -416,7 +435,6 @@ input[type=submit]:hover {
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
     border: none;
     text-align: left;
     outline: none;
