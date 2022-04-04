@@ -26,9 +26,9 @@
             <p id="navigation">NAVIGATION</p>
             <div class="navBlack">
                 <a href="/Website/pages/index.php">Start</a>
-                <a href="#">Produkte & Services</a>
-                <a href="#">Referenzen</a>
-                <a href="#">Team</a>
+                <a href="/Website/pages/products.php">Produkte & Services</a>
+                <a href="/Website/pages/references.php">Referenzen</a>
+                <a href="/Website/pages/team.php">Team</a>
                 <a href="#">Kontakt</a>
             </div>
         </div>
