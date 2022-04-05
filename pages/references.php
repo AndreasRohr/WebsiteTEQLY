@@ -35,7 +35,7 @@
 
     <div class="collapse-row">
         <div class="collapse-card">
-            <button id="network4" class="collapsible-nr2" onClick="descNetworkR2(kulturhofHinteregg, this.id)">Kulturhof Hinteregg</button>
+            <button id="network4" class="collapsible-nr2" onClick="descNetworkR2(kulturhofHinteregg, this.id)">Kulturhof Hintermusegg</button>
         </div>
 
         <div class="collapse-card">

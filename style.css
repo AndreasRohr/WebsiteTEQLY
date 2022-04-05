@@ -329,10 +329,8 @@ max-width: 1500px;
 
 .lineblack-index{
     border-top: 1px solid black;
-    width: 95%;
-    margin-top: 3rem;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin: 6rem auto 3rem;
 }
 
 
@@ -485,7 +483,9 @@ input[type=submit]:hover {
 /*INDEX*/
 
 .index-col-left{
-    margin-left: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem !important;
+
 }
 
 .index-col-right{
@@ -499,6 +499,7 @@ input[type=submit]:hover {
     font-family: JetBrainsMono;
     font-size: 6rem;
     font-weight: lighter;
+    margin-left: 3rem;
 }
 
 /*REFERENZEN*/
@@ -573,4 +574,55 @@ div img{
 .index-col-left a{
     color: black;
     font-size: 2.5rem;
+}
+
+.index-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+}
+
+.under-section{
+    margin-left: 5rem;
+}
+
+.under-section-col-right{
+
+    width: 69%;
+    margin-left: auto;
+    margin-right: 2rem;
+    display: block;
+
+
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    animation:
+            typing 2.5s forwards;
+    width: 0;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0% }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+.three-col-block{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.three-col{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 33%);
+}
+
+.index-col-left img{
+    max-height: 3rem;
+    margin-top: -2rem;
 }

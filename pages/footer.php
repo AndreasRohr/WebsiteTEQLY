@@ -20,7 +20,7 @@
         <a style="color: black" href="#">AGB</a>
     </div>
     </div>
-    <div style="margin-right: 2rem;" class="col-footer">
+    <div style="margin-right: 0rem;" class="col-footer">
         Copyright
         <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
         <br>
@@ -28,7 +28,7 @@
         <div></div>
         <br>
     </div>
-    <div style="margin-right: 2rem;" class="col-footer">
+    <div style="margin-right: 0rem;" class="col-footer">
         Social Media
         <div  style="border-color: black; margin-top: 0px; margin-bottom: 10px" class="linewhite"></div>
         <a href="#" class="fa fa-linkedin"></a>
