@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!--
+Todo: Braucht es den <head> in einem .php Element?
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,23 +13,64 @@
 <body>
 <div class="row-footer">
     <div style="margin-right: 2rem; color: black" class="col-footer">
-        Dokumente
+        Dienstleistungen
         <div class="col-footer">
+            <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
+            <a style="color: black" href="#">Support</a>
+            <br>
+            <a style="color: black" href="#">Netzwerk</a>
+            <br>
+            <a style="color: black" href="#">Programmierung</a>
+            <br>
+            <a style="color: black" href="#">Rental</a>
+            <br>
+            <a style="color: black" href="#">Webauftritte</a>
+            <br>
+            <a style="color: black" href="#">Kundenlösungen</a>
+        </div>
+    </div>
+    <div style="margin-right: 2rem; color: black" class="col-footer">
+        Über TEQLY
+        <div class="col-footer">
+            <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
+            <a style="color: black" href="#">Team</a>
+            <br>
+            <a style="color: black" href="#">Jobs</a>
+            <br>
+            <a style="color: black" href="#">Kontakt</a>
+        </div>
+    </div>
+    <div style="margin-right: 2rem; color: black" class="col-footer">
+        Applikationen
+        <div class="col-footer">
+            <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
+            <a style="color: black" href="#">Support-Plattform</a>
+            <br>
+            <a style="color: black" href="#">Zeiterfassung</a>
+            <br>
+            <a style="color: black" href="#">Newsletter-Service</a>
+            <br>
+            <a style="color: black" href="#">Passwort-Manager</a>
+        </div>
+    </div>
+</div>
+<div class="row-footer">
+    <div class="col-footer">
+        Rechtliches
         <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
         <a style="color: black" href="#">Impressum</a>
         <br>
-        <a style="color: black" href="#">Datenschutz</a>
+        <a style="color: black" href="#">Datenschutzerklärung</a>
         <br>
-        <a style="color: black" href="#">AGB</a>
+        <a style="color: black" href="#">Allgemeine Geschäftsbedingungen</a>
+        <br>
+        <a style="color: black" href="#">Credits</a>
     </div>
     </div>
     <div style="margin-right: 0rem;" class="col-footer">
         Copyright
         <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-        <br>
-        © 2022 TEQLY GmbH
-        <div></div>
-        <br>
+        © <?php echo date("Y"); ?> TEQLY GmbH
     </div>
     <div style="margin-right: 0rem;" class="col-footer">
         Social Media
