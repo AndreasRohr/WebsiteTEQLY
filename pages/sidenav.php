@@ -13,12 +13,23 @@
 </head>
 <body>
 <div id="mySidenav" class="sidenav">
-    <div class="sidenav-col" style="max-width: 1500px;max-height: 4rem">
-        <h1 style="float: left; color: white" class="Logo">TQ</h1>
-        <button style="margin-top:0.5rem;" class="navbtnClose"  onclick="closeNav()">
-            <img src="/Website/assets/x.svg" aria-hidden="true">
-        </button>
-        <button style="margin-top:0.5rem; "id="navbtnContact" class="navbtnContact">Jetzt kontaktieren!</button>
+    <div style=" max-width: 1464px"  class="sidenav-col">
+        <div class="sidenav-right" style="display: flex; float: right; position: relative">
+            <button style="margin-top:0.4rem; "id="navbtnContact" class="navbtnContact">Jetzt kontaktieren!</button>
+            <div class="sidenav-dropdown">
+                <button onclick="myFunction2()" class="sidenav-dropbtn">DE</button>
+                <div id="sidenav-myDropdown" class="sidenav-dropdown-content">
+                    <a href="#">FR</a>
+                </div>
+            </div>
+            <button style="margin-top:0.4rem;" class="navbtnClose"  onclick="closeNav()"><img src="/Website/assets/x.svg" aria-hidden="true"></button>
+        </div>
+        <div class="sidenav-left" style="margin-bottom: 0.1rem; width: 50px">
+            <a class="logo" href="/Website/pages/index.php">
+                <img class="logo-white" alt="TEQLY" src="/Website/assets/Logo.png"
+                     width=50" height="7">
+            </a>
+        </div>
     </div>
     <div class="header-row">
         <div class="column-sidenav">

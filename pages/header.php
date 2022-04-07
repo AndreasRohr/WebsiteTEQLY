@@ -16,26 +16,30 @@
 
 </head>
 <body>
-<?php include 'sidenav.php' ?>
-
-<div style="position: fixed; max-width: 1500px" id="header-container" class="header-container">
-    <div style="float: right" class="header-col">
-        <button class="homebtnBurger"  onclick="openNav()">
-            <img src="/Website/assets/menu.svg" aria-hidden="true">
-        </button>
-        <button id="homebtnContact" class="homebtnContact" ">Jetzt kontaktieren!</button>
+<div style="position: fixed; max-width: 1464px" id="header-container" class="header-container">
+    <div class="header-right" style="display: flex; float: right">
+        <button id="homebtnContact" class="homebtnContact">Jetzt kontaktieren!</button>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn" aria-hidden="true">DE</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">FR</a>
+            </div>
+        </div>
+        <button class="homebtnBurger" onclick="openNav()"><img src="/Website/assets/menu.svg" aria-hidden="true"></button>
     </div>
-    <div class="header-col">
-        <a href="/Website/pages/index.php">TQ</a>
+    <div class="header-left">
+        <a class="logo" href="/Website/pages/index.php" style="margin-left: 0rem">
+            <img alt="TEQLY" src="/Website/assets/Logo.png"
+                 width=50" height="7">
+        </a>
     </div>
 </div>
-
+<?php include 'sidenav.php' ?>
 <div id="myModal" class="popupform">
     <div class="popupform-content">
         <span class="close">&times;</span>
         <?php include 'formpage.php' ?>
     </div>
-
 </div>
 </body>
 </html>
