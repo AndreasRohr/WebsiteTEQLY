@@ -16,7 +16,7 @@
 
 </head>
 <body>
-<div style="position: fixed; max-width: 1464px" id="header-container" class="header-container">
+<div style="position: fixed; max-width: 1464px; margin-left: auto; z-index: 1" id="header-container" class="header-container">
     <div class="header-right" style="display: flex; float: right">
         <button id="homebtnContact" class="homebtnContact">Jetzt kontaktieren!</button>
         <div class="dropdown">

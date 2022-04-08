@@ -109,6 +109,3 @@ window.onclick = function(event) {
 
 
 
-
-
-

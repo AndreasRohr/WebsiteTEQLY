@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="/Website/normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="/Website/style.css" media="all" type="text/css">
     <title>Startseite</title>
+    <?php include 'header.php' ?>
 </head>
-
 <body>
-<?php include 'header.php' ?>
+
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
@@ -19,7 +19,10 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="/Website/assets/start.jpg" aria-hidden="true">
+        <video autoplay muted loop style="z-index: -1">
+            <source src="/Website/assets/teqlymovie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <div  class="title-right">
             <h2>Hello World asdasdadfauzdg asd aszdguas uasz gasuzdg asgasug azdgaszdasz aszud uaszd as asdaszud as asdz asd</h2>
         </div>

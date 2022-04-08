@@ -13,7 +13,7 @@
 </head>
 <body>
 <div id="mySidenav" class="sidenav">
-    <div style=" max-width: 1464px"  class="sidenav-col">
+    <div style=" max-width: 1500px"  class="sidenav-col">
         <div class="sidenav-right" style="display: flex; float: right; position: relative">
             <button style="margin-top:0.4rem; "id="navbtnContact" class="navbtnContact">Jetzt kontaktieren!</button>
             <div class="sidenav-dropdown">
@@ -26,7 +26,7 @@
         </div>
         <div class="sidenav-left" style="margin-bottom: 0.1rem; width: 50px">
             <a class="logo" href="/Website/pages/index.php">
-                <img class="logo-white" alt="TEQLY" src="/Website/assets/Logo.png"
+                <img  class="logo-white" alt="TEQLY" src="/Website/assets/Logo.png"
                      width=50" height="7">
             </a>
         </div>
