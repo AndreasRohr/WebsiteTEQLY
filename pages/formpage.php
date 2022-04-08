@@ -13,7 +13,7 @@
             <script src='https://www.google.com/recaptcha/api.js'></script>
             <div class="form-container">
                 <h1>
-                    Kontakt
+                    Was können wir für Sie tun?
                 </h1>
                 <form method="post" id="reused_form" >
                     <label for="name">Name:</label>

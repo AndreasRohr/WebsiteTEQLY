@@ -37,7 +37,7 @@ Todo: Braucht es den <head> in einem .php Element?
             <br>
             <a style="color: black" href="#">Jobs</a>
             <br>
-            <a style="color: black" href="#">Kontakt</a>
+            <a style="color: black" href="/Website/pages/contact.php">Kontakt</a>
         </div>
     </div>
     <div style="margin-right: 2rem; color: black" class="col-footer">

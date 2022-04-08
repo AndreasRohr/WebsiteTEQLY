@@ -78,7 +78,7 @@ body{
     border-right: solid 1px;
     border-bottom: solid 1px;
     width: 3rem;
-    margin-right: 3rem;
+    margin-right: 3.2rem;
     float: right;
     margin-top: 0.5rem;
 }
@@ -410,6 +410,7 @@ input[type=submit]:hover {
 /*BLOG*/
 .index-col-right a{
     color: black;
+    font-weight: bolder;
 }
 
 /*KONTAKT*/
@@ -594,6 +595,11 @@ div img{
     display: block;
 
 
+}
+
+.under-section-col-right a{
+    color: black;
+    font-weight: bolder;
 }
 
 .typewriter h1 {
