@@ -30,7 +30,7 @@
                     <textarea id="message" name="Message" rows="5" maxlength="6000" required></textarea>
                     <div class="g-recaptcha" data-sitekey="6LcqCakeAAAAAICQB4d18zO6clauqVFZ7CdLztUj"></div>
                     <br>
-                    <button class="button-primary" type="submit" >Anfrage senden</button>
+                    <button style="float: left" class="navbtnContact" type="submit" >Anfrage senden</button>
                 </form>
                 <div id="success_message" style="display:none">
                     <h3>Die Kontaktanfrage wurde erfolgreich versendet!</h3>
