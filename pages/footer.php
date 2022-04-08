@@ -66,7 +66,6 @@ Todo: Braucht es den <head> in einem .php Element?
         <br>
         <a style="color: black" href="#">Credits</a>
     </div>
-    </div>
     <div style="margin-right: 0rem;" class="col-footer">
         Copyright
         <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
@@ -79,6 +78,7 @@ Todo: Braucht es den <head> in einem .php Element?
         <a href="#" class="fa fa-youtube"></a>
         <a href="#" class="fa fa-instagram"></a>
     </div>
+</div>
 </div>
 </body>
 </html>

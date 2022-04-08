@@ -3,22 +3,32 @@
 <head>
 <?php include 'header_imports.php' ?>
     <title>Startseite</title>
+    <?php include 'header.php' ?>
 </head>
-
 <body>
-<?php include 'header.php' ?>
+
 <div id="main" style="margin-top: 7rem">
-    <div class="typewriter">
-        <h1 class="indextitle">Wir sind ihre IT-Partner</h1>
+    <div class="title-row">
+        <div class="title-left">
+            <div class="typewriter">
+                <h1 id="titleh1" class="indextitle">TEQLY GmbH</h1>
+            </div>
+        </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="/Website/assets/start.jpg" aria-hidden="true">
+        <video autoplay muted loop style="z-index: -1">
+            <source src="/Website/assets/teqlymovie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div  class="title-right">
+            <h2>Hello World asdasdadfauzdg asd aszdguas uasz gasuzdg asgasug azdgaszdasz aszud uaszd as asdaszud as asdz asd</h2>
+        </div>
         <div class="lineblack-index"></div>
         <div class="index-col-left">
             <a href="/Website/pages/products.php">Dienstleistungen</a>
         </div>
         <div class="index-col-right">
-            <p>In einer komplex vernetzten Welt ist es nicht einfach den Überblick zu behalten. Bei der Digitalisierung stehen zu bleiben, kommt einem Rückschritt gleich. Wir sind der Partner für Ihr Unternehmen wenn es um Herausforderungen in der digitalen Welt geht. Unsere Dienstleistungspalette ist vielschichtig und deckt alle Bedürfnisse eines Unternehmens ab. Egal ob Beratung, Schulung, Support, Hard- oder Software - Wir stehen Ihnen gerne zur Seite, damit Sie sich wieder auf Ihr Kerngeschäft konzentrieren können. <a href="/Website/pages/products.php">Mehr erfahren.</a></p>
+            <p>In einer komplex vernetzten Welt ist es nicht einfach den Überblick zu behalten. Bei der Digitalisierung stehenzubleiben, kommt einem Rückschritt gleich. Wir sind der Partner für Ihr Unternehmen wenn es um Herausforderungen in der digitalen Welt geht. Unsere Dienstleistungspalette ist vielschichtig und deckt alle Bedürfnisse eines Unternehmens ab. Egal ob Beratung, Schulung, Support, Hard- oder Software - Wir stehen Ihnen gerne zur Seite, damit Sie sich wieder auf Ihr Kerngeschäft konzentrieren können. <a href="/Website/pages/products.php">Mehr erfahren.</a></p>
         </div>
         <div class="under-section">
             <div class="lineblack-index"></div>
@@ -70,15 +80,30 @@
             <a href="#">3 Collumns</a>
         </div>
         <div class="three-col">
-        <div class="three-col-block">
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="three-col-block">
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="three-col-block">
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        </div>
+            <div class="three-col-block">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="three-col-block">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="three-col-block">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
         </div>
         -->
     </div>

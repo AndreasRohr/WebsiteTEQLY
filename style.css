@@ -9,31 +9,69 @@
 
 /* Screen larger than 600px? 2 column */
 @media (min-width: 300px) {
-    .header-row {
+    .header-row, footer-row {
         grid-template-columns: repeat(auto-fill, 20rem);
     }
-    .row-footer { grid-template-columns: repeat(auto-fill, 20rem); }
+
+    .row-footer {
+        grid-template-columns: repeat(auto-fill, 20rem);
+    }
 }
 
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 1000px) {
-    .header-row { grid-template-columns: repeat(auto-fill, 20rem); }
-    .row-footer { grid-template-columns: repeat(auto-fill, 20rem); }
+    .header-row, row-footer {
+        grid-template-columns: repeat(auto-fill, 20rem);
+    }
+
+    .row-footer {
+        grid-template-columns: repeat(auto-fill, 20rem);
+    }
 }
+
 
 @media (min-width: 1500px) {
-    .header-row { grid-template-columns: repeat(auto-fill, 20rem); }
+    .header-row,row-footer { grid-template-columns: repeat(auto-fill, 20rem); }
     .row-footer { grid-template-columns: repeat(auto-fill, 20rem); }
 
-}
 
+}
+/*MOBILE*/
 @media only screen and (max-width: 600px) {
     .index-col-left h1 {
         font-size: 30px;
         font-family: "JetBrainsMono";
     }
-    .indextitle{
-        font-size: 30px;
+    #titleh1{
+        font-size: 50px;
+        margin-top: 7rem;
+    }
+    .index-col-left{
+        margin-left: 0rem!important;
+    }
+    .index-col-right{
+        margin-left: 1rem!important;
+        width: 100%!important;
+    }
+    .products-col-left{
+        max-width: 62%!important;
+        margin-top: 2rem;
+    }
+    .products-col-right{
+        margin-right: 14rem!important;
+        max-width: 60%!important; ;
+        margin-top: 2rem;
+    }
+    .title-right{
+        margin-left: 47rem;
+        max-width: 50%;
+        margin-top: 5rem
+    }
+    .title-right{
+        margin-left: 1rem!important;
+        max-width: 90%!important;
+        margin-top: 5rem;
+        font-sizesize: 1rem!important;
     }
 }
 
@@ -55,10 +93,6 @@ body{
     margin-top: 10px;
     margin-bottom: 2rem;
 }
-.header-col {
-    display: table-cell;
-    vertical-align: top;
-}
 .homebtnContact{
     height: 2.5rem;
     background-color: white;
@@ -70,7 +104,19 @@ body{
 
 }
 
-.homebtnBurger {
+.homebtnBurger{
+    height: 2.5rem;
+    background-color: white;
+    border-left: solid 0;
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+#homebtnLanguage {
     height: 2.5rem;
     background-color: white;
     border-left: solid 0;
@@ -82,7 +128,9 @@ body{
     float: right;
     margin-top: 0.5rem;
 }
-.header-container .header-col .Logo {
+
+
+.header-container .header-left a .Logo, .sidenav-col .sidenav-left a .Logo {
     margin-left: 1rem;
 }
 
@@ -106,7 +154,7 @@ body{
     border-right: solid white 1px;
     border-bottom: solid white 1px;
     width: 3rem;
-    margin-right: 3rem;
+    margin-right: 1rem;
 }
 
 .header-container-nav{
@@ -117,9 +165,9 @@ body{
 /*FOOTER*/
 .row-footer{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fill, 30rem);
     padding: 10px;
-    margin-left: auto;
+    margin-left: 3.2%;
     margin-top: 10px;
     margin-right: auto;
     max-width: 1500px;
@@ -129,7 +177,14 @@ body{
 
 .col-footer{
     max-width: 30rem;
+    margin-top: 10px;
 }
+
+.col-footer-last{
+    width: 40rem;
+    margin-top: 10px;
+}
+
 
 .row-footer .col-footer .fa-linkedin {
     background: black;
@@ -183,8 +238,6 @@ body{
 /*SIDENAVIGATION*/
 
 .sidenav-col{
-max-width: 1500px;
-    overflow: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.8rem;
@@ -322,7 +375,7 @@ max-width: 1500px;
 
 .linewhite {
     border-top: 1px solid white;
-    width: 100%;
+    width: 26rem;
     margin-top: 50px;
     position: relative;
 }
@@ -459,20 +512,18 @@ input[type=submit]:hover {
     margin-left: 2rem;
 }
 .products-wrapper{
-    display: block;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 42rem);
 
 }
 
 .products-col-left{
     margin-left: 2rem;
     max-height: 300px;
-    width: 35%;
     float:left; /* add this */
 }
 
 .products-col-right{
-    max-width: 60%;
     margin-left: auto;
     margin-right: 2rem;
     display: block;
@@ -484,6 +535,7 @@ input[type=submit]:hover {
 /*INDEX*/
 
 .index-col-left{
+    white-space: nowrap;
     margin-left: 3rem;
     margin-bottom: 3rem !important;
 
@@ -625,10 +677,137 @@ div img{
 
 .three-col{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 33%);
+    grid-template-columns: repeat(auto-fill, 29rem);
 }
 
 .index-col-left img{
     max-height: 3rem;
     margin-top: -2rem;
+}
+
+
+
+
+.dropbtn {
+    height: 2.5rem;
+    background-color: white;
+    border-right: solid 1px;
+    border-left: 0px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    width: 3rem;
+    margin-top: 0.5rem;
+}
+.sidenav-dropbtn{
+    height: 2.5rem;
+    background-color: #111;
+    border-right: solid white 1px;
+    border-left: 0px;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    width: 3rem;
+    margin-top: 0.4rem;
+    color: white;
+
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 3.05rem;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+    border-bottom: solid black 1px;
+    border-top: solid black 0px;
+    height: 3rem;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: black; color: white}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block;
+    margin-left: -0.05rem;
+
+}
+
+
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.sidenav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.sidenav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    width: 3.05rem;
+    border-right: solid white 1px;
+    border-left: solid white 1px;
+    border-bottom: solid white 3.5px;
+    border-top: solid white 0px;
+    height: 3rem;
+}
+
+/* Links inside the dropdown */
+.sidenav-dropdown-content a {
+    color: white;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+/* Change color of dropdown links on hover */
+.sidenav-dropdown-content a:hover {background-color: white; color: black}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.sidenav-show {
+    display:block;
+    margin-left: -0.05rem;
+
+}
+
+
+
+
+
+
+
+.sidenav .sidenav-col .sidenav-left img{
+    filter: invert(1);
+    margin-bottom: 1rem;
+}
+
+.under-section .index-col-left img, .under-section .index-col-left a {
+    display: inline-block;
+}
+
+.title-right{
+    margin-left: 50%;
+    max-width: 50%;
+    margin-top: 5rem
 }
