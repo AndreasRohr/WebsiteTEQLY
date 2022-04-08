@@ -11,7 +11,7 @@
     <div class="title-row">
         <div class="title-left">
             <div class="typewriter">
-                <h1 id="titleh1" class="indextitle">TEQLY GmbH</h1>
+                <h1 id="titleh1" class="indextitle">...</h1>
             </div>
         </div>
     </div>
@@ -21,7 +21,7 @@
             Your browser does not support the video tag.
         </video>
         <div  class="title-right">
-            <h2>Hello World asdasdadfauzdg asd aszdguas uasz gasuzdg asgasug azdgaszdasz aszud uaszd as asdaszud as asdz asd</h2>
+            <h2>Willkommen bei TEQLY.<br>Wir sind Ihre Ansprechpartner wenn es um innovative und kundenorientiert IT-Lösungen geht.</h2>
         </div>
         <div class="lineblack-index"></div>
         <div class="index-col-left">
@@ -113,3 +113,16 @@
 </body>
 </html>
 <script type="text/javascript" src="/Website/script.js"></script>
+<script>
+    // Random String return for index.php
+    var items = Array("Ihre IT-Partner.", "Ihre Problemlöser.", "Ihre Supporter.", "Ihre Programmierer.", "Ihre IT-Berater.", "Ihre Digitalisierer.");
+
+    window.onload = function answerWriter() {
+        document.getElementById("titleh1").innerHTML = randString();
+    }
+    function randString() {
+        var item = items[Math.floor(Math.random() * items.length)];
+        return item;
+    }
+</script>
+

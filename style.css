@@ -130,6 +130,7 @@ body{
 
 .header-container .header-left a .Logo, .sidenav-col .sidenav-left a .Logo {
     margin-left: 1rem;
+    mix-blend-mode: difference;
 }
 
 .navbtnContact{

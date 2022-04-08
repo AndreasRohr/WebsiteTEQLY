@@ -15,9 +15,6 @@ function closeNav() {
 
 }
 
-
-
-
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -51,13 +48,6 @@ btn2.onclick = function() {
     modal.style.display = "block";
 }
 
-
-
-
-
-
-
-
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
@@ -78,12 +68,6 @@ window.onclick = function(event) {
         }
     }
 }
-
-
-
-
-
-
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */

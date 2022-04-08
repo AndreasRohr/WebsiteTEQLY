@@ -29,7 +29,7 @@
     </div>
     <div class="header-left">
         <a class="logo" href="/Website/pages/index.php" style="margin-left: 0rem">
-            <img alt="TEQLY" src="/Website/assets/Logo.png"
+            <img alt="TEQLY" src="/Website/assets/schriftzug_vertikal.png"
                  width=50" height="7">
         </a>
     </div>
