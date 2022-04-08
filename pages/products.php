@@ -10,7 +10,6 @@
 <div id="main" style="margin-top: 4rem">
     <h1 id="titleh1" class="indextitle">Dienstleistungen</h1>
     <div class="index-container">
-
         <!-- EASIT.rent Block -->
         <div class="lineblack-index"></div>
         <div class="products-col-top">
@@ -30,7 +29,7 @@
         <!-- Programmierung Block -->
         <div class="lineblack-index"></div>
         <div class="products-col-top">
-            <h1>Software Entwicklung</h1>
+            <h1>Software<br>Entwicklung</h1>
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">

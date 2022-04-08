@@ -59,7 +59,7 @@
     }
     .products-col-right{
         margin-right: 14rem!important;
-        max-width: 60%!important; ;
+        max-width: 60%!important;
         margin-top: 2rem;
     }
     .title-right{
@@ -510,8 +510,9 @@ input[type=submit]:hover {
     margin-left: 2rem;
 }
 .products-wrapper{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 42rem);
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
 
 }
 
@@ -525,6 +526,7 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: 2rem;
     display: block;
+    width: 65%;
 }
 
 
@@ -789,12 +791,6 @@ div img{
 
 }
 
-
-
-
-
-
-
 .sidenav .sidenav-col .sidenav-left img{
     filter: invert(1);
     margin-bottom: 1rem;
@@ -804,8 +800,10 @@ div img{
     display: inline-block;
 }
 
-.title-right{
+.title-right h2{
     margin-left: 50%;
     max-width: 50%;
-    margin-top: 5rem
+    margin-top: 5rem;
+    margin-right: 2rem;
+    display: block;
 }

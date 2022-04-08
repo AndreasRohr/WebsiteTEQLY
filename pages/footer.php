@@ -16,23 +16,24 @@ Todo: Braucht es den <head> in einem .php Element?
         Dienstleistungen
         <div class="col-footer">
             <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
+            <a style="color: black" href="#">EASIT.rent</a>
+            <br>
+            <a style="color: black" href="#">Entwicklung</a>
+            <br>
+            <a style="color: black" href="#">Infrastruktur</a>
+            <br>
             <a style="color: black" href="#">Support</a>
             <br>
-            <a style="color: black" href="#">Netzwerk</a>
+            <a style="color: black" href="#">Consulting</a>
             <br>
-            <a style="color: black" href="#">Programmierung</a>
-            <br>
-            <a style="color: black" href="#">Rental</a>
-            <br>
-            <a style="color: black" href="#">Webauftritte</a>
-            <br>
-            <a style="color: black" href="#">Kundenlösungen</a>
+            <a style="color: black" href="#">Spezialprojekte</a>
         </div>
     </div>
     <div style="margin-right: 2rem; color: black" class="col-footer">
         Über TEQLY
         <div class="col-footer">
             <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
+            <br>
             <a style="color: black" href="#">Team</a>
             <br>
             <a style="color: black" href="#">Jobs</a>
@@ -44,6 +45,8 @@ Todo: Braucht es den <head> in einem .php Element?
         Applikationen
         <div class="col-footer">
             <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
+            <a style="color: black" href="#">App-Plattform</a>
+            <br>
             <a style="color: black" href="#">Support-Plattform</a>
             <br>
             <a style="color: black" href="#">Zeiterfassung</a>
