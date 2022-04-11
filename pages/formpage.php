@@ -34,7 +34,7 @@
                 </form>
                 <div id="success_message" style="display:none">
                     <h3>Die Kontaktanfrage wurde erfolgreich versendet!</h3>
-                    <p> Wir werden Sie baldmöglichst kontaktieren </p>
+                    <p> Wir werden Sie baldmöglichst kontaktieren.</p>
                 </div>
                 <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Ups, da gab es ein Problem :( </div>
             </div>

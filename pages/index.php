@@ -11,13 +11,13 @@
     <div class="title-row">
         <div class="title-left">
             <div class="typewriter">
-                <h1 id="titleh1" class="indextitle">...</h1>
+                <h1 id="titleh1" class="indextitle"></h1>
             </div>
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
         <video autoplay muted loop style="z-index: -1">
-            <source src="/Website/assets/teqlymovie.mp4" type="video/mp4">
+            <source src="/Website/assets/teqly_index_video_v2_compressed.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div  class="title-right">
@@ -62,7 +62,7 @@
         </div>
         <div class="lineblack-index"></div>
         <div class="index-col-left">
-            <a href="#">Projekte</a>
+            <a href="/Website/pages/references.php">Projekte</a>
         </div>
         <div class="index-col-right">
             <p>Ein altes Sprichwort lautet bekanntlich: <em>"Taten sagen mehr als Worte"</em>. Daher haben wir einige Projekte zusammengestellt um Ihnen einen kleinen Überblick über unsere Tätigkeitsbereiche zu geben. Zu unseren Kunden zählen kleine, mittlere sowie grosse Unternehmen und Organisationen aus verschiedensten Branchen. <a href="/Website/pages/products.php">Mehr erfahren.</a></p>
