@@ -1,176 +1,65 @@
-//Texte für Referenzen - Netzwerk und Support
-var baeckereiMeier = "text für meier";
-var guesthouseLelocle = "text für lelocle";
-var emmaBnb = "text für emma";
-var kulturhofHinteregg = "text für kulturhof";
-var artOfMetal = "text für artofmetal";
-var grundgut = "text für grundgut";
+const quickViewButtons = document.querySelectorAll('[data-quick-view]');
+const closeButtons = document.querySelectorAll('[data-close]');
+const fullwidthCards = document.querySelectorAll('.fullwidth');
+let toggle; // Quick view <button>.
+let toggleParent; // <li>.
+let fullwidth; // Fullwidth card to be "injected".
 
-//Texte für Personalverleih
-var eventOn = "text für eventon"
+const openQuickView = (toggle, toggleParent, fullwidth) => {
+    toggle.setAttribute('aria-expanded', 'true');
+    toggleParent.classList.toggle('is-selected');
+    fullwidth.classList.toggle('is-hidden');
+    // Make fullwidth card keyboard focusable.
+    fullwidth.setAttribute('tabIndex', '0');
+};
 
-//Texte für Referenzen - Webauftritte
-var coreMio = "Text für CoreMio"
-var savoldi = "Text für savoldi"
+const closeQuickView = (toggle, toggleParent, fullwidth) => {
+    toggle.setAttribute('aria-expanded', 'false');
+    toggleParent.classList.toggle('is-selected');
+    fullwidth.classList.toggle('is-hidden');
+    fullwidth.removeAttribute('tabIndex');
+};
 
-//Texte für Custom Solutions
-var praxisDZ = "Text für DZ"
-var inselspitalBern = "Text für Inselspital"
-var scBern = "Text für sc bern"
+quickViewButtons.forEach(quickView => {
+    // Add appropriate ARIA attributes for "toggle" behaviour.
+    fullwidth = quickView.parentElement.nextElementSibling;
+    quickView.setAttribute('aria-expanded', 'false');
+    quickView.setAttribute('aria-controls', fullwidth.id);
 
-//Texte für Rental
-var xana = "Text für xana"
-var kantonBern = "Text für Kanton Bern"
+    quickView.addEventListener('click', (e) => {
+        toggle = e.target;
+        toggleParent = toggle.parentElement;
+        fullwidth = toggleParent.nextElementSibling;
 
-//zuletzt gedrückter Button jeweiliger Reihe
-//N - Network, R - Rental, L - Lease, H - Homepage, C - Custom
-var lastButtonPressedNR1;
-var lastButtonPressedNR2;
-var lastButtonPressedRR1;
-var lastButtonPressedLR1;
-var lastButtonPressedHR1;
-var lastButtonPressedCR1;
+        // Open (or close) fullwidth card.
+        if (toggle.getAttribute('aria-expanded') === 'false') {
+            // Do we have another fullwidth card already open? If so, close it.
+            fullwidthCards.forEach(fullwidthOpen => {
+                if (!fullwidthOpen.classList.contains('is-hidden')) {
+                    toggleParentOpen =
+                        fullwidthOpen.previousElementSibling;
+                    toggleOpen = toggleParentOpen.querySelector(
+                        '[data-quick-view]'
+                    );
 
-var text
-var btnid;
+                    closeQuickView(toggleOpen, toggleParentOpen, fullwidthOpen);
+                }
+            });
 
-
-function descNetworkR1(text, btnid){
-
-    var content = document.getElementById("content-nr1");
-    content.innerHTML = text;
-    var btns = document.querySelectorAll(".collapsible-nr1");
-
-    btns.forEach(el => {
-        if(el.classList.contains("active")){
-            el.classList.toggle("active");
+            openQuickView(toggle, toggleParent, fullwidth);
+        } else {
+            closeQuickView(toggle, toggleParent, fullwidth);
         }
-    })
+    });
+});
 
-    if(lastButtonPressedNR1 === btnid){
-        content.style.maxHeight = null;
-        document.getElementById(btnid).classList.toggle("active");
-        lastButtonPressedNR1 = null;
-    }else{
-        content.style.maxHeight = content.scrollHeight + "px";
-        lastButtonPressedNR1 = btnid;
-    }
-    document.getElementById(btnid).classList.toggle("active");
-}
+closeButtons.forEach(close => {
+    close.addEventListener('click', (e) => {
+        fullwidth = e.target.parentElement;
+        toggleParent = e.target.parentElement.previousElementSibling;
+        toggle = toggleParent.querySelector('[data-quick-view]');
 
-function descNetworkR2(text, btnid){
-
-    var content = document.getElementById("content-nr2");
-    content.innerHTML=text;
-    var btns = document.querySelectorAll(".collapsible-nr2");
-
-    btns.forEach(el => {
-        if(el.classList.contains("active")){
-            el.classList.toggle("active");
-        }
-    })
-
-    if(lastButtonPressedNR2 === btnid){
-        content.style.maxHeight = null;
-        document.getElementById(btnid).classList.toggle("active");
-        lastButtonPressedNR2 = null;
-    }else{
-        content.style.maxHeight = content.scrollHeight + "px";
-        lastButtonPressedNR2 = btnid;
-    }
-    document.getElementById(btnid).classList.toggle("active");
-}
-
-function descRentalR1(text, btnid){
-
-    var content = document.getElementById("content-rr1");
-    content.innerHTML=text;
-    var btns = document.querySelectorAll(".collapsible-rr1");
-
-    btns.forEach(el => {
-        if(el.classList.contains("active")){
-            el.classList.toggle("active");
-        }
-    })
-
-    if(lastButtonPressedRR1 === btnid){
-        content.style.maxHeight = null;
-        document.getElementById(btnid).classList.toggle("active");
-        lastButtonPressedRR1 = null;
-    }else{
-        content.style.maxHeight = content.scrollHeight + "px";
-        lastButtonPressedRR1 = btnid;
-    }
-    document.getElementById(btnid).classList.toggle("active");
-}
-
-function descLeaseR1(text, btnid){
-
-    var content = document.getElementById("content-lr1");
-    content.innerHTML=text;
-    var btns = document.querySelectorAll(".collapsible-lr1");
-
-    btns.forEach(el => {
-        if(el.classList.contains("active")){
-            el.classList.toggle("active");
-        }
-    })
-
-    if(lastButtonPressedLR1 === btnid){
-        content.style.maxHeight = null;
-        document.getElementById(btnid).classList.toggle("active");
-        lastButtonPressedLR1 = null;
-    }else{
-        content.style.maxHeight = content.scrollHeight + "px";
-        lastButtonPressedLR1 = btnid;
-    }
-    document.getElementById(btnid).classList.toggle("active");
-}
-
-function descHomepageR1(text, btnid){
-
-    var content = document.getElementById("content-hr1");
-    content.innerHTML=text;
-    var btns = document.querySelectorAll(".collapsible-hr1");
-
-    btns.forEach(el => {
-        if(el.classList.contains("active")){
-            el.classList.toggle("active");
-        }
-    })
-
-    if(lastButtonPressedHR1 === btnid){
-        content.style.maxHeight = null;
-        document.getElementById(btnid).classList.toggle("active");
-        lastButtonPressedHR1 = null;
-    }else{
-        content.style.maxHeight = content.scrollHeight + "px";
-        lastButtonPressedHR1 = btnid;
-    }
-    document.getElementById(btnid).classList.toggle("active");
-}
-
-
-
-function descCustomR1(text, btnid){
-
-    var content = document.getElementById("content-cr1");
-    content.innerHTML=text;
-    var btns = document.querySelectorAll(".collapsible-cr1");
-
-    btns.forEach(el => {
-        if(el.classList.contains("active")){
-            el.classList.toggle("active");
-        }
-    })
-
-    if(lastButtonPressedCR1 === btnid){
-        content.style.maxHeight = null;
-        document.getElementById(btnid).classList.toggle("active");
-        lastButtonPressedCR1 = null;
-    }else{
-        content.style.maxHeight = content.scrollHeight + "px";
-        lastButtonPressedCR1 = btnid;
-    }
-    document.getElementById(btnid).classList.toggle("active");
-}
+        closeQuickView(toggle, toggleParent, fullwidth);
+        toggle.focus(); // Return keyboard focus to "toggle" button.
+    });
+});
