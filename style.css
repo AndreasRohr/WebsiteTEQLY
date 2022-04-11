@@ -530,6 +530,10 @@ input[type=submit]:hover {
     width: 65%;
 }
 
+.products-col-right a{
+    color: black;
+    font-weight: bolder;
+}
 
 
 
@@ -797,7 +801,7 @@ div img{
     margin-bottom: 1rem;
 }
 
-.under-section .index-col-left img, .under-section .index-col-left a {
+.under-section .index-col-left img, .under-section .index-col-left a, .under-section .index-col-left h1{
     display: inline-block;
 }
 
