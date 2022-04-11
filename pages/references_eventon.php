@@ -13,27 +13,27 @@
         <div class="title-left">
             <div class="typewriter">
                 <!--EDIT HERE-->
-                <h2 class="references-category">Website</h2>
+                <h2 class="references-category">Spezialprojekte</h2>
                 <!--EDIT HERE-->
-                <h1  class="indextitle">Ristorante CoreMio</h1>
+                <h1  class="indextitle">SCB Schlittschuh Club Bern</h1>
             </div>
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="/Website/assets/ref_coremio.jpg">
+        <img src="/Website/assets/ref_scb_jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
-            <h2>Website<br>09/2020<br>Webdesign inkl. Reservationstool.</h2>
+            <h2>Ladekisten<br>10/2021<br>Massgescheneiterte Ladelösung für Handscanner.</h2>
         </div>
         <div class="lineblack-index"></div>
         <div class="header-row"style="grid-template-columns: repeat(2,auto);">
         <div class="index-col-left" style="max-width: 20rem;white-space: normal">
             <!--EDIT HERE-->
-            <h2>Ristorante CoreMio<br>Küttingerstrasse 16<br>5000 Aarau<br>Aargau<br><a href="https://coremio.ch/">Website</a> </h2>
+            <h2>SCB Hockey<br>Mingerstrasse 12<br>3014 Bern<br>Bern<br><a href="https://scb.ch/">Website</a></h2>
         </div>
         <div class="index-col-right" style="width: 80%">
             <!--EDIT HERE-->
-            <p>Schon beim Anblick der Website coremio.ch steigt die Vorfreude auf die italienische Küche. Wir durften für das neugegründete Restaurant in Aarau einen Webauftritt umsetzen. Besonderes Augenmerk wurde auf die Präsentation des Menus gelegt. Zudem wurde eine teilautomatisierte Reservationsmöglichkeit verbaut, die das Team im Restaurantalltag entlasten wird.</p>
+            <p>Zur sicheren und effizienten Lagerung von Handscannern für die Ticketkontrolle am Einlass haben wir Ladekisten für den SCB entworfen und produziert. In einer UTZ Rako Kiste finden die Geräte und ein spezielles Ladegerät Platz. Im Inneren der Kiste sorgt ein auf millimeter genau gefrästes Schaufstoff-Inlay dafür, dass alles an seinem Platz bleibt.</p>
         </div>
         </div>
     </div>

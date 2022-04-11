@@ -20,10 +20,10 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="/Website/assets/ref_meier_1.jpg">
+        <img src="/Website/assets/ref_meier_2.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
-            <h2>Ausmisten & Upgraden<br>08/2020<br>Hardware, Netzwerkausbau und Support.</h2>
+            <h2>Netzwerkausbau<br>03/2022<br>Ausbau des Netzwerks mit Elektropartner.</h2>
         </div>
         <div class="lineblack-index"></div>
         <div class="header-row"style="grid-template-columns: repeat(2,auto);">
@@ -33,7 +33,7 @@
         </div>
         <div class="index-col-right" style="width: 80%">
             <!--EDIT HERE-->
-            <p>Die Bäckerei und Confiserie Meier AG in Mägenwil ist ein innovatives Traditionsunternehmen. Im Laufe der Jahre ist die IT-Infrastruktur mit dem Unternehmen gewachsen und wurde stetig grösser. TEQLY hat das bestehende Netzwerk analysiert und ist zum Schluss gekommen, dass viele Clients nicht mehr aktiv waren und ausgemistet werden könnten. Zusammen mit dem Verkauf von einigen neuen Komponenten wurde das Netz an einem Wochenende (teilweise während laufendem Betrieb) ausgemistet und teilweise erneuert. Auch die bestehenden Lan- und WLan-Netze wurden neu konfiguriert und so sicher und stabil für die Zukunft ausgelegt. Wir freuen uns die Bäckerei und Confiserie Meier AG auch in Zukunft als IT-Partner begleiten zu dürfen.</p>
+            <p>Die Bäckerei und Confiserie Meier AG in Mägenwil ist ein innovatives Traditionsunternehmen. Neue Technologien machten einen Ausbau des internen Netzwerks nötig. So wurde in Zusammenarbeit mit einem lokalen Elektrounternehmen die bestehende Netzwerkinfrastruktur erweitert und so weitere Bereich erschlossen. TEQLY hat von der Beratung, über die Installation bis hin zur Inbetriebnahme alle Phasen begleitet. Wir danken der Bäckerei Meier für Ihr Vertrauen und freuen uns auch in Zukunft weitere Projekte zusammen realisieren zu können!</p>
         </div>
         </div>
     </div>
