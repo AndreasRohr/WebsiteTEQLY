@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="/Website/assets/ref_scb.jpg">
+        <img src="/Website/assets/ref_xana.png">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Hardwaremiete inklusive Service<br>12/2021<br>Flexible Hardwaremiete für ein mobiles Gesundheitsangebot.</h2>
@@ -33,7 +33,7 @@
         </div>
         <div class="index-col-right" style="width: 80%">
             <!--EDIT HERE-->
-            <p>Xana suchte nach einem Hardwarepartner um flexibel Hardware einzumieten und wurde bei TEQLY fündig. TEQLY stattete die mobilen Gesundheitszentren mit Telefonen, Tablets, Laptops und Routern aus. Eine besondere Herausforderung bei diesem Projekt war die Anforderung, dass alle Geräte über eine direkte Internetanbindung via Mobilfunknetz verfügen müssen. Zusammen mit unseren Hardwarepartnern konnten wir diesen Wunsch Umsetzen und spezielle Laptops mit 4G Modul einbauen. </p>
+            <p>Xana suchte nach einem Hardwarepartner um flexibel Hardware einzumieten und wurde bei TEQLY fündig. TEQLY stattete die mobilen Gesundheitszentren mit Telefonen, Tablets, Laptops und Routern aus. Eine besondere Herausforderung bei diesem Projekt war die Anforderung, dass alle Geräte über eine direkte Internetanbindung via Mobilfunknetz verfügen müssen. Zusammen mit unseren Hardwarepartnern konnten wir diesen Wunsch umsetzen und spezielle Laptops mit 4G Modul konfigurieren.</p>
         </div>
         </div>
     </div>
