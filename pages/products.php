@@ -3,13 +3,23 @@
 <head>
     <?php include 'header_imports.php' ?>
     <title>TEQLY Produkte & Services</title>
+    <?php include 'header.php' ?>
 </head>
 
 <body>
-<?php include 'header.php' ?>
-<div id="main" style="margin-top: 4rem">
-    <h1 id="titleh1" class="indextitle">Dienstleistungen</h1>
+<div id="main" style="margin-top: 7rem">
+    <div class="title-row">
+        <div class="title-left">
+            <div class="typewriter">
+                <h1 id="titleh1" class="indextitle">Dienstleistungen</h1>
+            </div>
+        </div>
+    </div>
     <div class="index-container">
+        <img src="/Website/assets/teqly_header_products.jpg">
+        <div  class="title-right">
+            <h2>Egal ob nur ein einzelnes Modul oder eine schlüsselfertige Komplettlösung.<br>Wir bieten Ihnen immer auf Ihre Bedürfnisse zugeschnittene Dienstleistungen an.</h2>
+        </div>
         <!-- EASIT.rent Block -->
         <div class="lineblack-index"></div>
         <div class="products-col-top">
@@ -38,9 +48,9 @@
         </div>
         <div class="under-section">
             <div class="lineblack-index"></div>
-            <div class="products-col-left">
+            <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <p>Webseiten</p>
+                <h1>Webseiten</h1>
             </div>
             <div class="under-section-col-right">
                 <p>TEQLY ist Ihr kompetenter Partner im Web. Je nach Ihren Bedürfnissen bauen wir Ihnen eine klassische HTML-Seite oder setzen ein bewährtes CMS wie Wordpress oder Joomla ein. Wir bieten Ihnen ein "Rundum Sorglos"-Paket für Ihren Webauftritt an und kümmern uns um Entwicklung, Hosting, SEO, Werbung, Unterhalt und E-Mail Verwaltung. <a href="/Website/pages/references.php">Referenzen entdecken.</a></p>
@@ -48,9 +58,9 @@
         </div>
         <div class="under-section">
             <div class="lineblack-index"></div>
-            <div class="products-col-left">
+            <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <p>Applikationen</p>
+                <h1>Applikationen</h1>
             </div>
             <div class="under-section-col-right">
                 <p>Um komplexe Prozesse abzubilden bietet sich die Entwicklung einer eigenen Applikation an. Hierbei unterscheiden wir drei Kategorien von Applikationen:</p>

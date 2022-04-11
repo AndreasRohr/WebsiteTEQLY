@@ -33,7 +33,6 @@ Todo: Braucht es den <head> in einem .php Element?
         Über TEQLY
         <div class="col-footer">
             <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-            <br>
             <a style="color: black" href="#">Team</a>
             <br>
             <a style="color: black" href="#">Jobs</a>
