@@ -11,7 +11,7 @@
 <body>
 <?php include 'header.php' ?>
 <div id="main" style="margin-top: 4rem">
-    <h1 style="margin-top: 10rem; margin-left: 3rem" class="contact-title">So finden Sie uns</h1>
+    <h1 style="margin-top: 7rem; margin-left: 3rem" class="contact-title">So finden Sie uns</h1>
     <div class="contact-row">
         <div class="contact-left" style="margin-left: 2rem;margin-top: 3rem">
             <h2 style="margin-top: 3rem;margin-bottom: 3rem;" class="contact-subtitle">Büro und Lager:</h2>
@@ -22,8 +22,8 @@
         <div class="contact-mid" style="margin-left: 2rem;margin-top: 3rem">
             <h2 style="margin-top: 3rem;margin-bottom: 3rem;" class="contact-subtitle">Sitz:</h2>
             <h2 style="" class="contact-subtitle">TEQLY GmbH</h2>
-            <h2 class="contact-subtitle">Badenerstrasse 13</h2>
-            <h2 class="contact-subtitle">5200 Brugg</h2>
+            <h2 class="contact-subtitle">Flammbach 3a</h2>
+            <h2 class="contact-subtitle">5632 Buttwil</h2>
 
         </div>
     </div>
