@@ -15,7 +15,7 @@
                 <!--EDIT HERE-->
                 <h2 class="references-category">Infrastruktur | Support</h2>
                 <!--EDIT HERE-->
-                <h1  class="indextitle">Bäckerei Confiserie Meier AG</h1>
+                <h1  class="indextitle">Bäckerei Confiserie Meier</h1>
             </div>
         </div>
     </div>

@@ -15,7 +15,7 @@
                 <!--EDIT HERE-->
                 <h2 class="references-category">Hardwaremiete</h2>
                 <!--EDIT HERE-->
-                <h1  class="indextitle">XANA Health</h1>
+                <h1  class="indextitle">XANA</h1>
             </div>
         </div>
     </div>
@@ -43,4 +43,3 @@
 </body>
 </html>
 <script type="text/javascript" src="/Website/script.js"></script>
-

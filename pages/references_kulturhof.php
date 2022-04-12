@@ -23,7 +23,7 @@
         <img src="/Website/assets/ref_guesthouse.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
-            <h2>Erweiterung Netzwerk<br>07/2021<br></h2>
+            <h2>Erweiterung Netzwerk<br>07/2020<br></h2>
         </div>
         <div class="lineblack-index"></div>
         <div class="header-row" style="grid-template-columns: repeat(2,auto);">
@@ -33,7 +33,7 @@
         </div>
         <div class="index-col-right" style="width: 80%">
             <!--EDIT HERE-->
-            <p></p>
+            <p>Um ein neues Kassensystem implementieren zu können, wurde das bestehende Netzwerk ausgebaut und durch das Verlegen neuer Netzwerkkabel erweitert. Neue Access Points und ein Managed W-Lan komplettieren das neue Netzwerkkonzept. TEQLY war von der Konzeption, über die Umsetzung, bis zur erfolgreichen Inbetriebnahme an der Seite des Kunden und begleitete das Projekt vollumfänglich.</p>
         </div>
         </div>
     </div>
