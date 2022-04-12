@@ -898,3 +898,10 @@ ul[class] li > * {
 .is-selected {
     background: wheat;
 }
+
+.zammad-chat-welcome-text {
+    font-size: 1.2em;
+    float: right!important;
+    margin-top: -1.6rem!important;
+    margin-right: 18rem;
+}

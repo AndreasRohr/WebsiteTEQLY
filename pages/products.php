@@ -21,7 +21,7 @@
             <h2>Egal ob nur ein einzelnes Modul oder eine schlüsselfertige Komplettlösung.<br>Wir bieten Ihnen immer auf Ihre Bedürfnisse zugeschnittene Dienstleistungen an.</h2>
         </div>
         <!-- EASIT.rent Block -->
-        <div class="lineblack-index"></div>
+        <div id="easit" class="lineblack-index"></div>
         <div class="products-col-top">
             <h1>Hardwaremiete</h1>
         </div>
@@ -37,7 +37,7 @@
             </div>
         </div>
         <!-- Programmierung Block -->
-        <div class="lineblack-index"></div>
+        <div id="programming" class="lineblack-index"></div>
         <div class="products-col-top">
             <h1>Software<br>Entwicklung</h1>
         </div>
@@ -73,7 +73,7 @@
             </div>
         </div>
         <!-- Infrastruktur Block -->
-        <div class="lineblack-index"></div>
+        <div id="infrastructure" class="lineblack-index"></div>
         <div class="products-col-top">
             <h1>Infrastruktur</h1>
         </div>
@@ -83,7 +83,7 @@
             </div>
         </div>
         <!-- Support Block -->
-        <div class="lineblack-index"></div>
+        <div id="support" class="lineblack-index"></div>
         <div class="products-col-top">
             <h1>Support</h1>
         </div>
@@ -93,7 +93,7 @@
             </div>
         </div>
         <!-- Consulting Block -->
-        <div class="lineblack-index"></div>
+        <div id="consulting" class="lineblack-index"></div>
         <div class="products-col-top">
             <h1>Consulting</h1>
         </div>
@@ -103,7 +103,7 @@
             </div>
         </div>
         <!-- Speziallösungen Block -->
-        <div class="lineblack-index"></div>
+        <div id="special" class="lineblack-index"></div>
         <div class="products-col-top">
             <h1>Spezialprojekte</h1>
         </div>
