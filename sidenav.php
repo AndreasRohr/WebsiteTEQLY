@@ -25,7 +25,7 @@
             <button style="margin-top:0.4rem;" id="navbtnClose" class="navbtnClose"  onclick="closeNav()"><img src="/Website/assets/x.svg" aria-hidden="true"></button>
         </div>
         <div class="sidenav-left" style="margin-bottom: 0.1rem; width: 50px">
-            <a class="logo" href="/Website/pages/index.php">
+            <a class="logo" href="/Website/index.php">
                 <img  class="logo-white" alt="TEQLY" src="/Website/assets/Logo.png"
                      width=50" height="7">
             </a>
@@ -36,10 +36,10 @@
             <div class="linewhite"></div>
             <p id="navigation">NAVIGATION</p>
             <div class="navBlack">
-                <a href="/Website/pages/index.php">Start</a>
-                <a href="/Website/pages/products.php">Produkte & Services</a>
-                <a href="/Website/pages/references.php">Referenzen</a>
-                <a href="/Website/pages/team.php">Team</a>
+                <a href="/Website/index.php">Start</a>
+                <a href="/Website/products.php">Produkte & Services</a>
+                <a href="/Website/references.php">Referenzen</a>
+                <a href="/Website/team.php">Team</a>
                 <a href="#">Kontakt</a>
             </div>
         </div>

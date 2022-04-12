@@ -40,7 +40,7 @@
         <button class="homebtnBurger" onclick="openNav()"><img src="/Website/assets/menu.svg" aria-hidden="true"></button>
     </div>
     <div class="header-left">
-        <a class="logo" href="/Website/pages/index.php" style="margin-left: 0rem">
+        <a class="logo" href="/Website/index.php" style="margin-left: 0rem">
             <img alt="TEQLY" src="/Website/assets/schriftzug_vertikal.png"
                  width=50" height="7">
         </a>
