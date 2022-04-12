@@ -27,7 +27,7 @@
 
         </div>
     </div>
-    <div class="lineblack-index"></div>
+    <div style="max-width: 1395px; margin-left: 3.3rem" class="lineblack-index"></div>
     <div class="three-col" style="margin-bottom: 5rem;margin-left: 2rem">
             <div class="three-col-block">
                 <h1>Sandro Bütler</h1>
