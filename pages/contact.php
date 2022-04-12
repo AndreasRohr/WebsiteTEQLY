@@ -11,7 +11,7 @@
 <body>
 <?php include 'header.php' ?>
 <div id="main" style="margin-top: 4rem">
-    <h1 style="margin-top: 7rem; margin-left: 3rem" class="contact-title">Hier sind wir für Sie da.</h1>
+    <h1 style="margin-top: 7rem; margin-left: 3rem" class="contact-title">Kontakt.</h1>
     <div class="contact-row">
         <div class="contact-left" style="margin-left: 2rem;margin-top: 3rem">
             <h2 style="margin-top: 3rem;margin-bottom: 3rem;" class="contact-subtitle">Büro und Lager:</h2>
@@ -29,31 +29,34 @@
     </div>
     <div style="max-width: 1395px; margin-left: 3.3rem" class="lineblack-index"></div>
     <div class="three-col" style="margin-bottom: 5rem;margin-left: 2rem">
-            <div class="three-col-block">
-                <h1>Sandro Bütler</h1>
-                <br>
-                <a style="color: black" href="mailto:sandro@teqly.ch">sandro@teqly.ch</a>
-                <p>056 511 11 30</p>
-                <a style="color: black; font-weight: bolder" href="/Website/assets/vcard_sandro.vcf"
-                   download="vcard_sandro.vcf">Kontaktdaten speichern</a>
-            </div>
-            <div class="three-col-block">
-                <h1>Jannik Frei</h1>
-                <br>
-                <a style="color: black" href="mailto:jannik@teqly.ch">jannik@teqly.ch</a>
-                <p>056 511 11 31</p>
-                <a style="color: black; font-weight: bolder" href="/Website/assets/vcard_jannik.vcf"
-                   download="vcard_jannik.vcf">Kontaktdaten speichern</a>
-            </div>
-            <div class="three-col-block">
-                <h1>Andreas Rohr</h1>
-                <br>
-                <a style="color: black" href="mailto:andreas@teqly.ch">andreas@teqly.ch</a>
-                <p>056 511 11 32</p>
-                <a style="color: black; font-weight: bolder" href="/Website/assets/vcard_andreas.vcf"
-                   download="vcard_andreas.vcf">Kontaktdaten speichern</a>
-            </div>
+        <div class="three-col-block">
+            <h1>Jannik Frei</h1>
+            <p>Leitung Entwicklung</p>
+            <br>
+            <a style="color: black" href="mailto:jannik@teqly.ch">jannik@teqly.ch</a>
+            <p>056 511 11 31</p>
+            <a style="color: black; font-weight: bolder" href="/Website/assets/vcard_jannik.vcf"
+               download="vcard_jannik.vcf">Kontaktdaten speichern</a>
         </div>
+        <div class="three-col-block">
+            <h1>Andreas Rohr</h1>
+            <p>Leitung Support & Infrastruktur</p>
+            <br>
+            <a style="color: black" href="mailto:andreas@teqly.ch">andreas@teqly.ch</a>
+            <p>056 511 11 32</p>
+            <a style="color: black; font-weight: bolder" href="/Website/assets/vcard_andreas.vcf"
+               download="vcard_andreas.vcf">Kontaktdaten speichern</a>
+        </div>
+        <div class="three-col-block">
+            <h1>Sandro Bütler</h1>
+            <p>Leitung Consulting & Spezialprojekte</p>
+            <br>
+            <a style="color: black" href="mailto:sandro@teqly.ch">sandro@teqly.ch</a>
+            <p>056 511 11 30</p>
+            <a style="color: black; font-weight: bolder" href="/Website/assets/vcard_sandro.vcf"
+               download="vcard_sandro.vcf">Kontaktdaten speichern</a>
+        </div>
+    </div>
     <div class="three-col" style="margin-bottom: 5rem; margin-left: 2rem">
         <div class="three-col-block">
             <h1>Office</h1>
@@ -72,7 +75,7 @@
                download="vcard_support.vcf">Kontaktdaten speichern</a>
         </div>
     </div>
-    </div>
+</div>
 </div>
 <br>
 <?php include 'footer.php' ?>

@@ -33,7 +33,7 @@
                     <li><b>Immer Up-to-date:</b> Wir setzen auf moderne Hard- & Software, davon profitieren Sie und Ihre Mitarbeitenden jeden Tag! Schnelle Ladezeiten, niedrige Ausfallzeiten und die Freude am Arbeiten mit modernen Geräten erhöht die Produktivität. Zudem stellen wir durch unser IT-System-Management sicher, dass sie sicher in der Digitalen Welt unterwegs sind.</li>
                     <li><b>Service:</b> Wir kümmern ums um Ihre komplette IT: Wir kaufen moderne Hardware ein, liefern & installieren sie und unterstützen Sie mit unserem Business Support beim Betrieb. Regelmässig tauschen wir die aktuellen Geräte gegen neue aus und stellen somit eine hochzuverlässige Infrastruktur für Sie bereit.</li>
                 </ul>
-                <p>Besuchen Sie uns auf <a href="https://easit.rent">EASIT.rent</a> um mehr über die Funktionsweise, verfügbaren Modelle und die Preise zu erfahren. Ausserdem können Sie unser Angebot jederzeit unverbindlich einen Monat testen.</p>
+                <p>Besuchen Sie uns auf <a href="https://easit.rent">EASIT.rent</a> um mehr über die Funktionsweise, verfügbaren Modelle und die Preise zu erfahren. Ausserdem können Sie unser Angebot jederzeit unverbindlich einen Monat testen. <a href="https://easit.rent">Mehr erfahren.</a></p>
             </div>
         </div>
         <!-- Programmierung Block -->
@@ -43,7 +43,7 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Egal ob kleine Website oder komplexe Server-Client-Applikation: Wir begleiten Sie während jeder Phase des agilen Entwicklungsprozesses. Von der ersten Idee, zu den Requirements, über die Umsetzung, bis hin zur Inbetriebnahme sind wir an Ihrer Seite und setzen uns für Sie ein.</p>
+                <p>Egal ob kleine Website oder komplexe Server-Client-Applikation: Wir begleiten Sie während jeder Phase des agilen Entwicklungsprozesses. Von der ersten Idee, zu den Requirements, über die Umsetzung, bis hin zur Inbetriebnahme sind wir an Ihrer Seite und setzen uns für Sie ein. <a href="/Website/pages/references.php">Referenzen entdecken.</a></p>
             </div>
         </div>
         <div class="under-section">
@@ -53,7 +53,7 @@
                 <h1>Webseiten</h1>
             </div>
             <div class="under-section-col-right">
-                <p>TEQLY ist Ihr kompetenter Partner im Web. Je nach Ihren Bedürfnissen bauen wir Ihnen eine klassische HTML-Seite oder setzen ein bewährtes CMS wie Wordpress oder Joomla ein. Wir bieten Ihnen ein "Rundum Sorglos"-Paket für Ihren Webauftritt an und kümmern uns um Entwicklung, Hosting, SEO, Werbung, Unterhalt und E-Mail Verwaltung. <a href="/Website/pages/references.php">Referenzen entdecken.</a></p>
+                <p>TEQLY ist Ihr kompetenter Partner im Web. Je nach Ihren Bedürfnissen bauen wir Ihnen eine klassische HTML-Seite oder setzen ein bewährtes CMS wie Wordpress oder Joomla ein. Wir bieten Ihnen ein "Rundum Sorglos"-Paket für Ihren Webauftritt an und kümmern uns um Entwicklung, Hosting, SEO, Werbung, Unterhalt und E-Mail Verwaltung. <a href="/Website/pages/contact.php">Kontakt aufnehmen.</a></p>
             </div>
         </div>
         <div class="under-section">
@@ -79,7 +79,7 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Im Bereich Infrastruktur bieten wir Ihnen auf Ihre Bedürfnisse zugeschnittene Dienstleistungen an. Wir betreuen Netzwerke aller Grössen. Es beginnt mit kleinen Installationen, die aus einem Router und einem NAS bestehen, und geht hin bis zu grossen Netzwerken mit komplexen Konfigurationen und aufwändiger Serverinfrastruktur. Eine Investition in ein Netzwerk ist meist eine langfristige Investition. Bei gewissen Netzwerkkomponenten rechnet man, je nach Ausführung, mit Betriebszeiten von bis zu 10 Jahren. Wir zeigen Ihnen bei einem unverbindlichen Vor-Ort-Termin gerne mögliche Lösungen (Integration, Erweiterung, Neubau) auf und beraten Sie pragmatisch und kompetent. Kleinere bauliche Massnahmen führen wir mit internen Kapazitäten durch, bei grösseren Projekten arbeiten wir mit Partnern aus der Elektrotechnik und dem Baugewerbe zusammen. Auf Wunsch offerieren wir Ihnen "schlüsselfertige" Netzwerklösungen auf höchstem Niveau.</p>
+                <p>Im Bereich Infrastruktur bieten wir Ihnen auf Ihre Bedürfnisse zugeschnittene Dienstleistungen an. Wir betreuen Netzwerke aller Grössen. Es beginnt mit kleinen Installationen, die aus einem Router und einem NAS bestehen, und geht hin bis zu grossen Netzwerken mit komplexen Konfigurationen und aufwändiger Serverinfrastruktur. Eine Investition in ein Netzwerk ist meist eine langfristige Investition. Bei gewissen Netzwerkkomponenten rechnet man, je nach Ausführung, mit Betriebszeiten von bis zu 10 Jahren. Wir zeigen Ihnen bei einem unverbindlichen Vor-Ort-Termin gerne mögliche Lösungen (Integration, Erweiterung, Neubau) auf und beraten Sie pragmatisch und kompetent. Kleinere bauliche Massnahmen führen wir mit internen Kapazitäten durch, bei grösseren Projekten arbeiten wir mit Partnern aus der Elektrotechnik und dem Baugewerbe zusammen. Auf Wunsch offerieren wir Ihnen "schlüsselfertige" Netzwerklösungen auf höchstem Niveau. <a href="/Website/pages/contact.php">Kontakt aufnehmen.</a> </p>
             </div>
         </div>
         <!-- Support Block -->

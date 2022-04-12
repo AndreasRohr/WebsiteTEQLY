@@ -63,6 +63,8 @@ Todo: Braucht es den <head> in einem .php Element?
         <br>
         <a style="color: black" href="/Website/pages/dataprivacy.php">Datenschutzerklärung</a>
         <br>
+        <a style="color: black" href="#" id="open_preferences_center">Cookie-Einstellungen</a>
+        <br>
         <a style="color: black" href="/Website/pages/agb.php">Allgemeine Geschäftsbedingungen</a>
     </div>
     <div style="margin-right: 0rem;" class="col-footer">
@@ -79,6 +81,7 @@ Todo: Braucht es den <head> in einem .php Element?
     </div>
 </div>
 </div>
+<div style="height: 10%"></div>
 </body>
 </html>
 <script src="https://support.teqly.app/assets/chat/chat.min.js"></script>
