@@ -9,6 +9,7 @@ Todo: Braucht es den <head> in einem .php Element?
     <link rel="stylesheet" href="/Website/normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/Website/style.css" media="all" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 <div class="row-footer">
@@ -16,43 +17,39 @@ Todo: Braucht es den <head> in einem .php Element?
         Dienstleistungen
         <div class="col-footer">
             <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-            <a style="color: black" href="#">EASIT.rent</a>
+            <a style="color: black" href="/Website/pages/products.php#easit">EASIT.rent</a>
             <br>
-            <a style="color: black" href="#">Entwicklung</a>
+            <a style="color: black" href="/Website/pages/products.php#programming">Entwicklung</a>
             <br>
-            <a style="color: black" href="#">Infrastruktur</a>
+            <a style="color: black" href="/Website/pages/products.php#infrastructure">Infrastruktur</a>
             <br>
-            <a style="color: black" href="#">Support</a>
+            <a style="color: black" href="/Website/pages/products.php#support">Support</a>
             <br>
-            <a style="color: black" href="#">Consulting</a>
+            <a style="color: black" href="/Website/pages/products.php#consulting">Consulting</a>
             <br>
-            <a style="color: black" href="#">Spezialprojekte</a>
+            <a style="color: black" href="/Website/pages/products.php#special">Spezialprojekte</a>
         </div>
     </div>
     <div style="margin-right: 2rem; color: black" class="col-footer">
         Über TEQLY
         <div class="col-footer">
             <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-            <a style="color: black" href="#">Team</a>
-            <br>
-            <a style="color: black" href="#">Jobs</a>
+            <a style="color: black" href="/Website/pages/jobs.php">Jobs</a>
             <br>
             <a style="color: black" href="/Website/pages/contact.php">Kontakt</a>
+            <br>
+            <a style="color: black" href="https://blog.teqly.ch">Blog</a>
         </div>
     </div>
     <div style="margin-right: 2rem; color: black" class="col-footer">
         Applikationen
         <div class="col-footer">
             <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-            <a style="color: black" href="#">App-Plattform</a>
+            <a style="color: black" href="/Website/pages/app_plattform.php">App-Plattform</a>
             <br>
-            <a style="color: black" href="#">Support-Plattform</a>
-            <br>
-            <a style="color: black" href="#">Zeiterfassung</a>
+            <a style="color: black" href="https://support.teqly.app">Support-Plattform</a>
             <br>
             <a style="color: black" href="#">Newsletter-Service</a>
-            <br>
-            <a style="color: black" href="#">Passwort-Manager</a>
         </div>
     </div>
 </div>
@@ -76,11 +73,22 @@ Todo: Braucht es den <head> in einem .php Element?
     <div style="margin-right: 0rem;" class="col-footer">
         Social Media
         <div  style="border-color: black; margin-top: 0px; margin-bottom: 10px" class="linewhite"></div>
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-youtube"></a>
-        <a href="#" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/company/teqly/" class="fa fa-linkedin"></a>
+        <a href="https://www.youtube.com/channel/UCdUiy-JbIqQBlVXqeVmbvrQ" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/teqly/" class="fa fa-instagram"></a>
     </div>
 </div>
 </div>
 </body>
 </html>
+<script src="https://support.teqly.app/assets/chat/chat.min.js"></script>
+<script>
+    $(function() {
+        new ZammadChat({
+            title: 'TEST',
+            background: '#111',
+            fontSize: '12px',
+            chatId: 1,
+        });
+    });
+</script>
