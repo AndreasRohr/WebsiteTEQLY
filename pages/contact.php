@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/Website/normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="/Website/style.css" media="all" type="text/css">
-    <title>Startseite</title>
+    <title>Kontakt</title>
 </head>
 
 <body>
 <?php include 'header.php' ?>
 <div id="main" style="margin-top: 4rem">
-    <h1 style="margin-top: 7rem; margin-left: 3rem" class="contact-title">So finden Sie uns</h1>
+    <h1 style="margin-top: 7rem; margin-left: 3rem" class="contact-title">Hier sind wir für Sie da.</h1>
     <div class="contact-row">
         <div class="contact-left" style="margin-left: 2rem;margin-top: 3rem">
             <h2 style="margin-top: 3rem;margin-bottom: 3rem;" class="contact-subtitle">Büro und Lager:</h2>

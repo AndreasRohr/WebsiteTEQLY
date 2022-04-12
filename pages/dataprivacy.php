@@ -11,7 +11,7 @@
     <div class="title-row">
         <div class="title-left">
             <div class="typewriter">
-                <h1 id="titleh1" class="indextitle">Datenschutzerklärung</h1>
+                <h1 id="titleh1" class="indextitle">Datenschutzerklärung.</h1>
             </div>
         </div>
     </div>

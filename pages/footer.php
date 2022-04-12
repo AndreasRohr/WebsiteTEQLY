@@ -34,9 +34,11 @@ Todo: Braucht es den <head> in einem .php Element?
         Über TEQLY
         <div class="col-footer">
             <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-            <a style="color: black" href="/Website/pages/jobs.php">Jobs</a>
-            <br>
             <a style="color: black" href="/Website/pages/contact.php">Kontakt</a>
+            <br>
+            <a style="color: black" href="/Website/pages/references.php">Projekte</a>
+            <br>
+            <a style="color: black" href="/Website/pages/jobs.php">Jobs</a>
             <br>
             <a style="color: black" href="https://blog.teqly.ch">Blog</a>
         </div>
