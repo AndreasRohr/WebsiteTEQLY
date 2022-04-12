@@ -16,6 +16,16 @@
 
 </head>
 <body>
+<!-- Cookie Consent by TermsFeed (https://www.TermsFeed.com) -->
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+    document.addEventListener('DOMContentLoaded', function () {
+        cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"de","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false});
+    });
+</script>
+
+<noscript>ePrivacy and GPDR Cookie Consent by <a href="https://www.TermsFeed.com/" rel="nofollow">TermsFeed Generator</a></noscript>
+<!-- End Cookie Consent by TermsFeed (https://www.TermsFeed.com) -->
 <div style="position: fixed; max-width: 1464px; margin-left: auto; z-index: 1" id="header-container" class="header-container">
     <div class="header-right" style="display: flex; float: right">
         <button id="homebtnContact" class="homebtnContact">Jetzt kontaktieren!</button>
@@ -46,3 +56,9 @@
 </body>
 </html>
 <script type="text/javascript" src="/Website/script.js"></script>
+<script async
+        src="https://www.googletagmanager.com/gtag/js?id=ID">
+</script>
+<script>window.dataLayer = window.dataLayer |I
+        [];function gtag(){dataLayer.push(arguments);}gtag("js",new
+    Date());gtag ("config", "ID'); </script>
