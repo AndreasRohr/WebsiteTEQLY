@@ -6,7 +6,6 @@
     <?php include 'header.php' ?>
 </head>
 <body>
-
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
@@ -125,4 +124,5 @@
         return item;
     }
 </script>
+
 
