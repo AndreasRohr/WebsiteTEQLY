@@ -749,10 +749,6 @@ div img{
     position: absolute;
     background-color: white;
     width: 3.05rem;
-    border-right: solid black 1px;
-    border-left: solid black 1px;
-    border-bottom: solid black 1px;
-    border-top: solid black 0px;
     height: 3rem;
 }
 
@@ -762,6 +758,8 @@ div img{
     padding: 12px 14px;
     text-decoration: none;
     display: block;
+    border: solid black 1px;
+    border-top: 0px;
 }
 
 /* Change color of dropdown links on hover */
