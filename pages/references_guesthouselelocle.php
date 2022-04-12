@@ -3,7 +3,7 @@
 <head>
     <?php include 'header_imports.php' ?>
     <!--EDIT HERE-->
-    <title>References</title>
+    <title>Guesthouse LeLocle</title>
     <?php include 'header.php' ?>
 </head>
 <body>

@@ -3,7 +3,7 @@
 <head>
     <?php include 'header_imports.php' ?>
     <!--EDIT HERE-->
-    <title>References</title>
+    <title>Jobs</title>
     <?php include 'header.php' ?>
 </head>
 <body>
@@ -13,9 +13,7 @@
         <div class="title-left">
             <div class="typewriter">
                 <!--EDIT HERE-->
-                <h2 class="references-category">Jobs</h2>
-                <!--EDIT HERE-->
-                <h1  class="indextitle">Wir suchen Verstärkung!</h1>
+                <h1  class="indextitle">Jobs.</h1>
             </div>
         </div>
     </div>
@@ -36,8 +34,8 @@
                     <li>Du studierst Informatik.</li>
                     <li>Du bist eine offene und neugierige Persönlichkeit.</li>
                     <li>Du möchtest in einem kleinen Pensum Berufserfahrungen sammeln und Software entwickeln.</li>
-                    <li>Du hast bereits Erfahrung im Entwickeln von Software gesammelt und bist fit in den Websprachen Javascript, HTML, CSS.</li>
-                    <li>Du bist gewillt dich in verschiedene Sprachen und Frameworks einzuarbeiten.</li>
+                    <li>Du hast bereits Erfahrung im Entwickeln von Software gesammelt und bist fit in den Websprachen Javascript, HTML, PHP, CSS.</li>
+                    <li>Du bist gewillt dich in verschiedene Sprachen (Java, Python, C#) und Frameworks (Angular, Vue.js, Ruby) einzuarbeiten.</li>
                 </ul>
             </div>
             <div class="index-col-left" style="max-width: 20rem;white-space: normal">

@@ -57,13 +57,11 @@ Todo: Braucht es den <head> in einem .php Element?
     <div class="col-footer">
         Rechtliches
         <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-        <a style="color: black" href="#">Impressum</a>
+        <a style="color: black" href="/Website/pages/imprint.php">Impressum</a>
         <br>
-        <a style="color: black" href="#">Datenschutzerklärung</a>
+        <a style="color: black" href="/Website/pages/dataprivacy.php">Datenschutzerklärung</a>
         <br>
-        <a style="color: black" href="#">Allgemeine Geschäftsbedingungen</a>
-        <br>
-        <a style="color: black" href="#">Credits</a>
+        <a style="color: black" href="/Website/pages/agb.php">Allgemeine Geschäftsbedingungen</a>
     </div>
     <div style="margin-right: 0rem;" class="col-footer">
         Copyright

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include 'header_imports.php' ?>
-    <title>Startseite</title>
+    <title>Projekte</title>
     <?php include 'header.php' ?>
 </head>
 <body>
@@ -11,13 +11,13 @@
     <div class="title-row">
         <div class="title-left">
             <div class="typewriter">
-                <h1 class="indextitle">Unsere Referenzen</h1>
+                <h1 class="indextitle">Unsere Projekte.</h1>
             </div>
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
         <div  class="title-right">
-            <h2>Lassen Sie sich inspirieren.<br><br>Hier finden sie eine Auswahl an Projekten die wir in der Vergangenheit zusammen mit unseren Kunden umsetzen durften.</h2>
+            <h2>Lassen Sie sich inspirieren.<br><br>Hier finden sie eine Auswahl an Projekten, die wir in der Vergangenheit zusammen mit unseren Kunden umsetzen durften.</h2>
         </div>
 
         <div class="lineblack-index"></div>

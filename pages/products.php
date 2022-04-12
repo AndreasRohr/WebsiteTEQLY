@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include 'header_imports.php' ?>
-    <title>TEQLY Produkte & Services</title>
+    <title>Dienstleistungen</title>
     <?php include 'header.php' ?>
 </head>
 
@@ -11,7 +11,7 @@
     <div class="title-row">
         <div class="title-left">
             <div class="typewriter">
-                <h1 id="titleh1" class="indextitle">Dienstleistungen</h1>
+                <h1 id="titleh1" class="indextitle">Dienstleistungen.</h1>
             </div>
         </div>
     </div>

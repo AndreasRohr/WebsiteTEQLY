@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/Website/normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="/Website/style.css" media="all" type="text/css">
-    <title>Startseite</title>
+    <title>TEQLY Visitenkarte</title>
     <style>
         .card {
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

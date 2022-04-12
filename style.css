@@ -659,6 +659,10 @@ div img{
     margin-right: auto;
     width: 93%;
 }
+.index-container a{
+    color: black;
+    font-weight: bolder;
+}
 
 .under-section{
     margin-left: 5rem;

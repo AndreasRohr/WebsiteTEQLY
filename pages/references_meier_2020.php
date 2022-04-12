@@ -3,7 +3,7 @@
 <head>
     <?php include 'header_imports.php' ?>
     <!--EDIT HERE-->
-    <title>References</title>
+    <title>Bäckerei Confiserie Meier</title>
     <?php include 'header.php' ?>
 </head>
 <body>

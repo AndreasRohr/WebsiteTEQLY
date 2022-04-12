@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <?php include 'header_imports.php' ?>
-    <title>Startseite</title>
+    <title>TEQLY</title>
     <?php include 'header.php' ?>
 </head>
 <body>
