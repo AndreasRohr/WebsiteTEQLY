@@ -33,7 +33,7 @@
         </div>
         <div class="index-col-right" style="width: 80%">
             <!--EDIT HERE-->
-            <p>Zur sicheren und effizienten Lagerung von Handscannern für die Ticketkontrolle am Einlass haben wir Ladekisten für den SCB entworfen und produziert. In einer UTZ Rako Kiste finden die Geräte und ein spezielles Ladegerät Platz. Im Inneren der Kiste sorgt ein auf millimeter genau gefrästes Schaufstoff-Inlay dafür, dass alles an seinem Platz bleibt.</p>
+            <p>Zur sicheren und effizienten Lagerung von Handscannern für die Ticketkontrolle am Einlass haben wir Ladekisten für den SCB entworfen und produziert. In einer UTZ Rako Kiste finden die Geräte und ein spezielles Ladegerät platz. Im Inneren der Kiste sorgt ein auf millimeter genau gefrästes Schaufstoff-Inlay dafür, dass alles an seinem Platz bleibt.</p>
         </div>
         </div>
     </div>
@@ -43,4 +43,3 @@
 </body>
 </html>
 <script type="text/javascript" src="/Website/script.js"></script>
-
