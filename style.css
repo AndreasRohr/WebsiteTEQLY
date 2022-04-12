@@ -104,6 +104,12 @@ body{
 
 }
 
+.homebtnContact:hover{
+    background-color: #111!important;
+    color: white;
+    border: solid black 1px;
+}
+
 .homebtnBurger{
     height: 2.5rem;
     background-color: white;
@@ -125,6 +131,12 @@ body{
     border-bottom: solid 1px;
     width: 3rem;
     margin-top: 0.5rem;
+}
+
+.dropbtn:hover {
+    background-color: #111!important;
+    color: white;
+    border: solid black 1px;
 }
 
 
@@ -174,6 +186,10 @@ body{
     width: 100%;
 }
 
+.contact-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30rem);
+}
 .col-footer{
     max-width: 30rem;
     margin-top: 10px;

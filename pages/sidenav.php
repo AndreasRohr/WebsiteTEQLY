@@ -22,7 +22,7 @@
                     <a href="#">FR</a>
                 </div>
             </div>
-            <button style="margin-top:0.4rem;" class="navbtnClose"  onclick="closeNav()"><img src="/Website/assets/x.svg" aria-hidden="true"></button>
+            <button style="margin-top:0.4rem;" id="navbtnClose" class="navbtnClose"  onclick="closeNav()"><img src="/Website/assets/x.svg" aria-hidden="true"></button>
         </div>
         <div class="sidenav-left" style="margin-bottom: 0.1rem; width: 50px">
             <a class="logo" href="/Website/pages/index.php">
