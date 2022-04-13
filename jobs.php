@@ -62,5 +62,5 @@
 <?php include 'footer.php' ?>
 </body>
 </html>
-<script type="text/javascript" src="/Website/script.js"></script>
+<script type="text/javascript" src="script.js"></script>
 

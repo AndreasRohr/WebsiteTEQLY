@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="/Website/assets/ref_guesthouse.jpg">
+        <img src="assets/ref_guesthouse.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Netzwerkausbau und Serverinfrastruktur<br>06/2021<br>Ausbau des bestehenden Netzwerkes, mit verschiedenen lokalen Partnern. Neubau Serverraum und IT-Infrastruktur.</h2>
@@ -42,4 +42,4 @@
 <?php include 'footer.php' ?>
 </body>
 </html>
-<script type="text/javascript" src="/Website/script.js"></script>
+<script type="text/javascript" src="script.js"></script>

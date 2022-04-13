@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="/Website/assets/error.jpg">
+        <img src="assets/error.jpg">
         <div  class="title-right">
             <h2>Ups, da ist etwas schief gelaufen.<br>Versuchen Sie es am Besten nochmals auf der <a href="index.php">Startseite</a>.</h2>
         </div>
@@ -27,5 +27,5 @@
 <?php include 'footer.php' ?>
 </body>
 </html>
-<script type="text/javascript" src="/Website/script.js"></script>
+<script type="text/javascript" src="script.js"></script>
 

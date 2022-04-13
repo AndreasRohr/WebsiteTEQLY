@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/Website/normalize.css" media="all" type="text/css">
-    <link rel="stylesheet" href="/Website/style.css" media="all" type="text/css">
+    <link rel="stylesheet" href="normalize.css" media="all" type="text/css">
+    <link rel="stylesheet" href="style.css" media="all" type="text/css">
     <title>TEQLY Visitenkarte</title>
     <style>
         .card {
@@ -35,7 +35,7 @@
                     <br>
                     <a style="color: black" href="mailto:info@teqly.ch">info@teqly.ch</a>
                     <p>056 511 11 33</p>
-                    <a style="color: black; font-weight: bolder" href="/Website/assets/vcard_bureau.vcf"
+                    <a style="color: black; font-weight: bolder" href="assets/vcard_bureau.vcf"
                        download="vcard_bureau.vcf">Kontaktdaten speichern</a>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                 <br>
                 <a style="color: black" href="mailto:support@teqly.app">support@teqly.app</a>
                 <p>056 511 11 33</p>
-                <a style="color: black; font-weight: bolder; " href="/Website/assets/vcard_support.vcf"
+                <a style="color: black; font-weight: bolder; " href="assets/vcard_support.vcf"
                    download="vcard_support.vcf">Kontaktdaten speichern</a>
             </div>
         </div>
@@ -60,7 +60,7 @@
             <br>
             <a style="color: black" href="mailto:sandro@teqly.ch">sandro@teqly.ch</a>
             <p>056 511 11 30</p>
-            <a style="color: black; font-weight: bolder" href="/Website/assets/vcard_sandro.vcf"
+            <a style="color: black; font-weight: bolder" href="assets/vcard_sandro.vcf"
                download="vcard_sandro.vcf">Kontaktdaten speichern</a>
         </div>
             </div>
@@ -72,7 +72,7 @@
             <br>
             <a style="color: black" href="mailto:jannik@teqly.ch">jannik@teqly.ch</a>
             <p>056 511 11 31</p>
-            <a style="color: black; font-weight: bolder" href="/Website/assets/vcard_jannik.vcf"
+            <a style="color: black; font-weight: bolder" href="assets/vcard_jannik.vcf"
                download="vcard_jannik.vcf">Kontaktdaten speichern</a>
         </div>
             </div>
@@ -84,7 +84,7 @@
             <br>
             <a style="color: black" href="mailto:andreas@teqly.ch">andreas@teqly.ch</a>
             <p>056 511 11 32</p>
-            <a style="color: black; font-weight: bolder" href="/Website/assets/vcard_andreas.vcf"
+            <a style="color: black; font-weight: bolder" href="assets/vcard_andreas.vcf"
                download="vcard_andreas.vcf">Kontaktdaten speichern</a>
         </div>
             </div>

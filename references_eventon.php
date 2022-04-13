@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="/Website/assets/ref_eventon.jpg">
+        <img src="assets/ref_eventon.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Support-Service<br>11/2021<br>Sicherstellen des 1st- und 2nd-Level-Supports.</h2>
@@ -42,4 +42,4 @@
 <?php include 'footer.php' ?>
 </body>
 </html>
-<script type="text/javascript" src="/Website/script.js"></script>
+<script type="text/javascript" src="script.js"></script>

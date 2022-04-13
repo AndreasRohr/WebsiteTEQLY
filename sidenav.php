@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
-    <link rel="stylesheet" href="/Website/normalize.css" media="all" type="text/css">
-    <link rel="stylesheet" href="/Website/style.css" media="all" type="text/css">
+    <link rel="stylesheet" href="normalize.css" media="all" type="text/css">
+    <link rel="stylesheet" href="style.css" media="all" type="text/css">
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="form.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -22,11 +22,11 @@
                     <a href="#">FR</a>
                 </div>
             </div>
-            <button style="margin-top:0.4rem;" id="navbtnClose" class="navbtnClose"  onclick="closeNav()"><img src="/Website/assets/x.svg" aria-hidden="true"></button>
+            <button style="margin-top:0.4rem;" id="navbtnClose" class="navbtnClose"  onclick="closeNav()"><img src="assets/x.svg" aria-hidden="true"></button>
         </div>
         <div class="sidenav-left" style="margin-bottom: 0.1rem; width: 50px">
-            <a class="logo" href="/Website/index.php">
-                <img  class="logo-white" alt="TEQLY" src="/Website/assets/Logo.png"
+            <a class="logo" href="index.php">
+                <img  class="logo-white" alt="TEQLY" src="assets/Logo.png"
                      width=50" height="7">
             </a>
         </div>
@@ -36,10 +36,10 @@
             <div class="linewhite"></div>
             <p id="navigation">NAVIGATION</p>
             <div class="navBlack">
-                <a href="/Website/index.php">Start</a>
-                <a href="/Website/products.php">Produkte & Services</a>
-                <a href="/Website/references.php">Referenzen</a>
-                <a href="/Website/team.php">Team</a>
+                <a href="index.php">Start</a>
+                <a href="products.php">Produkte & Services</a>
+                <a href="references.php">Referenzen</a>
+                <a href="team.php">Team</a>
                 <a href="#">Kontakt</a>
             </div>
         </div>
@@ -62,4 +62,4 @@
 </div>
 </body>
 </html>
-<script type="text/javascript" src="/Website/script.js"></script>
+<script type="text/javascript" src="script.js"></script>

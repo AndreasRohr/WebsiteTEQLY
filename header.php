@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
-    <link rel="stylesheet" href="/Website/normalize.css" media="all" type="text/css">
-    <link rel="stylesheet" href="/Website/style.css" media="all" type="text/css">
+    <link rel="stylesheet" href="normalize.css" media="all" type="text/css">
+    <link rel="stylesheet" href="style.css" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="form.js"></script>
@@ -37,11 +37,11 @@
                 <a href="#">FR</a>
             </div>
         </div>
-        <button class="homebtnBurger" onclick="openNav()"><img src="/Website/assets/menu.svg" aria-hidden="true"></button>
+        <button class="homebtnBurger" onclick="openNav()"><img src="assets/menu.svg" aria-hidden="true"></button>
     </div>
     <div class="header-left">
-        <a class="logo" href="/Website/index.php" style="margin-left: 0rem">
-            <img alt="TEQLY" src="/Website/assets/schriftzug_vertikal.png"
+        <a class="logo" href="index.php" style="margin-left: 0rem">
+            <img alt="TEQLY" src="assets/schriftzug_vertikal.png"
                  width=50" height="7">
         </a>
     </div>
@@ -55,7 +55,7 @@
 </div>
 </body>
 </html>
-<script type="text/javascript" src="/Website/script.js"></script>
+<script type="text/javascript" src="script.js"></script>
 <script async
         src="https://www.googletagmanager.com/gtag/js?id=ID">
 </script>

@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="/Website/assets/ref_dolezalzeller.jpg">
+        <img src="assets/ref_dolezalzeller.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Applikation<br>10/2020<br>Applikation, Hardware und Support.</h2>
@@ -42,4 +42,4 @@
 <?php include 'footer.php' ?>
 </body>
 </html>
-<script type="text/javascript" src="/Website/script.js"></script>
+<script type="text/javascript" src="script.js"></script>

@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="/Website/assets/ref_xana.png">
+        <img src="assets/ref_xana.png">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Hardwaremiete inklusive Service<br>12/2021<br>Flexible Hardwaremiete für ein mobiles Gesundheitsangebot.</h2>
@@ -42,4 +42,4 @@
 <?php include 'footer.php' ?>
 </body>
 </html>
-<script type="text/javascript" src="/Website/script.js"></script>
+<script type="text/javascript" src="script.js"></script>

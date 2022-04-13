@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="/Website/assets/ref_meier_2.jpg">
+        <img src="assets/ref_meier_2.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Netzwerkausbau<br>03/2022<br>Ausbau des Netzwerks mit Elektropartner.</h2>
@@ -42,5 +42,5 @@
 <?php include 'footer.php' ?>
 </body>
 </html>
-<script type="text/javascript" src="/Website/script.js"></script>
+<script type="text/javascript" src="script.js"></script>
 

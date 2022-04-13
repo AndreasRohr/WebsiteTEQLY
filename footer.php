@@ -6,9 +6,9 @@ Todo: Braucht es den <head> in einem .php Element?
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="/Website/normalize.css" media="all" type="text/css">
+    <link rel="stylesheet" href="normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/Website/style.css" media="all" type="text/css">
+    <link rel="stylesheet" href="style.css" media="all" type="text/css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
@@ -17,28 +17,28 @@ Todo: Braucht es den <head> in einem .php Element?
         Dienstleistungen
         <div class="col-footer">
             <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-            <a style="color: black" href="/Website/products.php#easit">EASIT.rent</a>
+            <a style="color: black" href="products.php#easit">EASIT.rent</a>
             <br>
-            <a style="color: black" href="/Website/products.php#programming">Entwicklung</a>
+            <a style="color: black" href="products.php#programming">Entwicklung</a>
             <br>
-            <a style="color: black" href="/Website/products.php#infrastructure">Infrastruktur</a>
+            <a style="color: black" href="products.php#infrastructure">Infrastruktur</a>
             <br>
-            <a style="color: black" href="/Website/products.php#support">Support</a>
+            <a style="color: black" href="products.php#support">Support</a>
             <br>
-            <a style="color: black" href="/Website/products.php#consulting">Consulting</a>
+            <a style="color: black" href="products.php#consulting">Consulting</a>
             <br>
-            <a style="color: black" href="/Website/products.php#special">Spezialprojekte</a>
+            <a style="color: black" href="products.php#special">Spezialprojekte</a>
         </div>
     </div>
     <div style="margin-right: 2rem; color: black" class="col-footer">
         Über TEQLY
         <div class="col-footer">
             <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-            <a style="color: black" href="/Website/contact.php">Kontakt</a>
+            <a style="color: black" href="contact.php">Kontakt</a>
             <br>
-            <a style="color: black" href="/Website/references.php">Projekte</a>
+            <a style="color: black" href="references.php">Projekte</a>
             <br>
-            <a style="color: black" href="/Website/jobs.php">Jobs</a>
+            <a style="color: black" href="jobs.php">Jobs</a>
             <br>
             <a style="color: black" href="https://blog.teqly.ch">Blog</a>
         </div>
@@ -47,7 +47,7 @@ Todo: Braucht es den <head> in einem .php Element?
         Applikationen
         <div class="col-footer">
             <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-            <a style="color: black" href="/Website/app_plattform.php">App-Plattform</a>
+            <a style="color: black" href="app_plattform.php">App-Plattform</a>
             <br>
             <a style="color: black" href="https://support.teqly.app">Support-Plattform</a>
             <br>
@@ -59,13 +59,13 @@ Todo: Braucht es den <head> in einem .php Element?
     <div class="col-footer">
         Rechtliches
         <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-        <a style="color: black" href="/Website/imprint.php">Impressum</a>
+        <a style="color: black" href="imprint.php">Impressum</a>
         <br>
-        <a style="color: black" href="/Website/dataprivacy.php">Datenschutzerklärung</a>
+        <a style="color: black" href="dataprivacy.php">Datenschutzerklärung</a>
         <br>
         <a style="color: black" href="#" id="open_preferences_center">Cookie-Einstellungen</a>
         <br>
-        <a style="color: black" href="/Website/agb.php">Allgemeine Geschäftsbedingungen</a>
+        <a style="color: black" href="agb.php">Allgemeine Geschäftsbedingungen</a>
     </div>
     <div style="margin-right: 0rem;" class="col-footer">
         Copyright

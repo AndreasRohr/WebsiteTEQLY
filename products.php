@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="index-container">
-        <img src="/Website/assets/teqly_header_products.jpg">
+        <img src="assets/teqly_header_products.jpg">
         <div  class="title-right">
             <h2>Egal ob nur ein einzelnes Modul oder eine schlüsselfertige Komplettlösung.<br>Wir bieten Ihnen immer auf Ihre Bedürfnisse zugeschnittene Dienstleistungen an.</h2>
         </div>
@@ -43,7 +43,7 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Egal ob kleine Website oder komplexe Server-Client-Applikation: Wir begleiten Sie während jeder Phase des agilen Entwicklungsprozesses. Von der ersten Idee, zu den Requirements, über die Umsetzung, bis hin zur Inbetriebnahme sind wir an Ihrer Seite und setzen uns für Sie ein. <a href="/Website/references.php">Referenzen entdecken.</a></p>
+                <p>Egal ob kleine Website oder komplexe Server-Client-Applikation: Wir begleiten Sie während jeder Phase des agilen Entwicklungsprozesses. Von der ersten Idee, zu den Requirements, über die Umsetzung, bis hin zur Inbetriebnahme sind wir an Ihrer Seite und setzen uns für Sie ein. <a href="references.php">Referenzen entdecken.</a></p>
             </div>
         </div>
         <div class="under-section">
@@ -53,7 +53,7 @@
                 <h1>Webseiten</h1>
             </div>
             <div class="under-section-col-right">
-                <p>TEQLY ist Ihr kompetenter Partner im Web. Je nach Ihren Bedürfnissen bauen wir Ihnen eine klassische HTML-Seite oder setzen ein bewährtes CMS wie Wordpress oder Joomla ein. Wir bieten Ihnen ein "Rundum Sorglos"-Paket für Ihren Webauftritt an und kümmern uns um Entwicklung, Hosting, SEO, Werbung, Unterhalt und E-Mail Verwaltung. <a href="/Website/contact.php">Kontakt aufnehmen.</a></p>
+                <p>TEQLY ist Ihr kompetenter Partner im Web. Je nach Ihren Bedürfnissen bauen wir Ihnen eine klassische HTML-Seite oder setzen ein bewährtes CMS wie Wordpress oder Joomla ein. Wir bieten Ihnen ein "Rundum Sorglos"-Paket für Ihren Webauftritt an und kümmern uns um Entwicklung, Hosting, SEO, Werbung, Unterhalt und E-Mail Verwaltung. <a href="contact.php">Kontakt aufnehmen.</a></p>
             </div>
         </div>
         <div class="under-section">
@@ -69,7 +69,7 @@
                     <li><b>Mobile-Applikationen:</b> Wenn eine Applikation nur auf mobilen Endgeräten (Tablets und Smartphones) genutzt werden soll, kann auch eine Mobile-Applikation entworfen werden. Im Vergleich zur Web-Applikation können bei einer Mobile-App einfacher auf spezifische Gerätefunktionen (Kamera, Sensoren, Speicher) zugegriffen werden. Diese Applikationen können via den geläufigen App-Stores auf jedes Smartphone installiert werden.</li>
                     <li><b>Desktop-Applikationen:</b> Für sehr spezifische Anwendungen können auch native Desktop-Applikationen entwickelt werden. Je nach Umfeld entweder im Windows oder Linux/MacOS Universum.</li>
                 </ul
-                <p>Wir begleiten Sie von der Konzeption, über die Programmierung, bis hin zur Inbetriebnahme Ihrer eignen Applikation. Gerne übernehmen wir auch Teilprojekte und beraten Sie zum Beispiel in der Projektleitung, beim Requirements Engineering oder dem Entwerfen eines Betriebskonzeptes. <a href="/Website/contact.php">Kontakt aufnehmen.</a></p>
+                <p>Wir begleiten Sie von der Konzeption, über die Programmierung, bis hin zur Inbetriebnahme Ihrer eignen Applikation. Gerne übernehmen wir auch Teilprojekte und beraten Sie zum Beispiel in der Projektleitung, beim Requirements Engineering oder dem Entwerfen eines Betriebskonzeptes. <a href="contact.php">Kontakt aufnehmen.</a></p>
             </div>
         </div>
         <!-- Infrastruktur Block -->
@@ -79,7 +79,7 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Im Bereich Infrastruktur bieten wir Ihnen auf Ihre Bedürfnisse zugeschnittene Dienstleistungen an. Wir betreuen Netzwerke aller Grössen. Es beginnt mit kleinen Installationen, die aus einem Router und einem NAS bestehen, und geht hin bis zu grossen Netzwerken mit komplexen Konfigurationen und aufwändiger Serverinfrastruktur. Eine Investition in ein Netzwerk ist meist eine langfristige Investition. Bei gewissen Netzwerkkomponenten rechnet man, je nach Ausführung, mit Betriebszeiten von bis zu 10 Jahren. Wir zeigen Ihnen bei einem unverbindlichen Vor-Ort-Termin gerne mögliche Lösungen (Integration, Erweiterung, Neubau) auf und beraten Sie pragmatisch und kompetent. Kleinere bauliche Massnahmen führen wir mit internen Kapazitäten durch, bei grösseren Projekten arbeiten wir mit Partnern aus der Elektrotechnik und dem Baugewerbe zusammen. Auf Wunsch offerieren wir Ihnen "schlüsselfertige" Netzwerklösungen auf höchstem Niveau. <a href="/Website/contact.php">Kontakt aufnehmen.</a> </p>
+                <p>Im Bereich Infrastruktur bieten wir Ihnen auf Ihre Bedürfnisse zugeschnittene Dienstleistungen an. Wir betreuen Netzwerke aller Grössen. Es beginnt mit kleinen Installationen, die aus einem Router und einem NAS bestehen, und geht hin bis zu grossen Netzwerken mit komplexen Konfigurationen und aufwändiger Serverinfrastruktur. Eine Investition in ein Netzwerk ist meist eine langfristige Investition. Bei gewissen Netzwerkkomponenten rechnet man, je nach Ausführung, mit Betriebszeiten von bis zu 10 Jahren. Wir zeigen Ihnen bei einem unverbindlichen Vor-Ort-Termin gerne mögliche Lösungen (Integration, Erweiterung, Neubau) auf und beraten Sie pragmatisch und kompetent. Kleinere bauliche Massnahmen führen wir mit internen Kapazitäten durch, bei grösseren Projekten arbeiten wir mit Partnern aus der Elektrotechnik und dem Baugewerbe zusammen. Auf Wunsch offerieren wir Ihnen "schlüsselfertige" Netzwerklösungen auf höchstem Niveau. <a href="contact.php">Kontakt aufnehmen.</a> </p>
             </div>
         </div>
         <!-- Support Block -->
@@ -99,7 +99,7 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Auf Wunsch erarbeiten wir Ihnen, auf Sie zugeschnittene, System-Management-, Sicherheits- oder Anwendungs-Konzepte. In Workshops erarbeiten wir zusammen mit Ihnen und Ihren Mitarbeitenden Lösungen um Prozesse zu digitalisieren und optimieren. Wir zeigen Ihnen neue Arbeitsweisen wie Design Thinking, Scrum oder Lean Management auf. Oder schulen Ihr Team in IT-Sicherheit, IT-Projektmanagement und im Umgang mit neuen Tools oder Programmen. <a href="/Website/contact.php">Kontakt aufnehmen.</a></p>
+                <p>Auf Wunsch erarbeiten wir Ihnen, auf Sie zugeschnittene, System-Management-, Sicherheits- oder Anwendungs-Konzepte. In Workshops erarbeiten wir zusammen mit Ihnen und Ihren Mitarbeitenden Lösungen um Prozesse zu digitalisieren und optimieren. Wir zeigen Ihnen neue Arbeitsweisen wie Design Thinking, Scrum oder Lean Management auf. Oder schulen Ihr Team in IT-Sicherheit, IT-Projektmanagement und im Umgang mit neuen Tools oder Programmen. <a href="contact.php">Kontakt aufnehmen.</a></p>
             </div>
         </div>
         <!-- Speziallösungen Block -->
@@ -109,7 +109,7 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p><em>Wie misst man mit Wärmebildkameras Fieber?<br> Wie kann man digital einfach und sicher Lieferscheine signieren?<br><br></em> Diese beiden Problemstellungen sind nur eine Auswahl aus Vielen. Bei TEQLY sind wir gerne Problemlöser:innen und entwickeln Lösungskonzepte für nicht alltägliche Fragestellungen. Gerne beraten wir Sie unverbindlich, vereinbaren Sie einfach einen Termin mit uns. <a href="/Website/contact.php">Kontakt aufnehmen.</a> </p>
+                <p><em>Wie misst man mit Wärmebildkameras Fieber?<br> Wie kann man digital einfach und sicher Lieferscheine signieren?<br><br></em> Diese beiden Problemstellungen sind nur eine Auswahl aus Vielen. Bei TEQLY sind wir gerne Problemlöser:innen und entwickeln Lösungskonzepte für nicht alltägliche Fragestellungen. Gerne beraten wir Sie unverbindlich, vereinbaren Sie einfach einen Termin mit uns. <a href="contact.php">Kontakt aufnehmen.</a> </p>
             </div>
         </div>
     </div>
@@ -118,4 +118,4 @@
 <?php include 'footer.php' ?>
 </body>
 </html>
-<script type="text/javascript" src="/Website/script.js"></script>
+<script type="text/javascript" src="script.js"></script>
