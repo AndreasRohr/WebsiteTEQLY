@@ -728,6 +728,7 @@ div img{
     border-bottom: solid 1px;
     width: 3rem;
     margin-top: 0.5rem;
+    color: black;
 }
 .sidenav-dropbtn{
     height: 2.5rem;
