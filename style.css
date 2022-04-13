@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
     font-family: 'JetBrainsMono';
     src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
@@ -7,19 +7,41 @@
     font-style: normal;
 }
 
-/* Screen larger than 600px? 2 column */
-@media (min-width: 300px) {
-    .header-row, footer-row {
-        grid-template-columns: repeat(auto-fill, 20rem);
+/* iphone portrait */
+
+@media all and (max-device-width: 480px) and (orientation: portrait) {
+    .index-container .title-right h2 {
+        margin-left: 0;
+        max-width: none;
+        margin-top: 0;
+        margin-right: 0;
+        display: block;
     }
 
-    .row-footer {
-        grid-template-columns: repeat(auto-fill, 20rem);
+    .title-row .title-left .typewriter h1{
+        font-size: 4rem;
+        display: block;
+        max-width: 300px;
     }
 }
 
-/* Screen larger than 900px? 3 columns */
-@media (min-width: 1000px) {
+/* iphone landscape */
+@media all and (max-device-width: 480px) and (orientation: landscape) {
+
+}
+
+/* iPad portrait */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+
+}
+
+/* iPad landscape */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+
+}
+
+
+@media (min-width: 1500px) {
     .header-row, row-footer {
         grid-template-columns: repeat(auto-fill, 20rem);
     }
@@ -27,55 +49,12 @@
     .row-footer {
         grid-template-columns: repeat(auto-fill, 20rem);
     }
-}
-
-
-@media (min-width: 1500px) {
-    .header-row,row-footer { grid-template-columns: repeat(auto-fill, 20rem); }
-    .row-footer { grid-template-columns: repeat(auto-fill, 20rem); }
 
 
 }
-/*MOBILE*/
-@media only screen and (max-width: 600px) {
-    .index-col-left h1 {
-        font-size: 30px;
-        font-family: "JetBrainsMono";
-    }
-    #titleh1{
-        font-size: 50px;
-        margin-top: 7rem;
-    }
-    .index-col-left{
-        margin-left: 0rem!important;
-    }
-    .index-col-right{
-        margin-left: 1rem!important;
-        width: 100%!important;
-    }
-    .products-col-left{
-        max-width: 62%!important;
-        margin-top: 2rem;
-    }
-    .products-col-right{
-        margin-right: 14rem!important;
-        max-width: 60%!important;
-        margin-top: 2rem;
-    }
-    .title-right{
-        margin-left: 47rem;
-        max-width: 50%;
-        margin-top: 5rem
-    }
-    .title-right{
-        margin-left: 1rem!important;
-        max-width: 90%!important;
-        margin-top: 5rem;
-        font-sizesize: 1rem!important;
-    }
-}
 
-body{
+
+body {
     margin-left: auto;
     margin-top: 10px;
     margin-right: auto;
@@ -93,7 +72,8 @@ body{
     margin-top: 10px;
     margin-bottom: 2rem;
 }
-.homebtnContact{
+
+.homebtnContact {
     height: 2.5rem;
     background-color: white;
     border: solid 1px black;
@@ -105,13 +85,13 @@ body{
 
 }
 
-.homebtnContact:hover{
-    background-color: #111!important;
+.homebtnContact:hover {
+    background-color: #111 !important;
     color: white;
     border: solid black 1px;
 }
 
-.homebtnBurger{
+.homebtnBurger {
     height: 2.5rem;
     background-color: white;
     border-left: solid 0;
@@ -136,7 +116,7 @@ body{
 }
 
 .dropbtn:hover {
-    background-color: #111!important;
+    background-color: #111 !important;
     color: white;
     border: solid black 1px;
 }
@@ -147,7 +127,7 @@ body{
     mix-blend-mode: difference;
 }
 
-.navbtnContact{
+.navbtnContact {
     height: 2.5rem;
     float: right;
     background-color: #111;
@@ -170,13 +150,13 @@ body{
     margin-right: 1rem;
 }
 
-.header-container-nav{
+.header-container-nav {
 
 }
 
 
 /*FOOTER*/
-.row-footer{
+.row-footer {
     display: grid;
     grid-template-columns: repeat(auto-fill, 30rem);
     padding: 10px;
@@ -188,16 +168,17 @@ body{
     width: 100%;
 }
 
-.contact-row{
+.contact-row {
     display: grid;
     grid-template-columns: repeat(auto-fill, 30rem);
 }
-.col-footer{
+
+.col-footer {
     max-width: 30rem;
     margin-top: 10px;
 }
 
-.col-footer-last{
+.col-footer-last {
     width: 40rem;
     margin-top: 10px;
 }
@@ -254,13 +235,13 @@ body{
 
 /*SIDENAVIGATION*/
 
-.sidenav-col{
+.sidenav-col {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.8rem;
 }
 
-.header-row{
+.header-row {
     display: grid;
     grid-template-columns: repeat(auto-fill, 30rem);
     padding: 10px;
@@ -272,7 +253,7 @@ body{
     font-family: "JetBrainsMono";
 }
 
-.header-container-nav .header-col .navbtnContact{
+.header-container-nav .header-col .navbtnContact {
     height: 2.5rem;
     background-color: #111;
     border: solid white 1px;
@@ -286,7 +267,7 @@ body{
 }
 
 
-.header-container-nav .header-col .navbtnClose{
+.header-container-nav .header-col .navbtnClose {
     height: 2.5rem;
     background-color: white;
     border-left: solid 0;
@@ -297,7 +278,8 @@ body{
     margin-right: 3rem;
 
 }
-#navigation{
+
+#navigation {
     color: white;
     font-family: "JetBrainsMono";
     margin-bottom: 20px;
@@ -320,17 +302,18 @@ body{
     color: white;
 }
 
-.column-sidenav{
+.column-sidenav {
     max-width: 30rem;
     margin-right: 2rem;
 }
 
-.sidenav .header-container{
+.sidenav .header-container {
     margin-left: auto;
     margin-top: 10px;
     margin-right: auto;
     max-width: 1500px;
 }
+
 .sidenav a {
     text-decoration: none;
     font-size: 40px;
@@ -341,19 +324,20 @@ body{
 
 }
 
-.blog-content h1{
-    color: white;
-}
-.sidenav .post-content{
+.blog-content h1 {
     color: white;
 }
 
-
-.sidenav .post-head{
+.sidenav .post-content {
     color: white;
 }
 
-.sidenav .navContainer{
+
+.sidenav .post-head {
+    color: white;
+}
+
+.sidenav .navContainer {
     margin-left: auto;
     margin-right: auto;
     max-width: 1500px;
@@ -363,7 +347,7 @@ body{
     color: #f1f1f1;
 }
 
-.columnnav-2{
+.columnnav-2 {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 0;
@@ -371,13 +355,13 @@ body{
     margin-right: 2rem;
 }
 
-.columnnav-2 iframe{
+.columnnav-2 iframe {
     position: absolute;
     width: 100%;
     height: 100%;
 }
 
-.navBlack a{
+.navBlack a {
     margin-top: 40px;
 }
 
@@ -397,12 +381,11 @@ body{
     position: relative;
 }
 
-.lineblack-index{
+.lineblack-index {
     border-top: 1px solid black;
     width: 100%;
     margin: 6rem auto 3rem;
 }
-
 
 
 /*CONTACTFORM*/
@@ -417,8 +400,8 @@ body{
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
     font-family: "JetBrainsMono";
 }
 
@@ -478,20 +461,20 @@ input[type=submit]:hover {
 
 
 /*BLOG*/
-.index-col-right a{
+.index-col-right a {
     color: black;
     font-weight: bolder;
 }
 
 /*KONTAKT*/
-.contact-title{
+.contact-title {
     font-family: JetBrainsMono;
     font-size: 6rem;
     font-weight: lighter;
     margin-left: 2rem;
 }
 
-.contact-subtitle{
+.contact-subtitle {
     font-family: JetBrainsMono;
     font-size: 2rem;
     font-weight: lighter;
@@ -499,22 +482,24 @@ input[type=submit]:hover {
 }
 
 
-.contact-col-top{
+.contact-col-top {
     margin-left: 2rem;
 }
-.contact-wrapper{
+
+.contact-wrapper {
     display: block;
     overflow: hidden;
 
 }
-.contact-col-left{
+
+.contact-col-left {
     margin-left: 2rem;
     max-height: 300px;
     width: 35%;
-    float:left; /* add this */
+    float: left; /* add this */
 }
 
-.contact-col-right{
+.contact-col-right {
     max-width: 60%;
     margin-left: auto;
     margin-right: 2rem;
@@ -522,64 +507,63 @@ input[type=submit]:hover {
 }
 
 
-
 /*PRODUCTS*/
 
-.products-col-top{
+.products-col-top {
     margin-left: 2rem;
 }
-.products-wrapper{
+
+.products-wrapper {
     margin-left: auto;
     margin-right: auto;
     width: 93%;
 
 }
 
-.products-col-left{
+.products-col-left {
     margin-left: 2rem;
     max-height: 300px;
-    float:left; /* add this */
+    float: left; /* add this */
 }
 
-.products-col-right{
+.products-col-right {
     margin-left: auto;
     margin-right: 2rem;
     display: block;
     width: 65%;
 }
 
-.products-col-right a{
+.products-col-right a {
     color: black;
     font-weight: bolder;
 }
 
 
-
 /*INDEX*/
 
-.index-col-left{
+.index-col-left {
     white-space: nowrap;
     margin-left: 3rem;
     margin-bottom: 3rem !important;
 
 }
 
-.index-col-right{
+.index-col-right {
     width: 65%;
     margin-left: auto;
     margin-right: 2rem;
     display: block;
 }
 
-.indextitle{
+.indextitle {
     font-family: JetBrainsMono;
     font-size: 6rem;
     font-weight: lighter;
     margin-left: 3rem;
 }
 
-.references-category{
-    margin-left: 3rem!important;
+.references-category {
+    margin-left: 3rem !important;
 }
 
 /*REFERENZEN*/
@@ -608,15 +592,15 @@ input[type=submit]:hover {
     color: white;
 }
 
-.collapse-row{
+.collapse-row {
     display: flex;
 }
 
-.collapse-card{
+.collapse-card {
     width: 33%;
     margin-left: 10px;
     margin-bottom: 10px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
@@ -628,49 +612,43 @@ input[type=submit]:hover {
     transition: max-height 0.2s ease-out;
     margin-left: 10px;
     margin-bottom: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-div img{
+div img {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 
 
-
-
-
-
-
-
-
-.header-col a{
+.header-col a {
     color: black;
     font-size: 40px;
     top: 0;
 }
 
-.index-col-left a{
+.index-col-left a {
     color: black;
     font-size: 2.5rem;
 }
 
-.index-container{
+.index-container {
     margin-left: auto;
     margin-right: auto;
     width: 93%;
 }
-.index-container a{
+
+.index-container a {
     color: black;
     font-weight: bolder;
 }
 
-.under-section{
+.under-section {
     margin-left: 5rem;
 }
 
-.under-section-col-right{
+.under-section-col-right {
 
     width: 69%;
     margin-left: auto;
@@ -680,7 +658,7 @@ div img{
 
 }
 
-.under-section-col-right a{
+.under-section-col-right a {
     color: black;
     font-weight: bolder;
 }
@@ -688,35 +666,36 @@ div img{
 .typewriter h1 {
     overflow: hidden;
     white-space: nowrap;
-    animation:
-            typing 2.5s forwards;
+    animation: typing 2.5s forwards;
     width: 0;
 }
 
 /* The typing effect */
 @keyframes typing {
-    from { width: 0% }
-    to { width: 100% }
+    from {
+        width: 0%
+    }
+    to {
+        width: 100%
+    }
 }
 
 /* The typewriter cursor effect */
-.three-col-block{
+.three-col-block {
     margin-right: 2rem;
     margin-left: 2rem;
     margin-top: 3rem;
 }
 
-.three-col{
+.three-col {
     display: grid;
     grid-template-columns: repeat(auto-fill, 29rem);
 }
 
-.index-col-left img{
+.index-col-left img {
     max-height: 3rem;
     margin-top: -2rem;
 }
-
-
 
 
 .dropbtn {
@@ -730,7 +709,8 @@ div img{
     margin-top: 0.5rem;
     color: black;
 }
-.sidenav-dropbtn{
+
+.sidenav-dropbtn {
     height: 2.5rem;
     background-color: #111;
     border-right: solid white 1px;
@@ -771,17 +751,17 @@ div img{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: black; color: white}
+.dropdown-content a:hover {
+    background-color: black;
+    color: white
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
-    display:block;
+    display: block;
     margin-left: -0.05rem;
 
 }
-
-
-
 
 
 /* The container <div> - needed to position the dropdown content */
@@ -813,47 +793,34 @@ div img{
 }
 
 /* Change color of dropdown links on hover */
-.sidenav-dropdown-content a:hover {background-color: white; color: black}
+.sidenav-dropdown-content a:hover {
+    background-color: white;
+    color: black
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .sidenav-show {
-    display:block;
+    display: block;
     margin-left: -0.05rem;
 
 }
 
-.sidenav .sidenav-col .sidenav-left img{
+.sidenav .sidenav-col .sidenav-left img {
     filter: invert(1);
     margin-bottom: 1rem;
 }
 
-.under-section .index-col-left img, .under-section .index-col-left a, .under-section .index-col-left h1{
+.under-section .index-col-left img, .under-section .index-col-left a, .under-section .index-col-left h1 {
     display: inline-block;
 }
 
-.title-right h2{
+.title-right h2 {
     margin-left: 50%;
     max-width: 50%;
     margin-top: 5rem;
     margin-right: 2rem;
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ul[class] {
@@ -908,7 +875,7 @@ ul[class] li > * {
 
 .zammad-chat-welcome-text {
     font-size: 1.2em;
-    float: right!important;
-    margin-top: -1.6rem!important;
+    float: right !important;
+    margin-top: -1.6rem !important;
     margin-right: 18rem;
 }
