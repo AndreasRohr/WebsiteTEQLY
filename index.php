@@ -64,7 +64,7 @@
             <a href="references.php">Projekte</a>
         </div>
         <div class="index-col-right">
-            <p>Ein altes Sprichwort lautet bekanntlich: <em>"Taten sagen mehr als Worte"</em>. Daher haben wir einige Projekte zusammengestellt um Ihnen einen kleinen Überblick über unsere Tätigkeitsbereiche zu geben. Zu unseren Kunden zählen kleine, mittlere sowie grosse Unternehmen und Organisationen aus verschiedensten Branchen. <a href="products.php">Mehr erfahren.</a></p>
+            <p>Ein altes Sprichwort lautet bekanntlich: <em>"Taten sagen mehr als Worte"</em>. Daher haben wir einige Projekte zusammengestellt, um Ihnen einen kleinen Überblick über unsere Tätigkeitsbereiche zu geben. Zu unseren Kunden zählen kleine, mittlere sowie grosse Unternehmen und Organisationen aus verschiedensten Branchen. <a href="products.php">Mehr erfahren.</a></p>
         </div>
         <div class="lineblack-index"></div>
         <div class="index-col-left">

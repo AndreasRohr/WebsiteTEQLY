@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include 'header_imports.php' ?>
-    <title>Impressum</title>
+    <title>Presse</title>
     <?php include 'header.php' ?>
 </head>
 
@@ -11,37 +11,28 @@
     <div class="title-row">
         <div class="title-left">
             <div class="typewriter">
-                <h1 id="titleh1" class="indextitle">Impressum.</h1>
+                <h1 id="titleh1" class="indextitle">Presse.</h1>
             </div>
         </div>
     </div>
     <div class="index-container">
+        <img src="assets/teqly_header_press.jpg">
         <div class="lineblack-index"></div>
         <div class="products-col-top">
-            <h1>Buttwil</h1>
+            <h1>Mitteilungen</h1>
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p><b>TEQLY GmbH</b><br>Flammbach 3a<br>5632 Buttwil<br>Schweiz</p>
-                <p><b>UID:</b> CHE-171.042.900</p>
-                <p><b>MWST:</b> CHE-171.042.900 MWST</p>
-                <br>
-                <p><b>Mail:</b> info@teqly.ch</p>
-                <p><b>Telefon:</b> +41 56 511 11 33</p>
+                <p>An dieser Stelle publizieren wir unsere Medienmitteilungen.</p>
             </div>
         </div>
         <div class="lineblack-index"></div>
         <div class="products-col-top">
-            <h1>Brugg</h1>
+            <h1>In den Medien</h1>
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p><b>TEQLY GmbH</b><br>TECHNOPARK Aargau<br>Badenerstrasse 13<br>5200 Brugg AG<br>Schweiz</p>
-                <p><b>UID:</b> CHE-171.042.900</p>
-                <p><b>MWST:</b> CHE-171.042.900 MWST</p>
-                <br>
-                <p><b>Mail:</b> info@teqly.ch</p>
-                <p><b>Telefon:</b> +41 56 511 11 33</p>
+                <p><b>Badener Tagblatt:</b> "Die kleinsten Kunden erhalten einen IT-Service wie sonst nur die Grossunternehmen" vom 28.04.2021.<br><a href="https://www.badenertagblatt.ch/aargau/brugg/brugg-die-kleinsten-kunden-erhalten-einen-it-service-wie-sonst-nur-die-grossunternehmen-ld.2130305">Link zum Artikel.</a> <a href="assets/teqly_badenertagblatt_20210428.pdf">Download Artikel.</a>
             </div>
         </div>
         </div>

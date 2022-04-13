@@ -33,7 +33,6 @@
             <button onclick="myFunction()" class="dropbtn" aria-hidden="true">DE</button>
             <div id="myDropdown" class="dropdown-content">
                 <a href="#">EN</a>
-                <!-- Todo: fix second dropdown -->
                 <a href="#">FR</a>
             </div>
         </div>

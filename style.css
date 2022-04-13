@@ -96,7 +96,7 @@ body{
 .homebtnContact{
     height: 2.5rem;
     background-color: white;
-    border: solid 1px;
+    border: solid 1px black;
     font-family: "JetBrainsMono";
     padding-left: 1rem;
     padding-right: 1rem;
