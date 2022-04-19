@@ -167,8 +167,31 @@
 }
 
 /* iPad portrait */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+@media (min-device-width: 481px) and (max-device-width: 830px) and (orientation: portrait) {
+    .logo{
+        display: none;
+    }
 
+    .index-container .title-right h2 {
+        margin-left: 0;
+        max-width: none;
+        margin-top: 3rem;
+        margin-right: 0;
+        display: block;
+    }
+
+    .title-row .title-left .typewriter h1{
+        font-size: 4rem;
+        display: block;
+        max-width: 700px;
+    }
+
+    .header-right{
+        margin-right: 2.5rem;
+    }
+    .row-footer{
+        max-width: 90% !important;
+    }
 }
 
 /* iPad landscape */
