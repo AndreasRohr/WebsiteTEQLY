@@ -16,6 +16,7 @@
 
 </head>
 <body>
+<div id="header">
 <!-- Cookie Consent by TermsFeed (https://www.TermsFeed.com) -->
 <script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
 <script type="text/javascript" charset="UTF-8">
@@ -51,6 +52,7 @@
         <span class="close">&times;</span>
         <?php include 'formpage.php' ?>
     </div>
+</div>
 </div>
 </body>
 </html>

@@ -10,18 +10,154 @@
 /* iphone portrait */
 
 @media all and (max-device-width: 480px) and (orientation: portrait) {
+
+    .columnnav-2, .blog-content, .blog-nav, #blog-line{
+        display: none;
+    }
+
+    .header-right{
+        margin-right: 0.7rem;
+    }
+
+    .index-container img {
+        max-height: 22rem!important;
+    }
+
     .index-container .title-right h2 {
         margin-left: 0;
         max-width: none;
-        margin-top: 0;
+        margin-top: 2rem;
         margin-right: 0;
         display: block;
+        font-size: 1.5rem;
+    }
+
+    #main .contact-title {
+        font-size: 3.5rem;
+    }
+
+    .contact-row{
+        grid-template-columns: repeat(auto-fill,24rem)!important;
+    }
+    .three-col{
+        grid-template-columns: repeat(auto-fill,24rem)!important;
+        margin-left: 0.5rem!important;
+    }
+
+    .references-category{
+        font-size: 1.5rem!important;
+        margin-left:0px!important;
+    }
+    .lineblack-index{
+        max-width: 22rem!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+
+    #main .contact-subtitle {
+        font-size: 1.5rem;
+        margin-bottom: 0!important;
     }
 
     .title-row .title-left .typewriter h1{
-        font-size: 4rem;
-        display: block;
-        max-width: 300px;
+        font-size: 2rem;
+        display: inline;
+        margin-left: 1rem;
+        max-width: 50%!important;
+        margin-bottom: 2rem!important;
+
+    }
+
+    .title-row .title-left .typewriter {
+        animation: typing 2.5s forwards;
+
+    }
+
+    .index-container .lineblack-index{
+        margin: 3rem auto 3rem;
+    }
+
+    .index-container .index-col-left a{
+        font-size: 1.4rem;
+    }
+
+    .index-container .index-col-left{
+        margin-left: 0;
+    }
+
+    .navBlack a{
+        font-size: 2.1rem!important;
+    }
+
+    .sidenav .sidenav-col .sidenav-left img {
+        display: none;
+    }
+
+    #reused_form label{
+        font-size: 0.8rem;
+    }
+
+    .form-container h1{
+        font-size: 1.5rem;
+    }
+
+    .sidenav-dropbtn{
+        margin-top: 1.855mm!important;
+    }
+
+    .index-container .index-col-right{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .index-container .under-section{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .index-container .under-section-col-right{
+        margin-left: 0;
+        width: 100%;
+    }
+    .linewhite{
+        max-width: 22rem;
+    }
+    .col-footer{
+        max-width: 20rem!important;
+        margin-left: 0.5rem;
+    }
+
+    .contact-left{
+        margin-top: 1rem!important;
+    }
+
+    .contact-mid{
+        margin-top: 1rem!important;
+    }
+    .header-left .logo img{
+        display: none;
+    }
+
+    .row-footer{
+        padding: 0!important;
+        margin-left: 1rem!important;
+        margin-top: 0!important;
+        margin-right: -1rem!important;
+        max-width: 90%!important;
+    }
+
+    .products-col-top{
+        margin-left: 0!important;
+    }
+
+    .products-col-right{
+        margin-left: 0!important;
+        margin-right: 0!important;
+        width: 100%!important;
+    }
+
+    .index-container{
+        margin-top: 2rem;
     }
 }
 
@@ -120,7 +256,6 @@ body {
     color: white;
     border: solid black 1px;
 }
-
 
 .header-container .header-left a .Logo, .sidenav-col .sidenav-left a .Logo {
     margin-left: 1rem;
@@ -562,8 +697,9 @@ input[type=submit]:hover {
     margin-left: 3rem;
 }
 
+
 .references-category {
-    margin-left: 3rem !important;
+    margin-left: 3rem;
 }
 
 /*REFERENZEN*/
@@ -617,8 +753,8 @@ input[type=submit]:hover {
 
 div img {
     display: inline-block;
-    height: 100%;
     vertical-align: middle;
+    height: 100%;
 }
 
 

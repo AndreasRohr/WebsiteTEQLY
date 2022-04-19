@@ -1,5 +1,6 @@
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("main").style.display="none";
     document.body.style.height = "100%";
     document.body.style.overflow = "hidden";
     document.getElementById("side-navbar").style.display="none";
@@ -9,6 +10,7 @@ function openNav() {
 }
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.display="block";
     document.body.style.height = "";
     document.body.style.overflow = "";
     document.getElementById("side-navbar").style.display="";
@@ -37,7 +39,7 @@ span.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target === modal) {
         modal.style.display = "none";
     }
 }

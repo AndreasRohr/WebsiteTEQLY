@@ -5,7 +5,7 @@
     <title>TEQLY</title>
     <?php include 'header.php' ?>
 </head>
-<body>
+<body id="body">
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
@@ -106,15 +106,15 @@
         </div>
         -->
     </div>
+    <br>
+    <?php include 'footer.php' ?>
 </div>
-<br>
-<?php include 'footer.php' ?>
 </body>
 </html>
 <script type="text/javascript" src="script.js"></script>
 <script>
     // Random String return for index.php
-    var items = Array("Ihre IT-Partner.", "Ihre Problemlöser.", "Ihre Supporter.", "Ihre Programmierer.", "Ihre IT-Berater.", "Ihre Digitalisierer.");
+    var items = Array("Ihre IT-Partner.", "Ihre Problemlöser.", "Ihre Supporter.", "Ihre Programmierer.", "Ihre IT-Berater.");
 
     window.onload = function answerWriter() {
         document.getElementById("titleh1").innerHTML = randString();

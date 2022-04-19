@@ -12,6 +12,8 @@ Todo: Braucht es den <head> in einem .php Element?
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+<div>
+<div id="main">
 <div class="row-footer">
     <div style="margin-right: 2rem; color: black" class="col-footer">
         Dienstleistungen
@@ -84,6 +86,7 @@ Todo: Braucht es den <head> in einem .php Element?
 </div>
 </div>
 <div style="height: 10%"></div>
+</div>
 </body>
 </html>
 <script src="https://support.teqly.app/assets/chat/chat.min.js"></script>
@@ -93,7 +96,7 @@ Todo: Braucht es den <head> in einem .php Element?
             title: 'TEST',
             background: '#111',
             fontSize: '12px',
-            chatId: 1,
+            chatId: 3,
         });
     });
 </script>

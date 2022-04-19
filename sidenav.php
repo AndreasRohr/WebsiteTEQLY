@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 </head>
-<body>
+<body id="body">
 <div id="mySidenav" class="sidenav">
     <div style=" max-width: 1500px"  class="sidenav-col">
         <div class="sidenav-right" style="display: flex; float: right; position: relative">
@@ -36,16 +36,16 @@
             <div class="linewhite"></div>
             <p id="navigation">NAVIGATION</p>
             <div class="navBlack">
-                <a href="index.php">Start</a>
-                <a href="products.php">Produkte & Services</a>
-                <a href="references.php">Referenzen</a>
-                <a href="team.php">Team</a>
-                <a href="#">Kontakt</a>
+                <a href="index.php">Home</a>
+                <a href="products.php">Dienstleistungen</a>
+                <a href="references.php">Projekte</a>
+                <a href="contact.php">Kontakt</a>
+                <a href="app_plattform.php">App-Plattform</a>
             </div>
         </div>
         <div class="column-sidenav">
-            <div class="linewhite"></div>
-            <p id="navigation">BLOG</p>
+            <div id="blog-line" class="linewhite"></div>
+            <p class="blog-nav" id="navigation">BLOG</p>
             <div class="blog-content">
                 <?php include 'blog.php' ?>
             </div>
