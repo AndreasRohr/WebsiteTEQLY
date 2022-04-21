@@ -6,13 +6,9 @@
     <title>Title</title>
     <link rel="stylesheet" href="normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="style.css" media="all" type="text/css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <script src="https://unpkg.com/feather-icons"></script>
     <script src="form.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
 
     <!-- Cookie Consent by TermsFeed (https://www.TermsFeed.com) -->
     <script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
@@ -37,8 +33,7 @@
     <script type="text/plain" cookie-consent="strictly-necessary" src='https://www.google.com/recaptcha/api.js'></script>
     <!-- end of ReCaptcha-->
 
-    <noscript>ePrivacy and GPDR Cookie Consent by <a href="https://www.TermsFeed.com/" rel="nofollow">TermsFeed Generator</a></noscript>
-    <!-- End Cookie Consent by TermsFeed (https://www.TermsFeed.com) -->
+    <!-- End Cookie Consent by TermsFeed -->
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/Favicon_TEQLY.png">
 </head>
