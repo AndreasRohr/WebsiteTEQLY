@@ -7,11 +7,12 @@
 </head>
 <body id="body">
 
-<script>
+<script async>
     // Random String return for index.php
     var items = Array("Ihre IT-Partner.", "Ihre Problemlöser.", "Ihre Supporter.", "Ihre Programmierer.", "Ihre IT-Berater.");
 
     window.onload = function answerWriter() {
+        document.getElementById('titleh1').style.visibility = "visible";
         document.getElementById("titleh1").innerHTML = randString();
     }
     function randString() {
@@ -24,16 +25,14 @@
     <div class="title-row">
         <div class="title-left">
                 <h2 style="margin-left: 3.5rem">Wir sind TEQLY.</h2>
-                <h1 id="titleh1" class="indextitle">TEST</h1>
+                <h1 id="titleh1" class="indextitle">.</h1>
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <!--
         <video autoplay muted loop style="z-index: -1" playsinline>
             <source src="assets/index_video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        -->
         <div  class="title-right">
             <h2>Willkommen bei TEQLY.<br>Wir sind Ihre Ansprechpartner wenn es um innovative und kundenorientiert IT-Lösungen geht.</h2>
         </div>

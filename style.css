@@ -839,7 +839,7 @@ div img {
 }
 
 .title-left h1 {
-    overflow: hidden;
+    visibility: hidden;
     white-space: nowrap;
     width: 0;
 }
