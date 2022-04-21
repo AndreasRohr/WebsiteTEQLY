@@ -1062,8 +1062,9 @@ ul[class] li > * {
 }
 
 .termsfeed-com---palette-light.termsfeed-com---nb {
+
     background-color: white!important;
-    font-family: "JetBrains Mono";
+    font-family: "JetBrainsMono"!important;
     border: solid 1px;
 }
 
@@ -1088,11 +1089,11 @@ ul[class] li > * {
 }
 
 .termsfeed-com---palette-light .cc-pc-container{
-    font-family: "JetBrains Mono";
+    font-family: "JetBrainsMono";
 }
 
 .termsfeed-com---palette-light .cc-cp-body-tabs{
-    font-family: "JetBrains Mono"!important;
+    font-family: "JetBrainsMono"!important;
 }
 
 .termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox:checked+label:before{
