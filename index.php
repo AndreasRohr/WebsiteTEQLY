@@ -10,6 +10,7 @@
     <div class="title-row">
         <div class="title-left">
             <div class="typewriter">
+                <h2 style="margin-left: 3.5rem">Wir sind TEQLY.</h2>
                 <h1 id="titleh1" class="indextitle">.</h1>
             </div>
         </div>
