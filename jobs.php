@@ -49,7 +49,6 @@
                     <li>Spannende Projekte.</li>
                     <li>Moderner Arbeitsplatz in Brugg AG.</li>
                     <li>Die Möglichkeit Projekte zu leiten.</li>
-                    <li>Zeitgemässe Anstellungsbedingungen.</li>
                 </ul>
             </div>
         </div>

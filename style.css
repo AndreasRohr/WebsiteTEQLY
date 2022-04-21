@@ -11,6 +11,13 @@
 
 @media all and (max-device-width: 480px) and (orientation: portrait) {
 
+    .sidenav-right{
+        margin-right: 0.7rem!important;
+    }
+
+    #mySidenav{
+        height: 100vh;
+    }
     .columnnav-2, .blog-content, .blog-nav, #blog-line{
         display: none;
     }
@@ -58,7 +65,14 @@
         font-size: 1.5rem;
         margin-bottom: 0!important;
     }
+    .title-row .title-left h1{
+        font-size: 1.5rem;
+        display: inline;
+        margin-left: 1rem;
+        max-width: 50%!important;
+        margin-bottom: 2rem!important;
 
+    }
     .title-row .title-left .typewriter h1{
         font-size: 2rem;
         display: inline;
@@ -158,6 +172,9 @@
 
     .index-container{
         margin-top: 2rem;
+    }
+    .header-row{
+        grid-template-columns: repeat(1,auto)!important;
     }
 }
 
@@ -484,6 +501,7 @@ body {
 
 .blog-content h1 {
     color: white;
+    display: none;
 }
 
 .sidenav .post-content {
@@ -520,7 +538,7 @@ body {
 }
 
 .navBlack a {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 
@@ -1036,5 +1054,34 @@ ul[class] li > * {
     font-size: 1.2em;
     float: right !important;
     margin-top: -1.6rem !important;
-    margin-right: 18rem;
+    margin-right: 13rem;
+}
+
+.sidenav-right{
+    margin-right: 2.4rem;
+}
+
+.termsfeed-com---palette-light.termsfeed-com---nb {
+    background-color: white!important;
+    font-family: "JetBrains Mono";
+}
+
+.termsfeed-com---palette-light .cc-nb-okagree {
+    background-color: white!important;
+    color: black!important;
+    border: solid black 1px;
+    border-radius: 0px!important;
+}
+.termsfeed-com---palette-light .cc-nb-reject {
+    background-color: white!important;
+    color: black!important;
+    border: solid black 1px;
+    border-radius: 0px!important;
+}
+
+.termsfeed-com---palette-light .cc-nb-changep {
+    background-color: black!important;
+    color: white!important;
+    border: solid black 1px;
+    border-radius: 0px!important;
 }

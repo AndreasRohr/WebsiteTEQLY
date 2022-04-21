@@ -11,12 +11,10 @@
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
-            <div class="typewriter">
                 <!--EDIT HERE-->
                 <h2 class="references-category">Entwicklung</h2>
                 <!--EDIT HERE-->
                 <h1  class="indextitle">Praxis Dolezal & Zeller</h1>
-            </div>
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">

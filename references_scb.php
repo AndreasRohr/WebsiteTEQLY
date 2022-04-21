@@ -11,12 +11,10 @@
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
-            <div class="typewriter">
                 <!--EDIT HERE-->
                 <h2 class="references-category">Spezialprojekte</h2>
                 <!--EDIT HERE-->
                 <h1  class="indextitle">SCB Schlittschuh Club Bern</h1>
-            </div>
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">

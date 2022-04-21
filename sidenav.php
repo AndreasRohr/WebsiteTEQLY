@@ -52,9 +52,9 @@
         </div>
         <div class="columnnav-2">
             <div class="linewhite"></div>
-            <p id="navigation">RENTAL</p>
-            <a style="color: white; font-size: 16px" href="https://www.rental.teqly.ch">Hier klicken um auf TEQLY | Rental zu gelangen.</a>
-            <p id="navigation">TEQLY | Rental Vorstellungsvideo:</p>
+            <p id="navigation">EASIT</p>
+            <a style="color: white; font-size: 16px" href="https://www.rental.teqly.ch">Hier klicken um auf EASIT zu gelangen.</a>
+            <p id="navigation">EASIT Vorstellungsvideo:</p>
             <iframe src="https://www.youtube.com/embed/gTN6CIMeIag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </div>
