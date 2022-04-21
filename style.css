@@ -1106,3 +1106,7 @@ ul[class] li > * {
     border: solid black 1px;
     border-radius: 0px!important;
 }
+
+.post .post-content a{
+    font-size: 20px!important;
+}
