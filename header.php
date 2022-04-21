@@ -39,7 +39,8 @@
 
     <noscript>ePrivacy and GPDR Cookie Consent by <a href="https://www.TermsFeed.com/" rel="nofollow">TermsFeed Generator</a></noscript>
     <!-- End Cookie Consent by TermsFeed (https://www.TermsFeed.com) -->
-
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/Favicon_TEQLY.png">
 </head>
 <body>
 <div id="header">
@@ -58,8 +59,13 @@
     </div>
     <div class="header-left" style="max-width: 50px">
         <a class="logo" href="index.php" style="margin-left: 0rem">
+            <div>
             <img alt="TEQLY" src="assets/schriftzug_vertikal.png"
                  width=50" height="7">
+            </div>
+            <div>
+                <img src="assets/Logo_TEQLY_Rotate.png" width="50">
+            </div>
         </a>
     </div>
 </div>

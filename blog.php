@@ -1,7 +1,7 @@
 
 <?php
 
-$url = "https://blog.teqly.ch/c58698ebfd3b763bd64860a78a99a4/rss";
+$url = "https://blog.teqly.ch/rss";
 if(isset($_POST['submit'])){
     if($_POST['feedurl'] != ''){
         $url = $_POST['feedurl'];
@@ -41,7 +41,7 @@ if(!empty($feeds)){
                 <span style="color: white"><?php echo $pubDate; ?></span>
             </div>
             <div class="post-content">
-                <?php echo implode(' ', array_slice(explode(' ', $description), 0, 20)) . "..."; ?> <a href="<?php echo $link; ?>">Mehr erfahren</a>
+                <?php echo implode(' ', array_slice(explode(' ', $description), 0, 20)) . "..."; ?> <a href="<?php echo $link; ?>">Artikel lesen.</a>
             </div>
         </div>
 
