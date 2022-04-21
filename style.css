@@ -11,6 +11,9 @@
 
 @media all and (max-device-width: 480px) and (orientation: portrait) {
 
+    .title-left .typewriter h2{
+        margin-left: 0;
+    }
     .sidenav-right{
         margin-right: 0.7rem!important;
     }
