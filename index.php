@@ -6,6 +6,18 @@
     <?php include 'header.php' ?>
 </head>
 <body id="body">
+<script>
+    // Random String return for index.php
+    var items = Array("Ihre IT-Partner.", "Ihre Problemlöser.", "Ihre Supporter.", "Ihre Programmierer.", "Ihre IT-Berater.");
+
+    window.onload = function answerWriter() {
+        document.getElementById("titleh1").innerHTML = randString();
+    }
+    function randString() {
+        var item = items[Math.floor(Math.random() * items.length)];
+        return item;
+    }
+</script>
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
@@ -111,17 +123,6 @@
 </body>
 </html>
 <script type="text/javascript" src="script.js"></script>
-<script>
-    // Random String return for index.php
-    var items = Array("Ihre IT-Partner.", "Ihre Problemlöser.", "Ihre Supporter.", "Ihre Programmierer.", "Ihre IT-Berater.");
 
-    window.onload = function answerWriter() {
-        document.getElementById("titleh1").innerHTML = randString();
-    }
-    function randString() {
-        var item = items[Math.floor(Math.random() * items.length)];
-        return item;
-    }
-</script>
 
 
