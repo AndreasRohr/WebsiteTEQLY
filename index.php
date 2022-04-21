@@ -6,6 +6,7 @@
     <?php include 'header.php' ?>
 </head>
 <body id="body">
+<!--
 <script>
     // Random String return for index.php
     var items = Array("Ihre IT-Partner.", "Ihre Problemlöser.", "Ihre Supporter.", "Ihre Programmierer.", "Ihre IT-Berater.");
@@ -18,11 +19,12 @@
         return item;
     }
 </script>
+-->
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
                 <h2 style="margin-left: 3.5rem">Wir sind TEQLY.</h2>
-                <h1 id="titleh1" class="indextitle">.</h1>
+                <h1 id="titleh1" class="indextitle">TEST</h1>
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
