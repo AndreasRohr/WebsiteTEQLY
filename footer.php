@@ -102,7 +102,7 @@ Todo: Braucht es den <head> in einem .php Element?
             title: 'Jetzt Chatten',
             background: '#111',
             fontSize: '12px',
-            chatId: 3,
+            chatId: 1,
         });
     });
 </script>
