@@ -26,7 +26,7 @@
         </div>
         <div class="sidenav-left" style="margin-bottom: 0.1rem; width: 50px">
             <a class="logo" href="index.php">
-                <img  class="logo-white" alt="TEQLY" src="assets/Logo.png"
+                <img  class="logo-white" alt="TEQLY" src="assets/Logo_TEQLY.png"
                      width=50" height="7">
             </a>
         </div>
