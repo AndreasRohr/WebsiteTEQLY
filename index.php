@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- <php include 'header_imports.php' ?>-->
+<?php include 'header_imports.php' ?>
     <title>TEQLY</title>
-<!--    <php //include 'header.php' ?>-->
+    <?php include 'header.php' ?>
 </head>
 <body id="body">
 
@@ -28,10 +28,12 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
+        <!--
         <video autoplay muted loop style="z-index: -1" playsinline>
             <source src="assets/index_video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+        -->
         <div  class="title-right">
             <h2>Willkommen bei TEQLY.<br>Wir sind Ihre Ansprechpartner wenn es um innovative und kundenorientiert IT-Lösungen geht.</h2>
         </div>
@@ -90,7 +92,7 @@
     </div>
     <br>
 
-<!--    <php include 'footer.php' ?>-->
+    <?php include 'footer.php' ?>
 
 </div>
 </body>
