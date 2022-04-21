@@ -53,7 +53,7 @@
         <div class="columnnav-2">
             <div class="linewhite"></div>
             <p id="navigation">EASIT.rent</p>
-            <a style="color: white; font-size: 16px" href="https://www.rental.teqly.ch">Hier klicken um auf EASIT.rent zu gelangen.</a>
+            <a style="color: white; font-size: 16px" href="https://easit.rent">Hier klicken um auf EASIT.rent zu gelangen.</a>
             <p id="navigation">EASIT.rent Vorstellungsvideo:</p>
             <iframe src="https://www.youtube.com/embed/gTN6CIMeIag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
