@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<?php include 'header_imports.php' ?>
-    <title>TEQLY</title>
-    <?php include 'header.php' ?>
-</head>
-<body id="body">
-
-<script async>
+<script>
     // Random String return for index.php
     var items = Array("Ihre IT-Partner.", "Ihre Problemlöser.", "Ihre Supporter.", "Ihre Programmierer.", "Ihre IT-Berater.");
 
@@ -20,6 +13,12 @@
         return item;
     }
 </script>
+<head>
+<?php include 'header_imports.php' ?>
+    <title>TEQLY</title>
+    <?php include 'header.php' ?>
+</head>
+<body id="body">
 
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
