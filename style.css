@@ -11,7 +11,7 @@
 
 @media all and (max-device-width: 480px) and (orientation: portrait) {
 
-    .title-left .typewriter h2{
+    .title-left h2{
         margin-left: 1rem !important;
     }
     .sidenav-right{
@@ -76,17 +76,12 @@
         margin-bottom: 2rem!important;
 
     }
-    .title-row .title-left .typewriter h1{
+    .title-row .title-left h1{
         font-size: 2rem;
         display: inline;
         margin-left: 1rem;
         max-width: 50%!important;
         margin-bottom: 2rem!important;
-
-    }
-
-    .title-row .title-left .typewriter {
-        animation: typing 2.5s forwards;
 
     }
 
@@ -200,7 +195,7 @@
         display: block;
     }
 
-    .title-row .title-left .typewriter h1{
+    .title-row .title-left h1{
         font-size: 4rem;
         display: block;
         max-width: 700px;
@@ -843,10 +838,9 @@ div img {
     font-weight: bolder;
 }
 
-.typewriter h1 {
+.title-left h1 {
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 2.5s forwards;
     width: 0;
 }
 

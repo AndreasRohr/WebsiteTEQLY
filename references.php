@@ -10,9 +10,7 @@
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
-            <div class="typewriter">
                 <h1 class="indextitle">Unsere Projekte.</h1>
-            </div>
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">

@@ -10,9 +10,7 @@
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
-            <div class="typewriter">
                 <h1 id="titleh1" class="indextitle">Dienstleistungen.</h1>
-            </div>
         </div>
     </div>
     <div class="index-container">
