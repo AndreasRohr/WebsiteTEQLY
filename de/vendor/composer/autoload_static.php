@@ -21,27 +21,27 @@ class ComposerStaticInitd359baac21f520c04e608f4eed750560
     public static $prefixDirsPsr4 = array(
         'Gregwar\\Captcha\\' =>
             array(
-                0 => __DIR__ . '/..' . '/gregwar/captcha',
+                0 => __DIR__ . '/vendor' . '/gregwar/captcha',
             ),
         'FormGuide\\PHPFormValidator\\' =>
             array(
-                0 => __DIR__ . '/..' . '/FormGuide/PHPFormValidator/src',
+                0 => __DIR__ . '/..',
             ),
         'FormGuide\\Handlx\\' =>
             array(
-                0 => __DIR__ . '/../..' . '/src',
+                0 => __DIR__ . '/../shared' . '/src',
             ),
     );
 
     public static $classMap = array(
-        'EasyPeasyICS' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/EasyPeasyICS.php',
-        'PHPMailer' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmailer.php',
-        'PHPMailerOAuth' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauth.php',
-        'PHPMailerOAuthGoogle' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauthgoogle.php',
-        'POP3' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.pop3.php',
-        'SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.smtp.php',
-        'ntlm_sasl_client_class' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/ntlm_sasl_client.php',
-        'phpmailerException' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmailer.php',
+        'EasyPeasyICS' => __DIR__ . '/..',
+        'PHPMailer' => __DIR__ . '/..',
+        'PHPMailerOAuth' => __DIR__ . '/..',
+        'PHPMailerOAuthGoogle' => __DIR__ . '/..',
+        'POP3' => __DIR__ . '/..',
+        'SMTP' => __DIR__ . '/..',
+        'ntlm_sasl_client_class' => __DIR__ . '/..',
+        'phpmailerException' => __DIR__ . '/..',
     );
 
     public static function getInitializer(ClassLoader $loader)

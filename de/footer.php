@@ -6,9 +6,9 @@ Todo: Braucht es den <head> in einem .php Element?
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../../css/normalize.css" media="all" type="text/css">
+    <link rel="stylesheet" href="../css/normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../css/style.css" media="all" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" media="all" type="text/css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>

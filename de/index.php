@@ -14,9 +14,9 @@
     }
 </script>
 <head>
-<?php include 'shared/header_imports.php' ?>
+<?php include 'header_imports.php' ?>
     <title>TEQLY</title>
-    <?php include 'shared/header.php' ?>
+    <?php include 'header.php' ?>
 </head>
 <body id="body">
 
@@ -90,7 +90,7 @@
     </div>
     <br>
 
-    <?php include 'shared/footer.php' ?>
+    <?php include 'footer.php' ?>
 
 </div>
 </body>

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
-    <link rel="stylesheet" href="../../css/normalize.css" media="all" type="text/css">
-    <link rel="stylesheet" href="../../css/style.css" media="all" type="text/css">
-    <script src="form/form.js"></script>
+    <link rel="stylesheet" href="../css/normalize.css" media="all" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" media="all" type="text/css">
+    <script src="form.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
 
@@ -35,7 +35,7 @@
 
     <!-- End Cookie Consent by TermsFeed -->
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../../assets/Favicon_TEQLY.png">
+    <link rel="icon" type="image/png" href="../assets/Favicon_TEQLY.png">
 </head>
 <body>
 <div id="header">
@@ -46,16 +46,16 @@
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn" aria-hidden="true">DE</button>
             <div id="myDropdown" class="dropdown-content">
-                <a href="../../fr/">FR</a>
-                <a href="../../en/">EN</a>
+                <a href="../fr">FR</a>
+                <a href="../en">EN</a>
             </div>
         </div>
-        <button class="homebtnBurger" onclick="openNav()"><img src="../../assets/menu.svg" aria-hidden="true"></button>
+        <button class="homebtnBurger" onclick="openNav()"><img src="../assets/menu.svg" aria-hidden="true"></button>
     </div>
     <div class="header-left" style="max-width: 50px">
-        <a class="logo" href="../../de/index.php" style="margin-left: 0rem">
+        <a class="logo" href="index.php" style="margin-left: 0rem">
             <div>
-                <img src="../../assets/Logo_TEQLY.png" width="50">
+                <img src="../assets/Logo_TEQLY.png" width="50">
             </div>
 
         </a>
@@ -65,13 +65,13 @@
 <div id="myModal" class="popupform">
     <div class="popupform-content">
         <span class="close">&times;</span>
-        <?php include 'form/formpage.php' ?>
+        <?php include 'formpage.php' ?>
     </div>
 </div>
 </div>
 </body>
 </html>
-<script type="text/javascript" src="../../js/script.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
 <script async
         src="https://www.googletagmanager.com/gtag/js?id=ID">
 </script>
