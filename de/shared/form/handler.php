@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 Tested working with PHP5.4 and above (including PHP 7 )
 
  */
-require_once './vendor/autoload.php';
+require_once 'vendor/autoload.php';
 
 use FormGuide\Handlx\FormHandler;
 
@@ -23,6 +23,6 @@ $pp->requireReCaptcha();
 $pp->getReCaptcha()->initSecretKey('6LcqCakeAAAAAFW2kFpajxnWd4rvyoK6Rb8zUvng');
 
 
-$pp->sendEmailTo('jannik@teqly.ch'); // ← Your email here
+$pp->sendEmailTo('info@teqly.ch'); // ← Your email here
 
 echo $pp->process($_POST);

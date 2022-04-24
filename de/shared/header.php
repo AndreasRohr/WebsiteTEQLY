@@ -46,20 +46,14 @@
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn" aria-hidden="true">DE</button>
             <div id="myDropdown" class="dropdown-content">
+                <a href="../../fr/">FR</a>
                 <a href="../../en/">EN</a>
-                <a href="#">FR</a>
             </div>
         </div>
         <button class="homebtnBurger" onclick="openNav()"><img src="../../assets/menu.svg" aria-hidden="true"></button>
     </div>
     <div class="header-left" style="max-width: 50px">
         <a class="logo" href="../../de/index.php" style="margin-left: 0rem">
-<!--
-            <div>
-            <img alt="TEQLY" src="assets/schriftzug_vertikal.png"
-                 width=50" height="7">
-            </div>
-            -->
             <div>
                 <img src="../../assets/Logo_TEQLY.png" width="50">
             </div>
