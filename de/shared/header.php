@@ -53,7 +53,7 @@
         <button class="homebtnBurger" onclick="openNav()"><img src="../../assets/menu.svg" aria-hidden="true"></button>
     </div>
     <div class="header-left" style="max-width: 50px">
-        <a class="logo" href="../index.php" style="margin-left: 0rem">
+        <a class="logo" href="../../de/index.php" style="margin-left: 0rem">
 <!--
             <div>
             <img alt="TEQLY" src="assets/schriftzug_vertikal.png"
