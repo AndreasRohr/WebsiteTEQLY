@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <?php include 'structure_header_imports.php' ?>
     <meta charset="UTF-8">
