@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,12 +15,12 @@
 <div id="mySidenav" class="sidenav">
     <div style=" max-width: 1500px"  class="sidenav-col">
         <div class="sidenav-right" style="display: flex; float: right; position: relative">
-            <button style="margin-top:0.4rem; "id="navbtnContact" class="navbtnContact">Jetzt kontaktieren!</button>
+            <button style="margin-top:0.4rem; "id="navbtnContact" class="navbtnContact">Contactez maintenant !</button>
             <div class="sidenav-dropdown">
-                <button onclick="myFunction2()" class="sidenav-dropbtn">DE</button>
+                <button onclick="myFunction2()" class="sidenav-dropbtn">FR</button>
                 <div id="sidenav-myDropdown" class="sidenav-dropdown-content">
+                    <a href="../de/index.php">DE</a>
                     <a href="../en/index.php">EN</a>
-                    <a href="../fr/">FR</a>
                 </div>
             </div>
             <button style="margin-top:0.4rem;" id="navbtnClose" class="navbtnClose"  onclick="closeNav()"><img src="../../assets/x.svg" aria-hidden="true"></button>
@@ -38,11 +38,10 @@
             <p id="navigation">NAVIGATION</p>
             <div class="navBlack">
                 <a href="index.php">Start</a>
-                <a href="tq_products.php">Dienstleistungen</a>
-                <a href="tq_references.php">Projekte</a>
-                <a href="tq_contact.php">Kontakt</a>
-                <a href="tq_app_plattform.php">App-Plattform</a>
-                <a href="tq_app_plattform.php">Über TEQLY</a>
+                <a href="tq_products.php">Services</a>
+                <a href="tq_references.php">Projets</a>
+                <a href="tq_contact.php">Contact</a>
+                <a href="tq_app_plattform.php">À propos de TEQLY</a>
             </div>
         </div>
         <div class="column-sidenav">
@@ -55,8 +54,8 @@
         <div class="columnnav-2">
             <div class="linewhite"></div>
             <p id="navigation">EASIT.rent</p>
-            <a style="color: white; font-size: 16px" href="https://easit.rent">Hier klicken um auf EASIT.rent zu gelangen.</a>
-            <p id="navigation">EASIT.rent Vorstellungsvideo:</p>
+            <a style="color: white; font-size: 16px" href="https://easit.rent">Cliquez ici pour accéder à EASIT.rent.</a>
+            <p id="navigation">Vidéo de présentation d'EASIT.rent:</p>
             <iframe src="https://www.youtube.com/embed/gTN6CIMeIag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </div>

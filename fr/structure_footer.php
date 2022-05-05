@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -13,61 +13,61 @@
     <div id="main">
         <div class="row-footer">
             <div style="margin-right: 2rem; color: black" class="col-footer">
-                Dienstleistungen
+                Services
                 <div class="col-footer">
                     <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
                     <a style="color: black" href="tq_products.php#easit">EASIT.rent</a>
                     <br>
-                    <a style="color: black" href="tq_products.php#programming">Entwicklung</a>
+                    <a style="color: black" href="tq_products.php#programming">Développement</a>
                     <br>
-                    <a style="color: black" href="tq_products.php#infrastructure">Infrastruktur</a>
+                    <a style="color: black" href="tq_products.php#infrastructure">Infrastructure</a>
                     <br>
                     <a style="color: black" href="tq_products.php#support">Support</a>
                     <br>
-                    <a style="color: black" href="tq_products.php#consulting">Consulting</a>
+                    <a style="color: black" href="tq_products.php#consulting">Conseil</a>
                     <br>
-                    <a style="color: black" href="tq_products.php#special">Spezialprojekte</a>
+                    <a style="color: black" href="tq_products.php#special">Projets spéciaux</a>
                 </div>
             </div>
             <div style="margin-right: 2rem; color: black" class="col-footer">
-                Unternehmen
+                Entreprise
                 <div class="col-footer">
                     <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-                    <a style="color: black" href="tq_about.php">Über uns</a>
+                    <a style="color: black" href="tq_about.php">À propos de nous</a>
                     <br>
-                    <a style="color: black" href="tq_jobs.php">Jobs</a>
+                    <a style="color: black" href="tq_jobs.php">Emplois</a>
                     <br>
-                    <a style="color: black" href="tq_references.php">Projekte</a>
+                    <a style="color: black" href="tq_references.php">Projets</a>
                     <br>
                     <a style="color: black" href="https://blog.teqly.ch">Blog</a>
                     <br>
-                    <a style="color: black" href="tq_contact.php">Kontakt</a>
+                    <a style="color: black" href="tq_contact.php">Contact</a>
                     <br>
                     <a style="color: black" href="tq_press.php">Presse</a>
                 </div>
             </div>
             <div style="margin-right: 2rem; color: black" class="col-footer">
-                Applikationen
+                Applications
                 <div class="col-footer">
                     <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-                    <a style="color: black" href="tq_app_plattform.php">App-Plattform</a>
+                    <a style="color: black" href="tq_app_plattform.php">Plate-forme d'applications</a>
                     <br>
-                    <a style="color: black" href="https://support.teqly.app">Support-Plattform</a>
+                    <a style="color: black" href="https://support.teqly.app">Plate-forme de support</a>
                 </div>
             </div>
         </div>
         <div class="row-footer">
             <div style="margin-right: 2rem; color: black" class="col-footer">
-                Rechtliches
+                Mentions légales
                 <div class="col-footer">
                     <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
                     <a style="color: black" href="legal_imprint.php">Impressum</a>
                     <br>
-                    <a style="color: black" href="legal_dataprivacy.php">Datenschutzerklärung</a>
+                    <a style="color: black" href="legal_dataprivacy.php">Déclaration de confidentialité</a>
                     <br>
-                    <a style="color: black" href="#" id="open_preferences_center">Cookie-Einstellungen</a>
+                    <a style="color: black" href="#" id="open_preferences_center">Paramètres des cookies</a>
                     <br>
-                    <a style="color: black" href="legal_agb.php">Allgemeine Geschäftsbedingungen</a>
+                    <a style="color: black" href="legal_agb.php">Conditions générales de vente</a>
                 </div>
             </div>
             <div style="margin-right: 2rem; color: black" class="col-footer">
@@ -98,7 +98,7 @@
 <script>
     $(function () {
         new ZammadChat({
-            title: 'Chat starten.',
+            title: 'Démarrer le chat.',
             background: '#111',
             fontSize: '12px',
             chatId: 1,

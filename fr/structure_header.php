@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,12 +42,12 @@
 
 <div style="position: fixed; max-width: 1464px; margin-left: auto; z-index: 1" id="header-container" class="header-container">
     <div class="header-right" style="display: flex; float: right">
-        <button id="homebtnContact" class="homebtnContact">Jetzt kontaktieren!</button>
+        <button id="homebtnContact" class="homebtnContact">Contactez maintenant !</button>
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn" aria-hidden="true">DE</button>
+            <button onclick="myFunction()" class="dropbtn" aria-hidden="true">FR</button>
             <div id="myDropdown" class="dropdown-content">
+                <a href="../de/index.php">DE</a>
                 <a href="../en/index.php">EN</a>
-                <a href="../fr/index.php">FR</a>
             </div>
         </div>
         <button class="homebtnBurger" onclick="openNav()"><img src="../assets/page_menu.svg" aria-hidden="true"></button>
