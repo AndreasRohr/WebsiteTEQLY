@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--
-Todo: Braucht es den <head> in einem .php Element?
--->
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
