@@ -20,14 +20,14 @@
                 <button onclick="myFunction2()" class="sidenav-dropbtn">DE</button>
                 <div id="sidenav-myDropdown" class="sidenav-dropdown-content">
                     <a href="../en/index.php">EN</a>
-                    <a href="../fr/">FR</a>
+                    <a href="../fr/index.php">FR</a>
                 </div>
             </div>
-            <button style="margin-top:0.4rem;" id="navbtnClose" class="navbtnClose"  onclick="closeNav()"><img src="../../assets/x.svg" aria-hidden="true"></button>
+            <button style="margin-top:0.4rem;" id="navbtnClose" class="navbtnClose"  onclick="closeNav()"><img src="../assets/page_x.svg" aria-hidden="true"></button>
         </div>
         <div class="sidenav-left" style="margin-bottom: 0.1rem; width: 50px">
             <a class="logo" href="../index.php">
-                <img  class="logo-white" alt="TEQLY" src="../../assets/Logo_TEQLY.png"
+                <img  class="logo-white" alt="TEQLY" src="../assets/teqly_logo.png"
                      width=50" height="7">
             </a>
         </div>
