@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include 'header_imports.php' ?>
+    <?php include 'structure_header_imports.php' ?>
     <!--EDIT HERE-->
     <title>References</title>
-    <?php include 'header.php' ?>
+    <?php include 'structure_header.php' ?>
 </head>
 <body>
 
@@ -37,7 +37,7 @@
     </div>
 </div>
 <br>
-<?php include 'footer.php' ?>
+<?php include 'structure_footer.php' ?>
 </body>
 </html>
 <script type="text/javascript" src="/Website/script.js"></script>

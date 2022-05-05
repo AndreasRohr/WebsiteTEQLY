@@ -2,7 +2,7 @@
 <html lang="en">
 <script>
     // Random String return for index.php
-    var items = Array("Ihre IT-Partner.", "Ihre Problemlöser.", "Ihre Supporter.", "Ihre Programmierer.", "Ihre IT-Berater.");
+    var items = Array("Your IT partners.", "Your problem solvers.", "Your supporters.", "Your programmers.", "Your IT consultants.");
 
     window.onload = function answerWriter() {
         document.getElementById('titleh1').style.visibility = "visible";
@@ -14,16 +14,20 @@
     }
 </script>
 <head>
-<?php include 'shared/header_imports.php' ?>
-    <title>TEQLY</title>
-    <?php include 'shared/header.php' ?>
+<?php include 'structure_header_imports.php' ?>
+    <meta charset="UTF-8">
+    <meta name="description" content="Welcome to our website. Learn more about us, our services, our team and get in touch with us.">
+    <meta name="keywords" content="teqly, teqly gmbh, it service, it service desk, it service management, website, website erstellen, website erstellen schweiz, website erstellen lassen, website design, website analyse, website aufbau, website agentur, website anbieter, webdesign, webdesigner, webdesign agentur, webdesign agentur zürich, webdesign zürich, webdesign agentur schweiz, webdesign aarau, webdesign ärzte, webdesign für ärzte, webdesign für ärzte - praxis website - online praxismarketing, webdesign aargau, webdesign schweiz, webdesign bern, programmierer, programmiererin, programmierer schweiz, programmierer beauftragen, support computer, computer support and services, datenrettung, datenrettung zürich, datenrettung festplatte, datenrettung schweiz, it support, it support zürich, informatik, informatiker, informatiker plattformentwicklung, softwareentwicklung, softwareentwicklungsprozess, softwareentwicklung zürich, softwareentwicklung schweiz, softwareentwicklung bern, supportvertrag, supportvertrag software, supportvertrag website, supportvertrag buchen, it support vertrag, cybersicherheit, cybersicherheit schweiz, cybersicherheit unternehmen, cybersicherheit anbieter, cybersicherheit agentur, cybersicherheit admin, cyber sicherheits check, it management, it management and consulting, it management beratung, it management consultant, it beratung, it beratung schweiz, it beratung buchen, it beratung zürich, it beratung schweiz, it beratung aargau, software, software update, software engineer, softwareentwickler, software as a service, software engineering, software architect, software ärzte, software änderungsmanagement, software baugewerbe, hardware, hardware firewall, hardware auslesen, hardware computer, hardware kaufen oder leasen, hardware kaufen günstig, hardware kaufen unternehmen, hardware kaufen pc, hardware broker schweiz, büro hardware kaufen, hardware über firma kaufen, server hardware gebraucht kaufen, it hardware kaufen oder leasen, hardware security module kaufen, software kaufen, software kaufen schweiz, software kaufen auf rechnung, softwareentwicklung kaufen, faktura software kaufen, friseur software kaufen, forum software kaufen, software kaufen homepage, netzwerk kaufen, netzwerk kaufen pc, netzwerk switch kaufen, netzwerk hub kaufen, netzwerk server kaufen, netzwerk set kaufen, netzwerk drucker kaufen, netzwerk einrichten, büronetzwerk, büronetzwerk aufbauen, büronetzwerk einrichten, server für büronetzwerk, kleines büronetzwerk aufbauen, praxis informatik, arztpraxis informatik, informatik arztpraxis, kmu informatik, kmu informatik support, kmu informatik partner, kmu-informatik, kmu informatik zürich, kmu it, kmu it management, kmu itm, kmu it support, kmu it infrastruktur, kmu it sicherheit, kmu it lösungen, it ausgaben kmu, it consulting kmu, it dienstleister kmu, it für kmu, it notfallplan kmu, kmu-informatik, it-kosten kmu, kmu innovativ it, it organisation kmu, it outsourcing kmu, kmu it security, kmu it service, kmu it schweiz, it trends kmu, it für kmu, kmu it beratung, webdesign kmu, webdesign für kmu, kmu website, webdesign firma, it firma, firmennetzwerk, firmennetzwerk einrichten, firmennetzwerk aufbauen, it partner, it partner consulting, partner it-dienstleistungen, it partner schweiz">
+    <meta name="author" content="TEQLY GmbH">
+    <title>We are TEQLY.</title>
+    <?php include 'structure_header.php' ?>
 </head>
 <body id="body">
 
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
-                <h2 style="margin-left: 3.5rem">Wir sind TEQLY. ENGLISH</h2>
+                <h2 style="margin-left: 3.5rem">We are TEQLY.</h2>
                 <h1 id="titleh1" class="indextitle" style="visibility: hidden">.</h1>
         </div>
     </div>
@@ -33,64 +37,64 @@
             Your browser does not support the video tag.
         </video>
         <div  class="title-right">
-            <h2>Willkommen bei TEQLY.<br>Wir sind Ihre Ansprechpartner wenn es um innovative und kundenorientiert IT-Lösungen geht.</h2>
+            <h2>Welcome to TEQLY.<br>We are your contact when it comes to innovative and customer-oriented IT solutions.</h2>
         </div>
         <div class="lineblack-index"></div>
         <div class="index-col-left">
-            <a href="products.php">Dienstleistungen</a>
+            <a href="tq_products.php">Services</a>
         </div>
         <div class="index-col-right">
-            <p>In einer komplex vernetzten Welt ist es nicht einfach den Überblick zu behalten. Bei der Digitalisierung stehenzubleiben, kommt einem Rückschritt gleich. Wir sind der Partner für Ihr Unternehmen wenn es um Herausforderungen in der digitalen Welt geht. Unsere Dienstleistungspalette ist vielschichtig und deckt alle Bedürfnisse eines Unternehmens ab. Egal ob Beratung, Schulung, Support, Hard- oder Software - Wir stehen Ihnen gerne zur Seite, damit Sie sich wieder auf Ihr Kerngeschäft konzentrieren können. <a href="products.php">Mehr erfahren.</a></p>
+            <p>In a complex networked world, it is not easy to maintain an overview. Standing still in digitalisation is tantamount to taking a step backwards. We are the partner for your company when it comes to challenges in the digital world. Our range of services is multi-faceted and covers all the needs of a company. Whether it's advice, training, support, hardware or software - we are happy to assist you so that you can concentrate on your core business again. <a href="tq_products.php">Learn more.</a></p>
         </div>
         <div class="under-section">
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <a href="products.php#easit">Hardware als Service</a>
+                <a href="tq_products.php#easit">Hardware as a Service</a>
             </div>
             <div class="under-section-col-right">
-                <p>Abonnemente gibt es heutzutage für fast alles. Vom Druckerpatronen-Abo bis hin zum Auto-Abo ist alles möglich. Diese Modelle bieten verschiedenste Vorteile, so muss man sich dank dem Druckerpatronen-Abo nie Sorgen machen, dass man nicht genügend Toner hat. Und beim Auto-Abo entfallen die hohen Anschaffungskosten, sowie die lästigen Nebenaufgaben wie Versicherungssuche, Vigniettenkauf, Werkstatttermine und so weiter. All diese Vorteile können Sie auch mit unserem Hardware-Abo mit dem Namen EASIT.rent geniessen. Lehnen Sie sich zurück und konzentrieren Sie sich auf Ihr Kerngeschäft. Zum Fixpreis vermieten wir Ihnen die gesammte IT-Infrastruktur für Ihr Unternehmen, inklusive Service und Support. <a href="products.php">Mehr erfahren.</a></p>
-            </div>
-        </div>
-        <div class="under-section">
-            <div class="lineblack-index"></div>
-            <div class="index-col-left">
-                <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <a href="products.php#programming">Entwicklung</a>
-            </div>
-            <div class="under-section-col-right">
-                <p>Zusammen mit unseren Kunden entwickeln wir verschiedenste Softwareprodukte. Von der kleinen Website, über komplexe Webapplikationen bis hin zu Enterprise-Desktop-Anwendungen, wir unterstützen Sie bei der Realisation Ihrer Projekte. Je nach Wunsch übernehmen wir einzelne Teilaufgaben innerhalb eines Softwareprojektes (zum Beispiel: Requirements Engineering, UI/UX-Design, Projektleitung, Programmierung, Dokumentation oder Qualitätsmanagement) oder bieten Ihnen eine alle Disziplinen umfassende Gesammtlösung an. <a href="products.php">Mehr erfahren.</a></p>
+                <p>Subscriptions are available for almost everything these days. From printer cartridge subscriptions to car subscriptions, everything is possible. These models offer a wide range of advantages, so thanks to the printer cartridge subscription you never have to worry about not having enough toner. And with the car subscription, you don't have to worry about the high purchase costs, as well as the annoying side tasks like looking for insurance, buying vignettes, garage appointments and so on. You can also enjoy all these advantages with our hardware subscription called EASIT.rent. Sit back and concentrate on your core business. We rent out the entire IT infrastructure for your company at a fixed price, including service and support. <a href="tq_products.php">Learn more.</a></p>
             </div>
         </div>
         <div class="under-section">
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <a href="products.php#infrastructure">Infrastruktur</a>
+                <a href="tq_products.php#programming">Development</a>
             </div>
             <div class="under-section-col-right">
-                <p>Eine solide Netzwerk- und Serverinfrastruktur ist inzwischen das Rückgrat eines jeden Unternehmens. Egal ob vernetzte, smarte Waage in der Bäckerei, W-Lan an einem Event oder Büro Arbeitsplatz in der Werkstatt: Alle Anwendung bauen auf einer Netzwerkinfrasturktur auf. Wir begleiten Sie von der Entwicklung einer passenden Infrastruktur-Lösung über die Bauplanunung bis hin zur Wartung und dem Betrieb. Zusammen mit unseren Partnerunternehmen aus der Elektro- und Baubranche realisieren wir auch komplexe Infrastrukturprojekte. <a href="products.php">Mehr erfahren.</a></p>
+                <p>Together with our customers, we develop a wide variety of software products. From small websites to complex web applications and enterprise desktop applications, we support you in the realisation of your projects. Depending on your wishes, we can take on individual subtasks within a software project (for example: requirements engineering, UI/UX design, project management, programming, documentation or quality management) or offer you a complete solution covering all disciplines. <a href="tq_products.php">Learn more.</a></p>
+            </div>
+        </div>
+        <div class="under-section">
+            <div class="lineblack-index"></div>
+            <div class="index-col-left">
+                <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
+                <a href="tq_products.php#infrastructure">Infrastructure</a>
+            </div>
+            <div class="under-section-col-right">
+                <p>A solid network and server infrastructure is now the backbone of every company. No matter whether it's a networked smart scale in a bakery, wifi at an event or an office workstation in a workshop: All applications are based on a network infrastructure. We accompany you from the development of a suitable infrastructure solution to construction planning, maintenance and operation. Together with our partner companies from the electrical and construction industries, we also realise complex infrastructure projects. <a href="tq_products.php">Learn more.</a></p>
             </div>
         </div>
         <div class="lineblack-index"></div>
         <div class="index-col-left">
-            <a href="references.php">Projekte</a>
+            <a href="tq_references.php">Projects</a>
         </div>
         <div class="index-col-right">
-            <p>Ein altes Sprichwort lautet bekanntlich: <em>"Taten sagen mehr als Worte"</em>. Daher haben wir einige Projekte zusammengestellt, um Ihnen einen kleinen Überblick über unsere Tätigkeitsbereiche zu geben. Zu unseren Kunden zählen kleine, mittlere sowie grosse Unternehmen und Organisationen aus verschiedensten Branchen. <a href="products.php">Mehr erfahren.</a></p>
+            <p>An old saying famously goes: <em>"Actions speak louder than words"</em>. We have therefore compiled a few projects to give you a brief overview of our areas of activity. Our clients include small, medium and large companies and organisations from a wide range of industries. <a href="tq_products.php">Learn more.</a></p>
         </div>
         <div class="lineblack-index"></div>
         <div class="index-col-left">
-            <a href="jobs.php">Über TEQLY</a>
+            <a href="tq_jobs.php">Über TEQLY</a>
         </div>
         <div class="index-col-right">
-            <p>Während des Studiums haben wir TEQLY gegründet. Wir starteten im Frühling 2020 zu dritt in einem Unterrichtsraum an der FHNW das Abenteuer TEQLY. In den vergangenen Jahren haben wir unglaublich viel gelernt und sind, zusammen mit unseren Kunden, gewachsen. Unser Team vergrössert sich stetig und ist bereit für jede neue Herausforderung. <a href="products.php">Mehr erfahren.</a></p>
+            <p>We founded TEQLY during our studies. In spring 2020, three of us started the TEQLY adventure in a classroom at the FHNW. In the past years, we have learned an incredible amount and have grown together with our customers. Our team is constantly growing and is ready for any new challenge. <a href="tq_products.php">Learn more.</a></p>
         </div>
 
     </div>
     <br>
 
-    <?php include 'shared/footer.php' ?>
+    <?php include 'structure_footer.php' ?>
 
 </div>
 </body>
