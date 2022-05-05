@@ -35,7 +35,7 @@
 
     <!-- End Cookie Consent by TermsFeed -->
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../assets/Favicon_TEQLY.png">
+    <link rel="icon" type="image/png" href="../assets/teqly_logo_favacon.png">
 </head>
 <body>
 <div id="header">
@@ -50,12 +50,12 @@
                 <a href="../fr/index.php">FR</a>
             </div>
         </div>
-        <button class="homebtnBurger" onclick="openNav()"><img src="../assets/menu.svg" aria-hidden="true"></button>
+        <button class="homebtnBurger" onclick="openNav()"><img src="../assets/page_menu.svg" aria-hidden="true"></button>
     </div>
     <div class="header-left" style="max-width: 50px">
         <a class="logo" href="index.php" style="margin-left: 0rem">
             <div>
-                <img alt="Logo of TEQLY." src="../assets/Logo_TEQLY.png" width="50">
+                <img alt="Logo of TEQLY." src="../assets/teqly_logo.png" width="50">
             </div>
 
         </a>

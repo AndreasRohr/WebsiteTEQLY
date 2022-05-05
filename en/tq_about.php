@@ -83,7 +83,7 @@
                 <p>The three founders Jannik, Sandro and Andreas (from left to right) met at the vocational school at the BSA. After successfully graduating from the BSA, they started studying computer science together at the FHNW in Brugg. Jannik and Sandro were lateral entrants into computer science. Both completed apprenticeships in mechanical engineering and learned the IT trade from scratch at the university. Andreas, on the other hand, has remained true to computer science since his apprenticeship. He completed an apprenticeship as a computer scientist and thus brought valuable experience to the team. In the meantime, Andreas is responsible for managing support, Jannik for development projects and Sandro for consulting. </p><br>
             </div>
         </div>
-        <img alt="Picture of the three founders Jannik, Sandro and Andreas." src="../assets/teqly_about.png">
+        <img alt="Picture of the three founders Jannik, Sandro and Andreas." src="../assets/teqly_header_team.png">
         <div id="jobs" class="lineblack-index"></div>
         <div class="products-col-top">
             <h1>Jobs</h1>

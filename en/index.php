@@ -33,7 +33,7 @@
     </div>
     <div class="index-container" style="margin-top: 4rem">
         <video autoplay muted loop style="z-index: -1" playsinline>
-            <source src="../assets/index_video.mp4" type="video/mp4">
+            <source src="../assets/teqly_index_video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div  class="title-right">

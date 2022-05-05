@@ -84,7 +84,7 @@
                 <p>Die drei Gründer Jannik, Sandro und Andreas (von links nach rechts) lernten sich an der Berufsmaturitätsschule an der BSA kennen. Nach erfolgreichem Abschluss an der BSA starteten Sie zusammen das Informatikstudium an der FHNW in Brugg. Jannik und Sandro waren Quereinsteiger in die Informatik. Beide haben Lehren im Maschinenbau absolviert und lernten das IT-Handwerk von Grund auf an der Hochschule. Andreas hingegen ist seit seiner Lehre der Informatik treu geblieben. Er absolvierte eine Lehre als Informatiker und brachte so wertvolle Erfahrungen ins Team ein. Inzwischen zeichnet sich Andreas für die Leitung des Supports, Jannik für die Entwicklungsprojekte und Sandro für die Beratung verantwortlich. </p><br>
             </div>
         </div>
-        <img alt="Bild der TEQLY Gründer Jannik, Sandro und Andreas." src="../assets/teqly_about.png">
+        <img alt="Bild der TEQLY Gründer Jannik, Sandro und Andreas." src="../assets/teqly_header_team.png">
         <div id="jobs" class="lineblack-index"></div>
         <div class="products-col-top">
             <h1>Jobs</h1>
