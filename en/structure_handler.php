@@ -23,6 +23,6 @@ $pp->requireReCaptcha();
 $pp->getReCaptcha()->initSecretKey('6LcqCakeAAAAAFW2kFpajxnWd4rvyoK6Rb8zUvng');
 
 
-$pp->sendEmailTo('info@teqly.ch'); // ← Your email here
+$pp->sendEmailTo('sandro@teqly.ch'); // ← Your email here
 
 echo $pp->process($_POST);
