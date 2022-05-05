@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img alt="Eingangsbereich mit einem Service-Desk an dem eine Frau sitzt." src="../assets/ref_eventon.jpg">
+        <img alt="Entrance area with a service desk at which a woman is sitting." src="../assets/ref_eventon.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Support-Service<br>11/2021<br>Ensure 1st and 2nd level support.</h2>

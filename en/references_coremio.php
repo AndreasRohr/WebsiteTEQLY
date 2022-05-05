@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img alt="Bild eines brennenden Steinofens mit einer Pizza." src="../assets/ref_coremio.jpg">
+        <img alt="Picture of a burning stone oven with a pizza." src="../assets/ref_coremio.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Website<br>09/2020<br>Web design incl. Reservation tool.</h2>

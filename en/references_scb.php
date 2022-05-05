@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img alt="Bildausschnitt eines schwarzen, weichen Kunststoffs." src="../assets/ref_scb.jpg">
+        <img alt="Image detail of a black, soft plastic." src="../assets/ref_scb.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Load boxes<br>10/2021<br>Customised charging solution for handheld scanners.</h2>

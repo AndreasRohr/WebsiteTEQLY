@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img alt="Router mit eingesteckten Netzwerkkabeln." src="../assets/ref_meier_2.jpg">
+        <img alt="Router with network cables plugged in." src="../assets/ref_meier_2.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Network expansion<br>03/2022<br>Expansion of the network with Electropartner.</h2>

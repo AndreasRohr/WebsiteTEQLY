@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img alt="Bild eines leeren Wartezimmers" src="../assets/ref_dolezalzeller.jpg">
+        <img alt="Picture of an empty waiting room" src="../assets/ref_dolezalzeller.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Application<br>10/2020<br>Application, hardware and support.</h2>

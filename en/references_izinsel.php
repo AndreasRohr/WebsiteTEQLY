@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img alt="Bild der automatischen Fiebermesseinrichtung mit Kamera und Bildschirm." src="../assets/ref_inselspital_1.jpeg">
+        <img alt="Picture of the automatic fever measuring device with camera and screen." src="../assets/ref_inselspital_1.jpeg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Temporary network installation<br>01/2021<br>Automatic fever measurement solution and network construction including camera monitoring.</h2>

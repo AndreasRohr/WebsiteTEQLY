@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img alt="Bild eines Hotelfrühstücks auf einem Tablar im Bett." src="../assets/ref_guesthouse.jpg">
+        <img alt="Picture of a hotel breakfast on a tray in bed." src="../assets/ref_guesthouse.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Network expansion and server infrastructure<br>06/2021<br>Expansion of the existing network, with various local partners. New construction of server room and IT infrastructure.</h2>

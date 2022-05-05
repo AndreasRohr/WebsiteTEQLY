@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img alt="Produktbild eines Laptops aus dem EASIT.rent Sortiments." src="../assets/ref_xana.png">
+        <img alt="Product image of a laptop from the EASIT.rent range." src="../assets/ref_xana.png">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Hardware rental including service<br>12/2021<br>Flexible hardware rental for a mobile health service.</h2>
