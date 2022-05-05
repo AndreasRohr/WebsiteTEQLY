@@ -375,6 +375,12 @@ body {
     border-radius: 2rem;
 }
 
+.fa-spotify {
+    background: black;
+    color: white;
+    border-radius: 2rem;
+}
+
 .fa {
     padding: 0.35rem;
     font-size: 25px;
@@ -400,6 +406,12 @@ body {
 }
 
 .row-footer .col-footer .fa-instagram {
+    background: black;
+    color: white;
+    border-radius: 2rem;
+}
+
+.row-footer .col-footer .fa-spotify {
     background: black;
     color: white;
     border-radius: 2rem;

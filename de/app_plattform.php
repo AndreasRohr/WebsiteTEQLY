@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include 'shared/header_imports.php' ?>
-    <title>TEQLY Produkte & Services</title>
-    <?php include 'shared/header.php' ?>
+    <?php include 'header_imports.php' ?>
+    <title>Applikationen</title>
+    <?php include 'header.php' ?>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
         </div>
     </div>
 <br>
-<?php include 'shared/footer.php' ?>
+<?php include 'footer.php' ?>
 </body>
 </html>
 <script type="text/javascript" src="../js/script.js"></script>

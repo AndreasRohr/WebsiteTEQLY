@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,11 +37,12 @@
             <div class="linewhite"></div>
             <p id="navigation">NAVIGATION</p>
             <div class="navBlack">
-                <a href="../index.php">Home</a>
-                <a href="../products.php">Dienstleistungen</a>
-                <a href="../references.php">Projekte</a>
-                <a href="../contact.php">Kontakt</a>
-                <a href="../app_plattform.php">App-Plattform</a>
+                <a href="index.php">Start</a>
+                <a href="products.php">Dienstleistungen</a>
+                <a href="references.php">Projekte</a>
+                <a href="contact.php">Kontakt</a>
+                <a href="app_plattform.php">App-Plattform</a>
+                <a href="app_plattform.php">Über TEQLY</a>
             </div>
         </div>
         <div class="column-sidenav">

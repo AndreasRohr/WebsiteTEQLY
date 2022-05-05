@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<?php include 'shared/header.php' ?>
+<?php include 'header.php' ?>
 <div id="main" style="margin-top: 4rem">
     <h1 style="margin-top: 7rem; margin-left: 3rem" class="contact-title">Kontakt.</h1>
     <div class="contact-row">
@@ -88,7 +88,7 @@
 </div>
 </div>
 <br>
-<?php include 'shared/footer.php' ?>
+<?php include 'footer.php' ?>
 </body>
 </html>
 <script type="text/javascript" src="../js/script.js"></script>

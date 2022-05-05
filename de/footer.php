@@ -33,16 +33,18 @@ Todo: Braucht es den <head> in einem .php Element?
                 </div>
             </div>
             <div style="margin-right: 2rem; color: black" class="col-footer">
-                Über TEQLY
+                Unternehmen
                 <div class="col-footer">
                     <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-                    <a style="color: black" href="contact.php">Kontakt</a>
-                    <br>
-                    <a style="color: black" href="references.php">Projekte</a>
+                    <a style="color: black" href="about.php">Über uns</a>
                     <br>
                     <a style="color: black" href="jobs.php">Jobs</a>
                     <br>
+                    <a style="color: black" href="references.php">Projekte</a>
+                    <br>
                     <a style="color: black" href="https://blog.teqly.ch">Blog</a>
+                    <br>
+                    <a style="color: black" href="contact.php">Kontakt</a>
                     <br>
                     <a style="color: black" href="press.php">Presse</a>
                 </div>
@@ -85,6 +87,7 @@ Todo: Braucht es den <head> in einem .php Element?
                     <a href="https://www.linkedin.com/company/teqly/" class="fa fa-linkedin"></a>
                     <a href="https://www.youtube.com/channel/UCdUiy-JbIqQBlVXqeVmbvrQ" class="fa fa-youtube"></a>
                     <a href="https://www.instagram.com/teqly/" class="fa fa-instagram"></a>
+                    <a href="https://open.spotify.com/show/7KG8S85T0I2XszX9QHkDB8" class="fa fa-spotify"></a>
                 </div>
             </div>
         </div>
@@ -98,7 +101,7 @@ Todo: Braucht es den <head> in einem .php Element?
 <script>
     $(function () {
         new ZammadChat({
-            title: 'Jetzt Chatten',
+            title: 'Chat starten.',
             background: '#111',
             fontSize: '12px',
             chatId: 1,
