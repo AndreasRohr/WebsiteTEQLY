@@ -98,7 +98,7 @@
 <script>
     $(function () {
         new ZammadChat({
-            title: 'Démarrer le chat.',
+            title: 'Start le chat.',
             background: '#111',
             fontSize: '12px',
             chatId: 1,
