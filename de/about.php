@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include 'header_imports.php' ?>
-    <title>Dienstleistungen</title>
+    <title>Über uns</title>
     <?php include 'header.php' ?>
 </head>
 
@@ -10,104 +10,84 @@
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
-                <h1 id="titleh1" class="indextitle">Dienstleistungen.</h1>
+                <h1 id="titleh1" class="indextitle">Über uns.</h1>
         </div>
     </div>
     <div class="index-container">
-        <img src="../assets/teqly_header_products.jpg">
+        <img src="../assets/teqly_header_about.jpg">
         <div  class="title-right">
-            <h2>Egal ob nur ein einzelnes Modul oder eine schlüsselfertige Komplettlösung.<br>Wir bieten Ihnen immer auf Ihre Bedürfnisse zugeschnittene Dienstleistungen an.</h2>
+            <h2>Uns ist wichtig, dass Sie wissen, mit wem Sie es zu tun haben. Erfahren Sie hier mehr über uns, unsere Philosophie und Werte.</h2>
         </div>
-        <!-- EASIT.rent Block -->
-        <div id="easit" class="lineblack-index"></div>
+        <div id="history" class="lineblack-index"></div>
         <div class="products-col-top">
-            <h1>Hardwaremiete</h1>
+            <h1>Geschichte</h1>
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Mit <a href="https://easit.rent">EASIT.rent</a> bieten wir kleinen und mittelgrossen Unternehmen die Möglichkeit, ihre gesamte IT-Infrastruktur inklusive Service zum Fixpreis zu mieten. Das Mietmodel bietet verschiedenste Vorteile gegenüber dem klassischen Kauf:</p>
+                <p>Während des Studiums haben wir TEQLY gegründet. Wir starteten im Frühling 2020 zu dritt in einem Unterrichtsraum an der FHNW das Abenteuer TEQLY. Der Anfang war schwer, wir mussten Kunden von uns überzeugen, ohne bereits Referenzen zu haben. Und das ganze während der grössten Krise die wir hautnah miterlebten. Die Pandemie stellte uns auch intern vor grosse Herausforderungen. So konnten wir uns lange nur virtuell austauschen, der gemeinsame Austausch war nur schwer zu kompensieren. Trotz all der Widrigkeiten konnten wir das Vertrauen der ersten Kunden gewinnen. Die ersten Aufträge tröpfelten in unsere Bücher. So konnten wir im Herbst 2020 knapp sechs Monate nach unserer Gründung unser erstes eigenes Büro beziehen. Nach dem schwierigen Start konnten wir kontinuierlich wachsen und erweiterten uns im Jahr 2021 mit einem Lager um unseren Kunden einen noch umfangreicheren Service bieten zu können. Im Frühling 2022 unterzogen wir uns einem umfangreichen Update: Neues Logo, neue Website, neuer Blog und neue Services.<br><br>In den vergangenen Jahren haben wir unglaublich viel gelernt und sind, zusammen mit unseren Kunden, gewachsen. Wir möchten uns gerne bei allen Kunden, Partnern und Freunden für die vergangene und zukünftige Zusammenarbeit bedanken!</p>
+            </div>
+        </div>
+        <div id="values" class="lineblack-index"></div>
+        <div class="products-col-top">
+            <h1>Werte</h1>
+        </div>
+        <div class="products-wrapper">
+            <div class="products-col-right">
+                <p>Uns ist wichtig, dass unsere Kunden und Partner wissen, wofür wir stehen und was uns ausmacht. Darum haben wir uns selber eingen Werten verschrieben, an die wir glauben und welche wir leben.<br></p>
                 <ul>
-                    <li><b>Felxibilität:</b> Mit <a href="https://easit.rent">EASIT.rent</a> entstehen Ihnen keine Investitionskosten. Sie können Ihre Infrastruktur flexibel erweitern oder verkleinern um so Spitzen abzudecken. Unsere Mietverträge sind entweder monatlich oder jährlich kündbar, so haben Sie jederzeit Ihre Finanzen im Griff.</li>
-                    <li><b>Immer Up-to-date:</b> Wir setzen auf moderne Hard- & Software, davon profitieren Sie und Ihre Mitarbeitenden jeden Tag! Schnelle Ladezeiten, niedrige Ausfallzeiten und die Freude am Arbeiten mit modernen Geräten erhöht die Produktivität. Zudem stellen wir durch unser IT-System-Management sicher, dass sie sicher in der Digitalen Welt unterwegs sind.</li>
-                    <li><b>Service:</b> Wir kümmern ums um Ihre komplette IT: Wir kaufen moderne Hardware ein, liefern & installieren sie und unterstützen Sie mit unserem Business Support beim Betrieb. Regelmässig tauschen wir die aktuellen Geräte gegen neue aus und stellen somit eine hochzuverlässige Infrastruktur für Sie bereit.</li>
+                    <li><a style="color: black" href="#transparency">Transparenz</a></li>
+                    <li><a style="color: black" href="#agility">Agilität</a></li>
+                    <li><a style="color: black" href="#participation">Partizipation</a></li>
                 </ul>
-                <p>Besuchen Sie uns auf <a href="https://easit.rent">EASIT.rent</a> um mehr über die Funktionsweise, verfügbaren Modelle und die Preise zu erfahren. Ausserdem können Sie unser Angebot jederzeit unverbindlich einen Monat testen. <a href="https://easit.rent">Mehr erfahren.</a></p>
             </div>
         </div>
-        <!-- Programmierung Block -->
-        <div id="programming" class="lineblack-index"></div>
-        <div class="products-col-top">
-            <h1>Software<br>Entwicklung</h1>
-        </div>
-        <div class="products-wrapper">
-            <div class="products-col-right">
-                <p>Egal ob kleine Website oder komplexe Server-Client-Applikation: Wir begleiten Sie während jeder Phase des agilen Entwicklungsprozesses. Von der ersten Idee, zu den Requirements, über die Umsetzung, bis hin zur Inbetriebnahme sind wir an Ihrer Seite und setzen uns für Sie ein. <a href="references.php">Referenzen entdecken.</a></p>
-            </div>
-        </div>
-        <div class="under-section">
+        <div id="transparency" class="under-section">
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <h1>Webseiten</h1>
+                <h1>Transparenz</h1>
             </div>
             <div class="under-section-col-right">
-                <p>TEQLY ist Ihr kompetenter Partner im Web. Je nach Ihren Bedürfnissen bauen wir Ihnen eine klassische HTML-Seite oder setzen ein bewährtes CMS wie Wordpress oder Joomla ein. Wir bieten Ihnen ein "Rundum Sorglos"-Paket für Ihren Webauftritt an und kümmern uns um Entwicklung, Hosting, SEO, Werbung, Unterhalt und E-Mail Verwaltung. <a href="contact.php">Kontakt aufnehmen.</a></p>
+                <p>Bei uns werden Probleme angesprochen und nicht unter den Teppich gekehrt. Mit unseren Kunden und Partnern pflegen wir ein offenes und ehrliches Verhältnis. Egal ob im Rahmen von Vertragsverhandlungen oder während Projektmeetings – wir vertreten stets unsere Meinung. Intern legen wir Daten und Dokumente offen, damit alle den Durchblick haben und wir gemeinsam diskutieren, argumentieren und entscheiden können.</p>
             </div>
         </div>
-        <div class="under-section">
+        <div id="agility" class="under-section">
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <h1>Applikationen</h1>
+                <h1>Agilität</h1>
             </div>
             <div class="under-section-col-right">
-                <p>Um komplexe Prozesse abzubilden bietet sich die Entwicklung einer eigenen Applikation an. Hierbei unterscheiden wir drei Kategorien von Applikationen:</p>
-                <ul>
-                    <li><b>Web-Applikationen:</b> Web-Applikationen sind Programme, die über einen Browser genutzt und auf einem Server gehostet (betrieben) werden. So können Sie von überall auf der Welt mit irgendeinem Endgerät, egal ob Computer, Tablet oder Smartphone, auf die Applikation zugreifen. Die geläufigste Web-Applikation ist vermutlich das klassische Webmail. Bei der Umsetzung unserer Web-App-Projekte setzen wir auf bewährte Frameworks und solide Server- und Sicherheitsinfrastrukturen.</li>
-                    <li><b>Mobile-Applikationen:</b> Wenn eine Applikation nur auf mobilen Endgeräten (Tablets und Smartphones) genutzt werden soll, kann auch eine Mobile-Applikation entworfen werden. Im Vergleich zur Web-Applikation können bei einer Mobile-App einfacher auf spezifische Gerätefunktionen (Kamera, Sensoren, Speicher) zugegriffen werden. Diese Applikationen können via den geläufigen App-Stores auf jedes Smartphone installiert werden.</li>
-                    <li><b>Desktop-Applikationen:</b> Für sehr spezifische Anwendungen können auch native Desktop-Applikationen entwickelt werden. Je nach Umfeld entweder im Windows oder Linux/MacOS Universum.</li>
-                </ul
-                <p>Wir begleiten Sie von der Konzeption, über die Programmierung, bis hin zur Inbetriebnahme Ihrer eignen Applikation. Gerne übernehmen wir auch Teilprojekte und beraten Sie zum Beispiel in der Projektleitung, beim Requirements Engineering oder dem Entwerfen eines Betriebskonzeptes. <a href="contact.php">Kontakt aufnehmen.</a></p>
+                <p>Jede Entwicklung ist ein Prozess und bei uns ist dieser nie starr. Unsere Projekte setzen wir in Scrum oder anderen agilen Metoden um. Damit schaffen wir einerseits ein erstklassiges Arbeitsumfeld für Design und Entwicklung, andererseits stellen wir so sicher, dass wir hochwertige Web- und Mobile-Applikationen entwickeln, welche unsere Kunden und Nutzenden begeistern. Bei Unsicherheiten führen wir Kunden und Partner in die agilen Methoden ein und überzeugen Sie von unserer Arbeitsweise.</p>
             </div>
         </div>
-        <!-- Infrastruktur Block -->
-        <div id="infrastructure" class="lineblack-index"></div>
+        <div id="participation" class="under-section">
+            <div class="lineblack-index"></div>
+            <div class="index-col-left">
+                <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
+                <h1>Partizipation</h1>
+            </div>
+            <div class="under-section-col-right">
+                <p>Bei uns ist jede und jeder Chef. Wir halten nichts von starren Hierarchien, Entscheidungen werden nicht im Chefbüro, sondern immer unter Berücksichtigung der Meinungen aller im Team getroffen. Es besteht immer absolute Meinungsfreiheit. Alle sollen sagen, was sie denken, auch wenn das manchmal weh tut. Wir diskutieren, argumentieren, wägen ab und finden in den meisten Fällen einen Konsent. Unsere Entscheidungen sind nachhaltiger, weil sie vom Kollektiv getragen werden.</p>
+            </div>
+        </div>
+        <div id="founders" class="lineblack-index"></div>
         <div class="products-col-top">
-            <h1>Infrastruktur</h1>
+            <h1>Gründer</h1>
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Im Bereich Infrastruktur bieten wir Ihnen auf Ihre Bedürfnisse zugeschnittene Dienstleistungen an. Wir betreuen Netzwerke aller Grössen. Es beginnt mit kleinen Installationen, die aus einem Router und einem NAS bestehen, und geht hin bis zu grossen Netzwerken mit komplexen Konfigurationen und aufwändiger Serverinfrastruktur. Eine Investition in ein Netzwerk ist meist eine langfristige Investition. Bei gewissen Netzwerkkomponenten rechnet man, je nach Ausführung, mit Betriebszeiten von bis zu 10 Jahren. Wir zeigen Ihnen bei einem unverbindlichen Vor-Ort-Termin gerne mögliche Lösungen (Integration, Erweiterung, Neubau) auf und beraten Sie pragmatisch und kompetent. Kleinere bauliche Massnahmen führen wir mit internen Kapazitäten durch, bei grösseren Projekten arbeiten wir mit Partnern aus der Elektrotechnik und dem Baugewerbe zusammen. Auf Wunsch offerieren wir Ihnen "schlüsselfertige" Netzwerklösungen auf höchstem Niveau. <a href="contact.php">Kontakt aufnehmen.</a> </p>
+                <p>Die drei Gründer Jannik, Sandro und Andreas (von links nach rechts) lernten sich an der Berufsmaturitätsschule an der BSA kennen. Nach erfolgreichem Abschluss an der BSA starteten Sie zusammen das Informatikstudium an der FHNW in Brugg. Jannik und Sandro waren Quereinsteiger in die Informatik. Beide haben Lehren im Maschinenbau absolviert und lernten das IT-Handwerk von Grund auf an der Hochschule. Andreas hingegen ist seit seiner Lehre der Informatik treu geblieben. Er absolvierte eine Lehre als Informatiker und brachte so wertvolle Erfahrungen ins Team ein. Inzwischen zeichnet sich Andreas für die Leitung des Supports, Jannik für die Entwicklungsprojekte und Sandro für die Beratung verantwortlich. </p><br>
             </div>
         </div>
-        <!-- Support Block -->
-        <div id="support" class="lineblack-index"></div>
+        <img src="../assets/teqly_about.png">
+        <div id="jobs" class="lineblack-index"></div>
         <div class="products-col-top">
-            <h1>Support</h1>
+            <h1>Jobs</h1>
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Gute Beratung und Entwicklung sind das eine, aber in der Informatik ist der Support und Betrieb ebenfalls unerlässlich. Viele Unternehmen ohne interne IT-Abteilung sind teilweise mit den Tücken der Technik überfordert. Wenn immer das der Fall ist, kommt der TEQLY Support ins Spiel. Je nach Ihren Bedürfnissen bieten wir Support nach Aufwand oder im Rahmen eines Supportvertrages an.<br><br> Über unsere <a href="https://support.teqly.app">Supportplattform</a> bieten wir Ihnen Zugang zu einem ausgeklügelten Ticketsystem. Per E-Mail, Telegramm oder Pikettnummer nehmen wir 24/7 Ihre Anfragen entgegen. Ausserdem bieten wir Ihnen während der Bürozeiten telefonischen Support. Unser dynamisches und kompetentes Supportteam steht Ihnen und Ihren Mitarbeitenden bei jeglichen Anfragen zur Seite.</p>
-            </div>
-        </div>
-        <!-- Consulting Block -->
-        <div id="consulting" class="lineblack-index"></div>
-        <div class="products-col-top">
-            <h1>Consulting</h1>
-        </div>
-        <div class="products-wrapper">
-            <div class="products-col-right">
-                <p>Auf Wunsch erarbeiten wir Ihnen, auf Sie zugeschnittene, System-Management-, Sicherheits- oder Anwendungs-Konzepte. In Workshops erarbeiten wir zusammen mit Ihnen und Ihren Mitarbeitenden Lösungen um Prozesse zu digitalisieren und optimieren. Wir zeigen Ihnen neue Arbeitsweisen wie Design Thinking, Scrum oder Lean Management auf. Oder schulen Ihr Team in IT-Sicherheit, IT-Projektmanagement und im Umgang mit neuen Tools oder Programmen. <a href="contact.php">Kontakt aufnehmen.</a></p>
-            </div>
-        </div>
-        <!-- Speziallösungen Block -->
-        <div id="special" class="lineblack-index"></div>
-        <div class="products-col-top">
-            <h1>Spezialprojekte</h1>
-        </div>
-        <div class="products-wrapper">
-            <div class="products-col-right">
-                <p><em>Wie misst man mit Wärmebildkameras Fieber?<br> Wie kann man digital einfach und sicher Lieferscheine signieren?<br><br></em> Diese beiden Problemstellungen sind nur eine Auswahl aus Vielen. Bei TEQLY sind wir gerne Problemlöser:innen und entwickeln Lösungskonzepte für nicht alltägliche Fragestellungen. Gerne beraten wir Sie unverbindlich, vereinbaren Sie einfach einen Termin mit uns. <a href="contact.php">Kontakt aufnehmen.</a> </p>
+                <p>Wenn du auf der Suche nach einer neuen Herausforderung bist, Lust auf ein Abenteuer hast und ein junges Unternehmen aktiv mitgestalten und prägen möchtest, dann schau dir unbedingt unsere offenen Stellen an und melde dich bei uns. <a href="products.php">Offene Positionen entdecken.</a><br><br> Und falls gerade keine passende offene Stelle ausgeschrieben ist, melde dich einfach bei uns. Wir freuen uns auch auf eine Initiativbewerbung, in der du uns aufzeigst wieso du TEQLY weiterbringen kannst, von dir. <a href="mailto:work@teqly.ch">Initiativbewerbung senden.</a> </p>
             </div>
         </div>
     </div>
