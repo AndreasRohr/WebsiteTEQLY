@@ -25,7 +25,7 @@
         <div class="lineblack-index"></div>
         <h2 class="references-category">Infrastructure | Support</h2>
         <div class="index-col-left">
-            <a href="references/references_meier_2022.php">Bakery Confiserie Meier</a>
+            <a href="references_meier_2022.php">Bakery Confiserie Meier</a>
         </div>
         <div class="index-col-right">
             <p>Bäckerei und Confiserie Meier AG in Mägenwil is an innovative traditional company. New technologies made it necessary to expand the internal network. In cooperation with a local electrical company, the existing network infrastructure was expanded to cover additional areas. <a href="references/references_meier_2022.php">Learn more.</a></p>
@@ -35,7 +35,7 @@
         <div class="lineblack-index"></div>
         <h2 class="references-category">Hardware rental</h2>
         <div class="index-col-left">
-            <a href="references/references_xana.php">Xana</a>
+            <a href="references_xana.php">Xana</a>
         </div>
         <div class="index-col-right">
             <p>Xana was looking for a hardware partner to flexibly rent hardware and found TEQLY. TEQLY equipped the mobile health centres with phones, tablets, laptops and routers. <a href="references/references_xana.php">Learn more.</a></p>
@@ -45,7 +45,7 @@
         <div class="lineblack-index"></div>
         <h2 class="references-category">Support</h2>
         <div class="index-col-left">
-            <a href="references/references_eventon.php">Eventon</a>
+            <a href="references_eventon.php">Eventon</a>
         </div>
         <div class="index-col-right">
             <p>Support is the be-all and end-all of every software product. TEQLY provides 1st and 2nd level support for the customer and offers an all-round package. <a href="references/references_eventon.php">Learn more.</a></p>
@@ -55,7 +55,7 @@
         <div class="lineblack-index"></div>
         <h2 class="references-category">Special projects</h2>
         <div class="index-col-left">
-            <a href="references/references_scb.php">SCB Schlittschuh Club Bern</a>
+            <a href="references_scb.php">SCB Schlittschuh Club Bern</a>
         </div>
         <div class="index-col-right">
             <p>For the safe and efficient storage of hand-held scanners for ticket control at the entrance, we have designed and produced charging boxes for the SCB. The devices and a special charger can be stored in a UTZ Rako box. <a href="references/references_scb.php">Learn more.</a></p>
@@ -65,7 +65,7 @@
         <div class="lineblack-index"></div>
         <h2 class="references-category">Infrastructure | Support</h2>
         <div class="index-col-left">
-            <a href="references/references_guesthouselelocle.php">Guesthouse LeLocle</a>
+            <a href="references_guesthouselelocle.php">Guesthouse LeLocle</a>
         </div>
         <div class="index-col-right">
             <p>Extensive renovation and extension work was necessary in the over 100-year-old house in LeLocle in order to be able to operate a new network infrastructure. The massive construction of the building placed high demands on the network components in order to guarantee good wireless coverage. <a href="references/references_guesthouselelocle.php">Learn more.</a></p>
@@ -74,7 +74,7 @@
         <div class="lineblack-index"></div>
         <h2 class="references-category">Infrastructure | Special Projects</h2>
         <div class="index-col-left">
-            <a href="references/references_izinsel.php">Inselspital Bern</a>
+            <a href="references_izinsel.php">Inselspital Bern</a>
         </div>
         <div class="index-col-right">
             <p>TEQLY installed extensive monitoring and network technology, including the associated software, for the newly built "Insel Vaccination Centre" at the Inselspital Bern. The core of the system is an automated fever measurement. <a href="references/references_izinsel.php">Learn more.</a></p>
@@ -84,7 +84,7 @@
         <div class="lineblack-index"></div>
         <h2 class="references-category">Development</h2>
         <div class="index-col-left">
-            <a href="references/references_praxisdz.php">Praxis Dolezal & Zeller</a>
+            <a href="references_praxisdz.php">Praxis Dolezal & Zeller</a>
         </div>
         <div class="index-col-right">
             <p>Dolezal & Zeller is a practice for psychotherapy and psychiatry in Olten. We were engaged by the practice to carry out a process optimisation in the area of patient management. To implement this, we delivered a tool that offers the practice the possibility to manage their patients efficiently and clearly. <a href="references/references_praxisdz.php">Learn more.</a></p>
@@ -94,7 +94,7 @@
         <div class="lineblack-index"></div>
         <h2 class="references-category">Infrastructure</h2>
         <div class="index-col-left">
-            <a href="references/references_kulturhof.php">Kulturhof Hinter Musegg</a>
+            <a href="references_kulturhof.php">Kulturhof Hinter Musegg</a>
         </div>
         <div class="index-col-right">
             <p>In order to be able to implement a new cash register system, the existing network was expanded and extended by laying new network cables. New access points and a managed WLAN complete the new network concept. <a href="references/references_kulturhof.php">Learn more.</a></p>
@@ -104,7 +104,7 @@
         <div class="lineblack-index"></div>
         <h2 class="references-category">Website</h2>
         <div class="index-col-left">
-            <a href="references/references_coremio.php">Ristorante CoreMio</a>
+            <a href="references_coremio.php">Ristorante CoreMio</a>
         </div>
         <div class="index-col-right">
             <p>Just looking at the website coremio.ch raises the anticipation of Italian cuisine. We were allowed to implement a website for the newly founded restaurant in Aarau. Special attention was paid to the presentation of the menu. In addition, a partially automated reservation option was installed, which will relieve the team in the restaurant's daily routine. <a href="references/references_coremio.php">Learn more.</a></p>
@@ -114,7 +114,7 @@
         <div class="lineblack-index"></div>
         <h2 class="references-category">Infrastructure | Support</h2>
         <div class="index-col-left">
-            <a href="references/references_meier_2020.php">Bakery Confiserie Meier</a>
+            <a href="references_meier_2020.php">Bakery Confiserie Meier</a>
         </div>
         <div class="index-col-right">
             <p>Bäckerei und Confiserie Meier AG in Mägenwil is an innovative company with a long tradition. Over the years, the IT infrastructure has grown with the company and has steadily increased in size. TEQLY analysed the existing network and came to the conclusion that many clients were no longer active and could be cleaned out. <a href="references/references_meier_2020.php">Learn more.</a></p>
