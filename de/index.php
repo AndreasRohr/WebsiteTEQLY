@@ -44,7 +44,7 @@
             <a href="tq_products.php">Dienstleistungen</a>
         </div>
         <div class="index-col-right">
-            <p>In einer komplex vernetzten Welt ist es nicht einfach den Überblick zu behalten. Bei der Digitalisierung stehenzubleiben, kommt einem Rückschritt gleich. Wir sind der Partner für Ihr Unternehmen wenn es um Herausforderungen in der digitalen Welt geht. Unsere Dienstleistungspalette ist vielschichtig und deckt alle Bedürfnisse eines Unternehmens ab. Egal ob Beratung, Schulung, Support, Hard- oder Software - Wir stehen Ihnen gerne zur Seite, damit Sie sich wieder auf Ihr Kerngeschäft konzentrieren können. <a href="tq_products.php">Mehr erfahren.</a></p>
+            <p>In einer komplex vernetzten Welt ist es nicht einfach den Überblick zu behalten. Bei der Digitalisierung stehenzubleiben, kommt einem Rückschritt gleich. Wir sind der Partner für Ihr Unternehmen, wenn es um Herausforderungen in der digitalen Welt geht. Unsere Dienstleistungspalette ist vielschichtig und deckt alle Bedürfnisse eines Unternehmens ab. Egal ob Beratung, Schulung, Support, Hard- oder Software - wir stehen Ihnen gerne zur Seite, damit Sie sich wieder auf Ihr Kerngeschäft konzentrieren können. <a href="tq_products.php">Mehr erfahren.</a></p>
         </div>
         <div class="under-section">
             <div class="lineblack-index"></div>
@@ -53,7 +53,7 @@
                 <a href="tq_products.php#easit">Hardware als Service</a>
             </div>
             <div class="under-section-col-right">
-                <p>Abonnemente gibt es heutzutage für fast alles. Vom Druckerpatronen-Abo bis hin zum Auto-Abo ist alles möglich. Diese Modelle bieten verschiedenste Vorteile, so muss man sich dank dem Druckerpatronen-Abo nie Sorgen machen, dass man nicht genügend Toner hat. Und beim Auto-Abo entfallen die hohen Anschaffungskosten, sowie die lästigen Nebenaufgaben wie Versicherungssuche, Vigniettenkauf, Werkstatttermine und so weiter. All diese Vorteile können Sie auch mit unserem Hardware-Abo mit dem Namen EASIT.rent geniessen. Lehnen Sie sich zurück und konzentrieren Sie sich auf Ihr Kerngeschäft. Zum Fixpreis vermieten wir Ihnen die gesammte IT-Infrastruktur für Ihr Unternehmen, inklusive Service und Support. <a href="tq_products.php">Mehr erfahren.</a></p>
+                <p>Abonnement gibt es heutzutage für fast alles. Vom Druckerpatronen-Abo bis hin zum Auto-Abo ist alles möglich. Diese Modelle bieten verschiedenste Vorteile, so muss man sich dank dem Druckerpatronen-Abo nie Sorgen machen, dass man nicht genügend Toner hat. Und beim Auto-Abo entfallen die hohen Anschaffungskosten, sowie die lästigen Nebenaufgaben wie Versicherungssuche, Vigniettenkauf, Werkstatttermine und so weiter. All diese Vorteile können Sie auch mit unserem Hardware-Abo mit dem Namen EASIT.rent geniessen. Lehnen Sie sich zurück und konzentrieren Sie sich auf Ihr Kerngeschäft. Zum Fixpreis vermieten wir Ihnen die gesamte IT-Infrastruktur für Ihr Unternehmen, inklusive Service und Support. <a href="tq_products.php">Mehr erfahren.</a></p>
             </div>
         </div>
         <div class="under-section">
@@ -63,7 +63,7 @@
                 <a href="tq_products.php#programming">Entwicklung</a>
             </div>
             <div class="under-section-col-right">
-                <p>Zusammen mit unseren Kunden entwickeln wir verschiedenste Softwareprodukte. Von der kleinen Website, über komplexe Webapplikationen bis hin zu Enterprise-Desktop-Anwendungen, wir unterstützen Sie bei der Realisation Ihrer Projekte. Je nach Wunsch übernehmen wir einzelne Teilaufgaben innerhalb eines Softwareprojektes (zum Beispiel: Requirements Engineering, UI/UX-Design, Projektleitung, Programmierung, Dokumentation oder Qualitätsmanagement) oder bieten Ihnen eine alle Disziplinen umfassende Gesammtlösung an. <a href="tq_products.php">Mehr erfahren.</a></p>
+                <p>Zusammen mit unseren Kunden entwickeln wir verschiedenste Softwareprodukte. Von der kleinen Website, über komplexe Webapplikationen bis hin zu Enterprise-Desktop-Anwendungen, wir unterstützen Sie bei der Realisation Ihrer Projekte. Je nach Wunsch übernehmen wir einzelne Teilaufgaben innerhalb eines Softwareprojektes (zum Beispiel: Requirements Engineering, UI/UX-Design, Projektleitung, Programmierung, Dokumentation oder Qualitätsmanagement) oder bieten Ihnen eine alle Disziplinen umfassende Gesamtlösung an. <a href="tq_products.php">Mehr erfahren.</a></p>
             </div>
         </div>
         <div class="under-section">
@@ -73,7 +73,7 @@
                 <a href="tq_products.php#infrastructure">Infrastruktur</a>
             </div>
             <div class="under-section-col-right">
-                <p>Eine solide Netzwerk- und Serverinfrastruktur ist inzwischen das Rückgrat eines jeden Unternehmens. Egal ob vernetzte, smarte Waage in der Bäckerei, W-Lan an einem Event oder Büro Arbeitsplatz in der Werkstatt: Alle Anwendung bauen auf einer Netzwerkinfrasturktur auf. Wir begleiten Sie von der Entwicklung einer passenden Infrastruktur-Lösung über die Bauplanunung bis hin zur Wartung und dem Betrieb. Zusammen mit unseren Partnerunternehmen aus der Elektro- und Baubranche realisieren wir auch komplexe Infrastrukturprojekte. <a href="tq_products.php">Mehr erfahren.</a></p>
+                <p>Eine solide Netzwerk- und Serverinfrastruktur ist inzwischen das Rückgrat eines jeden Unternehmens. Egal ob vernetzte, smarte Waage in der Bäckerei, W-LAN an einem Event oder Büro Arbeitsplatz in der Werkstatt: Alle Anwendung bauen auf einer Netzwerkinfrastruktur auf. Wir begleiten Sie von der Entwicklung einer passenden Infrastruktur-Lösung über die Bauplanung bis hin zur Wartung und dem Betrieb. Zusammen mit unseren Partnerunternehmen aus der Elektro- und Baubranche realisieren wir auch komplexe Infrastrukturprojekte. <a href="tq_products.php">Mehr erfahren.</a></p>
             </div>
         </div>
         <div class="lineblack-index"></div>

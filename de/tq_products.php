@@ -101,7 +101,7 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Auf Wunsch erarbeiten wir Ihnen, auf Sie zugeschnittene, System-Management-, Sicherheits- oder Anwendungs-Konzepte. In Workshops erarbeiten wir zusammen mit Ihnen und Ihren Mitarbeitenden Lösungen um Prozesse zu digitalisieren und optimieren. Wir zeigen Ihnen neue Arbeitsweisen wie Design Thinking, Scrum oder Lean Management auf. Oder schulen Ihr Team in IT-Sicherheit, IT-Projektmanagement und im Umgang mit neuen Tools oder Programmen. <a href="tq_contact.php">Kontakt aufnehmen.</a></p>
+                <p>Auf Wunsch erarbeiten wir Ihnen, auf Sie zugeschnittene System-Management-, Sicherheits- oder Anwendungs-Konzepte. In Workshops erarbeiten wir zusammen mit Ihnen und Ihren Mitarbeitenden Lösungen um Prozesse zu digitalisieren und optimieren. Wir zeigen Ihnen neue Arbeitsweisen wie Design Thinking, Scrum oder Lean Management auf. Oder schulen Ihr Team in IT-Sicherheit, IT-Projektmanagement und im Umgang mit neuen Tools oder Programmen. <a href="tq_contact.php">Kontakt aufnehmen.</a></p>
             </div>
         </div>
         <!-- Speziallösungen Block -->
