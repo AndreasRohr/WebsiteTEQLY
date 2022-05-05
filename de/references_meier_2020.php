@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="../assets/ref_meier_1.jpg">
+        <img alt="Bild eines Netzwerkswitches mit eingesteckten LAN-Kabeln." src="../assets/ref_meier_1.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Ausmisten & Upgraden<br>08/2020<br>Hardware, Netzwerkausbau und Support.</h2>

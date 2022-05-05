@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="../assets/ref_scb.jpg">
+        <img alt="Bildausschnitt eines schwarzen, weichen Kunststoffs." src="../assets/ref_scb.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Ladekisten<br>10/2021<br>Massgescheneiterte Ladelösung für Handscanner.</h2>

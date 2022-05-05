@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="../assets/ref_meier_2.jpg">
+        <img alt="Router mit eingesteckten Netzwerkkabeln." src="../assets/ref_meier_2.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Netzwerkausbau<br>03/2022<br>Ausbau des Netzwerks mit Elektropartner.</h2>

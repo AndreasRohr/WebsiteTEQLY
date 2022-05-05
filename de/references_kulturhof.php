@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="../assets/ref_guesthouse.jpg">
+        <img alt="Bild einer Kuh auf einem Feld." src="../assets/ref_kulturhof.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Erweiterung Netzwerk<br>07/2020<br></h2>

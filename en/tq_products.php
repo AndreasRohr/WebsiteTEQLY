@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="index-container">
-        <img src="../assets/teqly_header_products.jpg">
+        <img alt="Individual unit components against a white background." src="../assets/teqly_header_products.jpg">
         <div  class="title-right">
             <h2>Whether it's just a single module or a complete turnkey solution.<br>We always offer services tailored to your needs.</h2>
         </div>

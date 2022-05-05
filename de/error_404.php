@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="../assets/error.jpg">
+        <img alt="Bild von einer Bildstörung." src="../assets/error.jpg">
         <div  class="title-right">
             <h2>Ups, da ist etwas schief gelaufen.<br>Versuchen Sie es am Besten nochmals auf der <a href="index.php">Startseite</a>.</h2>
         </div>

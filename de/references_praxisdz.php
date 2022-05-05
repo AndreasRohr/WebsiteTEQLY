@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="../assets/ref_dolezalzeller.jpg">
+        <img alt="Bild eines leeren Wartezimmers" src="../assets/ref_dolezalzeller.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Applikation<br>10/2020<br>Applikation, Hardware und Support.</h2>

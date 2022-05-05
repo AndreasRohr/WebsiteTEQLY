@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="../assets/ref_inselspital_1.jpeg">
+        <img alt="Bild der automatischen Fiebermesseinrichtung mit Kamera und Bildschirm." src="../assets/ref_inselspital_1.jpeg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Temporäre Netzwerkinstallation<br>01/2021<br>Automatische Fiebermesslösung und Netzwerkbau inklusive Kameraüberwachung.</h2>

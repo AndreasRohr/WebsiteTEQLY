@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="index-container">
-        <img src="../assets/teqly_header_press.jpg">
+        <img alt="Bild eines Stapels von Zeitungen." src="../assets/teqly_header_press.jpg">
         <div class="lineblack-index"></div>
         <div class="products-col-top">
             <h1>Mitteilungen</h1>

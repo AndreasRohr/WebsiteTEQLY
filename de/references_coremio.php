@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
-        <img src="../assets/ref_coremio.jpg">
+        <img alt="Bild eines brennenden Steinofens mit einer Pizza." src="../assets/ref_coremio.jpg">
         <div  class="title-right">
             <!--EDIT HERE-->
             <h2>Website<br>09/2020<br>Webdesign inkl. Reservationstool.</h2>

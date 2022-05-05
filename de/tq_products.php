@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="index-container">
-        <img src="../assets/teqly_header_products.jpg">
+        <img alt="Einzelne Gerätekomponenten vor weissem Hintergrund." src="../assets/teqly_header_products.jpg">
         <div  class="title-right">
             <h2>Egal ob nur ein einzelnes Modul oder eine schlüsselfertige Komplettlösung.<br>Wir bieten Ihnen immer auf Ihre Bedürfnisse zugeschnittene Dienstleistungen an.</h2>
         </div>
