@@ -91,7 +91,7 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Si tu es à la recherche d'un nouveau défi, si tu as envie de partir à l'aventure et si tu souhaites participer activement à la création et au développement d'une jeune entreprise, n'hésite pas à consulter nos postes vacants et à nous contacter. <a href="tq_products.php">Découvrir des positions ouvertes.</a><br><br> Et si aucun poste n'est actuellement à pourvoir, n'hésite pas à nous contacter. Nous nous réjouissons également de recevoir une candidature spontanée de ta part, dans laquelle tu nous montres en quoi tu peux faire avancer TEQLY. <a href="mailto:work@teqly.ch">Envoyer une candidature spontanée.</a> </p>
+                <p>Si tu es à la recherche d'un nouveau défi, si tu as envie de partir à l'aventure et si tu souhaites participer activement à la création et au développement d'une jeune entreprise, n'hésite pas à consulter nos postes vacants et à nous contacter. <a href="tq_jobs.php">Découvrir des positions ouvertes.</a><br><br> Et si aucun poste n'est actuellement à pourvoir, n'hésite pas à nous contacter. Nous nous réjouissons également de recevoir une candidature spontanée de ta part, dans laquelle tu nous montres en quoi tu peux faire avancer TEQLY. <a href="mailto:work@teqly.ch">Envoyer une candidature spontanée.</a> </p>
             </div>
         </div>
     </div>

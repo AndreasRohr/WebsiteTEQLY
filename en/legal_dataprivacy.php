@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <?php include 'structure_header_imports.php' ?>
-    <title>Privacy policy.</title>
+    <title>Datenschutzerklärung.</title>
     <?php include 'structure_header.php' ?>
 </head>
 
@@ -10,89 +10,89 @@
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
-                <h1 id="titleh1" class="indextitle">Privacy policy.</h1>
+            <h1 id="titleh1" class="indextitle">Datenschutzerklärung.</h1>
         </div>
     </div>
     <div class="index-container">
         <div class="lineblack-index"></div>
-        <p>The responsible party within the meaning of the data protection laws, in particular the EU General Data Protection Regulation (GDPR), is:<br><br>
+        <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:<br><br>
             TEQLY GmbH<br>
             Sandro Bütler<br>
             Flammbach 3a<br>
             5632 Buttwil<br><br>
             E-Mail: info@teqly.ch<br>
-            Phone: 056 511 11 33<br><br>
-            <b>General note</b><br>
-            Based on Article 13 of the Swiss Federal Constitution and the data protection regulations of the Swiss Confederation (Data Protection Act, DSG), every person has the right to protection of their privacy as well as protection against misuse of their personal data. The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the legal data protection regulations as well as this privacy policy.
-            In cooperation with our hosting providers, we make every effort to protect the databases as well as possible against unauthorized access, loss, misuse or falsification.
-            We would like to point out that data transmission on the Internet (e.g. communication by e-mail) can have security gaps. A complete protection of data against access by third parties is not possible.
+            Telefon: 056 511 11 33<br><br>
+            <b>Allgemeiner Hinweis</b><br>
+            Gestützt auf Artikel 13 der schweizerischen Bundesverfassung und den datenschutzrechtlichen Bestimmungen des Bundes (Datenschutzgesetz, DSG) hat jede Person Anspruch auf Schutz ihrer Privatsphäre sowie auf Schutz vor Missbrauch ihrer persönlichen Daten. Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
+            In Zusammenarbeit mit unseren Hosting-Providern bemühen wir uns, die Datenbanken so gut wie möglich vor fremden Zugriffen, Verlusten, Missbrauch oder vor Fälschung zu schützen.
+            Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
             <br><br>
-            By using this website, you consent to the collection, processing and use of data as described below. This website can generally be visited without registration. In the process, data such as pages called up or the name of the file called up, date and time are stored on the server for statistical purposes without this data being directly related to your person. Personal data, in particular name, address or e-mail address are collected as far as possible on a voluntary basis. Without your consent, the data will not be passed on to third parties.
+            Durch die Nutzung dieser Website erklären Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gemäss der nachfolgenden Beschreibung einverstanden. Diese Website kann grundsätzlich ohne Registrierung besucht werden. Dabei werden Daten wie beispielsweise aufgerufene Seiten bzw. Namen der abgerufenen Datei, Datum und Uhrzeit zu statistischen Zwecken auf dem Server gespeichert, ohne dass diese Daten unmittelbar auf Ihre Person bezogen werden. Personenbezogene Daten, insbesondere Name, Adresse oder E-Mail-Adresse werden soweit möglich auf freiwilliger Basis erhoben. Ohne Ihre Einwilligung erfolgt keine Weitergabe der Daten an Dritte.
             <br><br>
-            <b>Privacy policy for cookies</b><br>
-            This website uses cookies. These are small text files that make it possible to store specific information related to the user on the user's terminal device while the user is using the website. Cookies make it possible, in particular, to determine the frequency of use and number of users of the pages, to analyze behavior patterns of page use, but also to make our offer more customer-friendly. Cookies remain stored beyond the end of a browser session and can be retrieved when you visit the site again. If you do not wish this, you should set your Internet browser to refuse the acceptance of cookies.
-            A general objection to the use of cookies used for online marketing purposes can be declared for a large number of the services, especially in the case of tracking, via the US site http://www.aboutads.info/choices/ or the EU site http://www.youronlinechoices.com/. Furthermore, the storage of cookies can be achieved by disabling them in the browser settings. Please note that not all functions of this online offer can then be used.
+            <b>Datenschutzerklärung für Cookies</b><br>
+            Diese Website verwendet Cookies. Das sind kleine Textdateien, die es möglich machen, auf dem Endgerät des Nutzers spezifische, auf den Nutzer bezogene Informationen zu speichern, während er die Website nutzt. Cookies ermöglichen es, insbesondere Nutzungshäufigkeit und Nutzeranzahl der Seiten zu ermitteln, Verhaltensweisen der Seitennutzung zu analysieren, aber auch unser Angebot kundenfreundlicher zu gestalten. Cookies bleiben über das Ende einer Browser-Sitzung gespeichert und können bei einem erneuten Seitenbesuch wieder aufgerufen werden. Wenn Sie das nicht wünschen, sollten Sie Ihren Internetbrowser so einstellen, dass er die Annahme von Cookies verweigert.
+            Ein genereller Widerspruch gegen den Einsatz der zu Zwecken des Onlinemarketing eingesetzten Cookies kann bei einer Vielzahl der Dienste, vor allem im Fall des Trackings, über die US-amerikanische Seite http://www.aboutads.info/choices/ oder die EU-Seite http://www.youronlinechoices.com/ erklärt werden. Des Weiteren kann die Speicherung von Cookies mittels deren Abschaltung in den Einstellungen des Browsers erreicht werden. Bitte beachten Sie, dass dann gegebenenfalls nicht alle Funktionen dieses Onlineangebotes genutzt werden können.
             <br><br>
-            <b>Privacy policy for SSL/TLS encryption</b><br>
-            This website uses SSL/TLS encryption for security reasons and to protect the transmission of confidential content, such as requests that you send to us as the site operator. You can recognize an encrypted connection by the fact that the address line of the browser changes from "http://" to "https://" and by the lock symbol in your browser line.
-            If SSL or TLS encryption is activated, the data you transmit to us cannot be read by third parties.
+            <b>Datenschutzerklärung für SSL-/TLS-Verschlüsselung</b><br>
+            Diese Website nutzt aus Gründen der Sicherheit und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel der Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-/TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von "http://" auf "https://" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
+            Wenn die SSL bzw. TLS Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
             <br><br>
-            <b>Third party services</b><br>
-            This website may use Google Maps for embedding maps, Google Invisible reCAPTCHA for protection against bots and spam, and YouTube for embedding videos.
-            These services of the American Google LLC use, among other things, cookies and, as a result, data is transferred to Google in the USA, although we assume that no personal tracking takes place in this context solely through the use of our website.
-            Google has undertaken to ensure adequate data protection in accordance with the US-European and the US-Swiss Privacy Shield.
-            Further information can be found in Google's privacy policy.
+            <b>Dienste von Dritten</b><br>
+            Diese Website verwenden allenfalls Google Maps für das Einbetten von Karten, Google Invisible reCAPTCHA für den Schutz gegen Bots und Spam sowie YouTube für das Einbetten von Videos.
+            Diese Dienste der amerikanischen Google LLC verwenden unter anderem Cookies und infolgedessen werden Daten an Google in den USA übertragen, wobei wir davon ausgehen, dass in diesem Rahmen kein personenbezogenes Tracking allein durch die Nutzung unserer Website stattfindet.
+            Google hat sich verpflichtet, einen angemessenen Datenschutz gemäss dem amerikanisch-europäischen und dem amerikanisch-schweizerischen Privacy Shield zu gewährleisten.
+            Weitere Informationen finden sich in der Datenschutzerklärung von Google.
             <br><br>
-            <b>Privacy policy for contact form</b><br>
-            If you send us inquiries via the contact form, your data from the inquiry form including the contact data you provided there will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not pass on this data without your consent.
+            <b>Datenschutzerklärung für Kontaktformular</b><br>
+            Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
             <br><br>
-            <b>Privacy policy for newsletter data</b><br>
-            If you would like to receive the newsletter offered on this website, we require an e-mail address from you as well as information that allows us to verify that you are the owner of the specified e-mail address and agree to receive the newsletter. Further data will not be collected. We use this data exclusively for sending the requested information and do not pass it on to third parties.
-            You can revoke your consent to the storage of the data, the e-mail address and their use for sending the newsletter at any time, for example via the "unsubscribe link" in the newsletter.
+            <b>Datenschutzerklärung für Newsletterdaten</b><br>
+            Wenn Sie den auf dieser Website angebotenen Newsletter beziehen möchten, benötigen wir von Ihnen eine E-Mail-Adresse sowie Informationen, welche uns die Überprüfung gestatten, dass Sie der Inhaber der angegebenen E-Mail-Adresse sind und mit dem Empfang des Newsletters einverstanden sind. Weitere Daten werden nicht erhoben. Diese Daten verwenden wir ausschliesslich für den Versand der angeforderten Informationen und geben sie nicht an Dritte weiter.
+            Die erteilte Einwilligung zur Speicherung der Daten, der E-Mail-Adresse sowie deren Nutzung zum Versand des Newsletters können Sie jederzeit widerrufen, etwa über den «Austragen-Link» im Newsletter.
             <br><br>
-            <b>Privacy policy for Google Analytics</b><br>
-            This website uses Google Analytics, a web analytics service provided by Google Ireland Limited. If the data controller on this website is located outside the European Economic Area or Switzerland, then the Google Analytics data processing is carried out by Google LLC. Google LLC and Google Ireland Limited are hereinafter referred to as "Google".
-            The statistics obtained enable us to improve our offer and make it more interesting for you as a user. This website also uses Google Analytics for a cross-device analysis of visitor flows, which is carried out via a user ID. If you have a Google user account, you can deactivate the cross-device analysis of your usage in the settings there under "My data", "Personal data".
-            The legal basis for the use of Google Analytics is Art. 6 para. 1 p. 1 lit. f DS-GVO. The IP address transmitted by your browser as part of Google Analytics will not be merged with other data from Google. We would like to point out that on this website Google Analytics has been extended by the code "_anonymizeIp();" to ensure anonymized collection of IP addresses. This means that IP addresses are processed in abbreviated form, which means that they cannot be linked to a specific person. If the data collected about you is related to a person, this is immediately excluded and the personal data is deleted immediately.
-            Only in exceptional cases will the full IP address be transferred to a Google server in the USA and shortened there. On behalf of the operator of this website, Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage to the website operator. For the exceptional cases in which personal data is transferred to the USA, Google has submitted to the EU-US Privacy Shield, https://www.privacyshield.gov/EU-US-Framework.
-            Google Analytics uses cookies. The information generated by the cookie about your use of this website is usually transmitted to a Google server in the USA and stored there. You may refuse the use of cookies by selecting the appropriate settings on your browser, however please note that if you do this you may not be able to use the full functionality of this website. You can also prevent the collection of data generated by the cookie and related to your use of the website (including your IP address) to Google and the processing of this data by Google by downloading and installing the browser plugin available at the following link: Disable Google Analytics.
-            In addition, you can also prevent the use of Google Analytics by clicking on this link: Disable Google Analytics. This will save a so-called opt-out cookie on your data carrier, which prevents the processing of personal data by Google Analytics. Please note that if you delete all cookies on your terminal device, these opt-out cookies will also be deleted, i.e. you will have to set the opt-out cookies again if you wish to continue to prevent this form of data collection. The opt-out cookies are set per browser and computer/end device and must therefore be activated separately for each browser, computer or other end device.
+            <b>Datenschutzerklärung für Google Analytics</b><br>
+            Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Ireland Limited. Wenn der Verantwortliche für die Datenverarbeitung auf dieser Website ausserhalb des Europäischen Wirtschaftsraumes oder der Schweiz sitzt, dann erfolgt die Google Analytics Datenverarbeitung durch Google LLC. Google LLC und Google Ireland Limited werden nachfolgend «Google» genannt.
+            Über die gewonnenen Statistiken können wir unser Angebot verbessern und für Sie als Nutzer interessanter ausgestalten. Diese Website verwendet Google Analytics zudem für eine geräteübergreifende Analyse von Besucherströmen, die über eine User-ID durchgeführt wird. Sofern Sie über ein Google-Benutzerkonto verfügen, können Sie in den dortigen Einstellungen unter «Meine Daten», «persönliche Daten» die geräteübergreifende Analyse Ihrer Nutzung deaktivieren.
+            Rechtsgrundlage für die Nutzung von Google Analytics ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Wir weisen Sie darauf hin, dass auf dieser Website Google Analytics um den Code «_anonymizeIp();» erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen zu gewährleisten. Dadurch werden IP-Adressen gekürzt weiterverarbeitet, eine Personenbeziehbarkeit kann damit ausgeschlossen werden. Soweit den über Sie erhobenen Daten ein Personenbezug zukommt, wird dieser also sofort ausgeschlossen und die personenbezogenen Daten damit umgehend gelöscht.
+            Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websitenaktivitäten zusammenzustellen und um weitere mit der Websitennutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitenbetreiber zu erbringen. Für die Ausnahmefälle, in denen personenbezogene Daten in die USA übertragen werden, hat sich Google dem EU-US Privacy Shield unterworfen, https://www.privacyshield.gov/EU-US-Framework.
+            Google Analytics verwendet Cookies. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: Google Analytics deaktivieren.
+            Ausserdem können Sie die Nutzung von Google Analytics auch verhindern, indem sie auf diesen Link klicken: Google Analytics deaktivieren. Hierdurch wird ein sog. opt-out Cookie auf ihrem Datenträger gespeichert, der die Verarbeitung personenbezogener Daten durch Google Analytics verhindert. Bitte beachten Sie, dass bei einem Löschen sämtlicher Cookies auf Ihrem Endgerät auch diese Opt-out-Cookies gelöscht werden, d.h., dass Sie erneut die Opt-out-Cookies setzen müssen, wenn Sie weiterhin diese Form der Datenerhebung verhindern wollen. Die Opt-out-Cookies sind pro Browser und Rechner/Endgerät gesetzt und müssen daher für jeden Browser, Rechner oder anderes Endgerät gesondert aktiviert werden.
             <br><br>
-            <b>Privacy policy for Google Ads</b><br>
-            This website uses the online marketing tool Google Ads by Google ("Google Ads"). Google Ads uses cookies to serve ads that are relevant to users, to improve campaign performance reports, or to prevent a user from seeing the same ads more than once. Via a cookie ID, Google records which ads are displayed in which browser and can thus prevent them from being displayed more than once. In addition, Google Ads can use cookie IDs to record so-called conversions that are related to ad requests. This is the case, for example, when a user sees a Google Ads ad and later calls up the advertiser's website with the same browser and buys something there. According to Google, Google Ads cookies do not contain any personal information.
-            Due to the marketing tools used, your browser automatically establishes a direct connection with Google's server. Through the integration of Google Ads, Google receives the information that you have called up the corresponding part of our website or clicked on an ad from us. If you are registered with a Google service, Google can assign the visit to your account. Even if you are not registered with Google or have not logged in, there is a possibility that Google will obtain and store your IP address.
-            You can prevent participation in this tracking process in various ways:
+            <b>Datenschutzerklärung für Google Ads</b><br>
+            Diese Website nutzt das Online-Marketing-Tool Google Ads von Google («Google Ads»). Google Ads setzt Cookies ein, um für die Nutzer relevante Anzeigen zu schalten, die Berichte zur Kampagnenleistung zu verbessern oder um zu vermeiden, dass ein Nutzer die gleichen Anzeigen mehrmals sieht. Über eine Cookie-ID erfasst Google, welche Anzeigen in welchem Browser geschaltet werden und kann so verhindern, dass diese mehrfach angezeigt werden. Darüber hinaus kann Google Ads mithilfe von Cookie-IDs sog. Conversions erfassen, die Bezug zu Anzeigenanfragen haben. Das ist etwa der Fall, wenn ein Nutzer eine Google Ads-Anzeige sieht und später mit demselben Browser die Website des Werbetreibenden aufruft und dort etwas kauft. Laut Google enthalten Google Ads-Cookies keine personenbezogenen Informationen.
+            Aufgrund der eingesetzten Marketing-Tools baut Ihr Browser automatisch eine direkte Verbindung mit dem Server von Google auf. Durch die Einbindung von Google Ads erhält Google die Information, dass Sie den entsprechenden Teil unseres Internetauftritts aufgerufen oder eine Anzeige von uns angeklickt haben. Sofern Sie bei einem Dienst von Google registriert sind, kann Google den Besuch Ihrem Account zuordnen. Selbst wenn Sie nicht bei Google registriert sind bzw. sich nicht eingeloggt haben, besteht die Möglichkeit, dass Google Ihre IP-Adresse in Erfahrung bringt und speichert.
+            Sie können die Teilnahme an diesem Tracking-Verfahren auf verschiedene Weise verhindern:
             <br>
-            - by setting your browser software accordingly; in particular, the suppression of third-party cookies will result in you not receiving third-party ads;<br>
-            - by disabling cookies for conversion tracking by setting your browser to block cookies from the domain "www.googleadservices.com", https://adssettings.google.com, which setting will be deleted when you delete your cookies;<br>
-            - by disabling interest-based ads from the providers that are part of the "About Ads" self-regulatory campaign, via the link https://www.aboutads.info/choices, with this setting being deleted when you delete your cookies;<br>
-            - by permanently disabling them in your Firefox, Internetexplorer or Google Chrome browsers at the link https://www.google.com/settings/ads/plugin. We would like to point out that in this case you may not be able to use all functions of this offer to their full extent.<br>
+            - durch eine entsprechende Einstellung Ihrer Browser-Software, insbesondere führt die Unterdrückung von Drittcookies dazu, dass Sie keine Anzeigen von Drittanbietern erhalten;<br>
+            - durch Deaktivierung der Cookies für Conversion-Tracking, indem Sie Ihren Browser so einstellen, dass Cookies von der Domain «www.googleadservices.com» blockiert werden, https://adssettings.google.com, wobei diese Einstellung gelöscht wird, wenn Sie Ihre Cookies löschen;<br>
+            - durch Deaktivierung der interessenbezogenen Anzeigen der Anbieter, die Teil der Selbstregulierungs-Kampagne «About Ads» sind, über den Link https://www.aboutads.info/choices, wobei diese Einstellung gelöscht wird, wenn Sie Ihre Cookies löschen;<br>
+            - durch dauerhafte Deaktivierung in Ihren Browsern Firefox, Internetexplorer oder Google Chrome unter dem Link https://www.google.com/settings/ads/plugin. Wir weisen Sie darauf hin, dass Sie in diesem Fall gegebenenfalls nicht alle Funktionen dieses Angebots vollumfänglich nutzen können.<br>
             <br>
-            The legal basis for the processing of your data is a balancing of interests, according to which the processing of your personal data described above is not opposed by any overriding interests on your part (Art. 6 (1) sentence 1 lit. f DSGVO). You can find more information about Google Ads from Google at https://ads.google.com/intl/de_DE/home/, as well as about data protection at Google in general: https://www.google.de/intl/de/policies/privacy. Alternatively, you can visit the website of the Network Advertising Initiative (NAI) at https://www.networkadvertising.org.
+            Rechtsgrundlage für die Verarbeitung Ihrer Daten ist eine Interessenabwägung, wonach der vorstehend geschilderten Verarbeitung Ihrer personenbezogenen Daten keine überwiegenden gegenteiligen Interessen Ihrerseits entgegenstehen (Art. 6 Abs. 1 S. 1 lit. f DSGVO). Weitere Informationen zu Google Ads von Google erhalten Sie unter https://ads.google.com/intl/de_DE/home/, sowie zum Datenschutz bei Google allgemein: https://www.google.de/intl/de/policies/privacy. Alternativ können Sie die Website der Network Advertising Initiative (NAI) unter https://www.networkadvertising.org besuchen.
             <br><br>
-            <b>Privacy policy for the use of Google Web Fonts</b><br>
-            This website uses so-called web fonts provided by Google for the uniform display of fonts. When you call up a page, your browser loads the required web fonts into its browser cache in order to display texts and fonts correctly. If your browser does not support web fonts, a standard font is used by your computer.
-            You can find more information on Google Web Fonts at https://developers.google.com/fonts/faq and in Google's privacy policy: https://www.google.com/policies/privacy/
+            <b>Datenschutzerklärung für die Nutzung von Google Web Fonts</b><br>
+            Diese Website nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen. Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.
+            Weitere Informationen zu Google Web Fonts finden Sie unter https://developers.google.com/fonts/faq und in der Datenschutzerklärung von Google: https://www.google.com/policies/privacy/
             <br><br>
-            <b>Privacy policy for Twitter</b><br>
-            This website uses functions of Twitter, Inc., 1355 Market St, Suite 900, San Francisco, CA 94103, USA. When you call up our pages with Twitter plug-ins, a connection is established between your browser and the servers of Twitter. In the process, data is already transferred to Twitter. If you have a Twitter account, this data can be linked to it. If you do not wish this data to be associated with your Twitter account, please log out of Twitter before visiting our site. Interactions, in particular clicking on a "re-tweet" button, are also passed on to Twitter. You can learn more at https://twitter.com/privacy.
+            <b>Datenschutzerklärung für Twitter</b><br>
+            Diese Website verwendet Funktionen von Twitter, Inc., 1355 Market St, Suite 900, San Francisco, CA 94103, USA. Bei Aufruf unserer Seiten mit Twitter-Plug-Ins wird eine Verbindung zwischen Ihrem Browser und den Servern von Twitter aufgebaut. Dabei werden bereits Daten an Twitter übertragen. Besitzen Sie einen Twitter-Account, können diese Daten damit verknüpft werden. Wenn Sie keine Zuordnung dieser Daten zu Ihrem Twitter-Account wünschen, loggen Sie sich bitte vor dem Besuch unserer Seite bei Twitter aus. Interaktionen, insbesondere das Anklicken eines „Re-Tweet“-Buttons werden ebenfalls an Twitter weitergegeben. Mehr erfahren Sie unter https://twitter.com/privacy.
             <br><br>
-            <b>Privacy policy for Instagram</b><br>
-            Functions of the Instagram service are integrated on our website. These functions are offered by Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025, USA. If you are logged into your Instagram account, you can link the content of our pages to your Instagram profile by clicking on the Instagram button. This allows Instagram to associate the visit to our pages with your user account. We would like to point out that we, as the provider of the pages, have no knowledge of the content of the transmitted data or its use by Instagram.
-            For more information, please see the privacy policy of Instagram: http://instagram.com/about/legal/privacy/
+            <b>Datenschutzerklärung für Instagram</b><br>
+            Auf unserer Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen werden angeboten durch die Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025, USA integriert. Wenn Sie in Ihrem Instagram-Account eingeloggt sind können Sie durch Anklicken des Instagram-Buttons die Inhalte unserer Seiten mit Ihrem Instagram-Profil verlinken. Dadurch kann Instagram den Besuch unserer Seiten Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Instagram erhalten.
+            Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram: http://instagram.com/about/legal/privacy/
             <br><br>
-            <b>Changes</b><br>
-            We may amend this privacy policy at any time without prior notice. The current version published on our website applies. Insofar as the data protection declaration is part of an agreement with you, we will inform you of the change by e-mail or other suitable means in the event of an update.
+            <b>Änderungen</b><br>
+            Wir können diese Datenschutzerklärung jederzeit ohne Vorankündigung anpassen. Es gilt die jeweils aktuelle, auf unserer Website publizierte Fassung. Soweit die Datenschutzerklärung Teil einer Vereinbarung mit Ihnen ist, werden wir Sie im Falle einer Aktualisierung über die Änderung per E-Mail oder auf andere geeignete Weise informieren.
             <br><br>
-            <b>Questions for the data protection officer</b><br>
-            If you have any questions about data protection, please write us an e-mail or contact directly the responsible person in our organization listed for data protection at the beginning of the privacy policy.
+            <b>Fragen an den Datenschutzbeauftragten</b><br>
+            Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz zu Beginn der Datenschutzerklärung aufgeführten, verantwortlichen Person in unserer Organisation.
             <br><br>
             Buttwil, 24.08.2020<br>
-            Source: <a href="https://www.swissanwalt.ch/">SwissAnwalt</a>
+            Quelle: <a href="https://www.swissanwalt.ch/">SwissAnwalt</a>
         </p>
     </div>
-<br>
-<?php include 'structure_footer.php' ?>
+    <br>
+    <?php include 'structure_footer.php' ?>
 </body>
 </html>
 <script type="text/javascript" src="../js/script.js"></script>

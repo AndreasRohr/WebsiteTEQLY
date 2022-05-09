@@ -25,7 +25,7 @@
                 <p><b>MWST:</b> CHE-171.042.900 MWST</p>
                 <br>
                 <p><b>Mail:</b> info@teqly.ch</p>
-                <p><b>Telefon:</b> +41 56 511 11 33</p>
+                <p><b>Téléphone:</b> +41 56 511 11 33</p>
             </div>
         </div>
         <div class="lineblack-index"></div>
@@ -39,7 +39,7 @@
                 <p><b>MWST:</b> CHE-171.042.900 MWST</p>
                 <br>
                 <p><b>Mail:</b> info@teqly.ch</p>
-                <p><b>Telefon:</b> +41 56 511 11 33</p>
+                <p><b>Téléphone:</b> +41 56 511 11 33</p>
             </div>
         </div>
         </div>

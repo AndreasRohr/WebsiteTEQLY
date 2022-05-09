@@ -90,7 +90,7 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>If you're looking for a new challenge, fancy an adventure and want to actively help shape and mould a young company, then be sure to check out our vacancies and get in touch. <a href="tq_products.php">Discover open positions.</a><br><br> And if there is no suitable vacancy advertised at the moment, just get in touch with us. We also look forward to receiving a speculative application from you, in which you show us why you can bring TEQLY forward. <a href="mailto:work@teqly.ch">Send speculative application.</a> </p>
+                <p>If you're looking for a new challenge, fancy an adventure and want to actively help shape and mould a young company, then be sure to check out our vacancies and get in touch. <a href="tq_jobs.php">Discover open positions.</a><br><br> And if there is no suitable vacancy advertised at the moment, just get in touch with us. We also look forward to receiving a speculative application from you, in which you show us why you can bring TEQLY forward. <a href="mailto:work@teqly.ch">Send speculative application.</a> </p>
             </div>
         </div>
     </div>

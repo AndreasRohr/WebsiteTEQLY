@@ -2,7 +2,7 @@
 <html lang="fr">
 <script>
     // Random String return for index.php
-    var items = Array("Vos partenaires informatiques", "vos résolveurs de problèmes", "vos supporters", "vos programmeurs", "vos conseillers informatiques".");
+    var items = Array("Vos partenaires.", "Vos supporteurs.", "Vos programmeurs.");
 
     window.onload = function answerWriter() {
         document.getElementById('titleh1').style.visibility = "visible";
