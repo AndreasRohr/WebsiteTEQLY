@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <?php include './structure_header_imports.php' ?>
+    <?php include 'structure_header_imports.php' ?>
     <title>Allgemeine Geschäftsbedingungen.</title>
-    <?php include './structure_header.php' ?>
+    <?php include 'structure_header.php' ?>
 </head>
 
 <body>
@@ -249,7 +249,7 @@
         </h1>
     </div>
     <br>
-    <?php include '../structure_footer.php' ?>
+    <?php include 'structure_footer.php' ?>
 </body>
 </html>
 <script type="text/javascript" src="../js/script.js"></script>

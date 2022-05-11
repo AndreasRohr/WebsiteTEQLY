@@ -91,7 +91,7 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Wenn du auf der Suche nach einer neuen Herausforderung bist, Lust auf ein Abenteuer hast und ein junges Unternehmen aktiv mitgestalten und prägen möchtest, dann schau dir unbedingt unsere offenen Stellen an und melde dich bei uns. <a href="tq_about.php">Offene Positionen entdecken.</a><br><br> Und falls gerade keine passende offene Stelle ausgeschrieben ist, melde dich einfach bei uns. Wir freuen uns auch auf eine Initiativbewerbung, in der du uns aufzeigst wieso du TEQLY weiterbringen kannst, von dir. <a href="mailto:work@teqly.ch">Initiativbewerbung senden.</a> </p>
+                <p>Wenn du auf der Suche nach einer neuen Herausforderung bist, Lust auf ein Abenteuer hast und ein junges Unternehmen aktiv mitgestalten und prägen möchtest, dann schau dir unbedingt unsere offenen Stellen an und melde dich bei uns. <a href="tq_about.php">Offene Positionen entdecken.</a><br><br> Und falls gerade keine passende offene Stelle ausgeschrieben ist, melde dich einfach bei uns. Wir freuen uns auch auf eine Initiativbewerbung, in der du uns aufzeigst wieso du TEQLY weiterbringen kannst. <a href="mailto:work@teqly.ch">Initiativbewerbung senden.</a> </p>
             </div>
         </div>
     </div>
