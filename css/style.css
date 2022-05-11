@@ -424,6 +424,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.8rem;
+    min-height: 15%;
 }
 
 .header-row {
@@ -431,7 +432,6 @@ body {
     grid-template-columns: repeat(auto-fill, 30rem);
     padding: 10px;
     margin-left: auto;
-    margin-top: 10px;
     margin-right: auto;
     max-width: 1500px;
     width: 100%;
@@ -505,7 +505,6 @@ body {
     color: #818181;
     display: block;
     transition: 0.1s;
-    margin-bottom: 20px;
 
 }
 
@@ -961,10 +960,6 @@ div img {
     position: absolute;
     background-color: #111;
     width: 3.05rem;
-    border-right: solid white 1px;
-    border-left: solid white 1px;
-    border-bottom: solid white 3.5px;
-    border-top: solid white 0px;
     height: 3rem;
 }
 
@@ -975,6 +970,10 @@ div img {
     text-decoration: none;
     display: block;
     font-size: 16px;
+    border-right: solid white 1px;
+    border-left: solid white 1px;
+    border-bottom: solid white 1px;
+    border-top: solid white 0px;
 }
 
 /* Change color of dropdown links on hover */
