@@ -6,7 +6,6 @@
     <title>Title</title>
     <link rel="stylesheet" href="../css/normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="../css/style.css" media="all" type="text/css">
-    <script src="structure_form.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
 
@@ -65,7 +64,7 @@
 <div id="myModal" class="popupform">
     <div class="popupform-content">
         <span class="close">&times;</span>
-        <?php include 'structure_formpage.php' ?>
+        <?php include 'structure_en_formpage.php' ?>
     </div>
 </div>
 </div>

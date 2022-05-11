@@ -583,7 +583,8 @@ body {
     left: 0;
     top: 0;
     width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    height: 100%;
+    min-height: 900px;
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
@@ -599,6 +600,7 @@ body {
     top: 0;
     right: 0;
     height: 100%;
+    min-height: 900px;
 }
 
 .close {
