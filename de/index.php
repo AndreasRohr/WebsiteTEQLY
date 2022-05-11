@@ -37,7 +37,7 @@
             Your browser does not support the video tag.
         </video>
         <div  class="title-right">
-            <h2>Willkommen bei TEQLY.<br>Wir sind Ihre Ansprechpartner wenn es um innovative und kundenorientiert IT-Lösungen geht.</h2>
+            <h2>Willkommen bei TEQLY.<br>Wir sind Ihre Ansprechpartner wenn es um innovative und kundenorientierte IT-Lösungen geht.</h2>
         </div>
         <div class="lineblack-index"></div>
         <div class="index-col-left">
@@ -81,14 +81,14 @@
             <a href="tq_references.php">Projekte</a>
         </div>
         <div class="index-col-right">
-            <p>Ein altes Sprichwort lautet bekanntlich: <em>"Taten sagen mehr als Worte"</em>. Daher haben wir einige Projekte zusammengestellt, um Ihnen einen kleinen Überblick über unsere Tätigkeitsbereiche zu geben. Zu unseren Kunden zählen kleine, mittlere sowie grosse Unternehmen und Organisationen aus verschiedensten Branchen. <a href="tq_products.php">Mehr erfahren.</a></p>
+            <p>Ein altes Sprichwort lautet bekanntlich: <em>"Taten sagen mehr als Worte"</em>. Daher haben wir einige Projekte zusammengestellt, um Ihnen einen kleinen Überblick über unsere Tätigkeitsbereiche zu geben. Zu unseren Kunden zählen kleine, mittlere sowie grosse Unternehmen und Organisationen aus verschiedensten Branchen. <a href="tq_references.php">Mehr erfahren.</a></p>
         </div>
         <div class="lineblack-index"></div>
         <div class="index-col-left">
-            <a href="tq_jobs.php">Über TEQLY</a>
+            <a href="tq_about.php">Über TEQLY</a>
         </div>
         <div class="index-col-right">
-            <p>Während des Studiums haben wir TEQLY gegründet. Wir starteten im Frühling 2020 zu dritt in einem Unterrichtsraum an der FHNW das Abenteuer TEQLY. In den vergangenen Jahren haben wir unglaublich viel gelernt und sind, zusammen mit unseren Kunden, gewachsen. Unser Team vergrössert sich stetig und ist bereit für jede neue Herausforderung. <a href="tq_products.php">Mehr erfahren.</a></p>
+            <p>Während des Studiums haben wir TEQLY gegründet. Wir starteten im Frühling 2020 zu dritt in einem Unterrichtsraum an der FHNW das Abenteuer TEQLY. In den vergangenen Jahren haben wir unglaublich viel gelernt und sind, zusammen mit unseren Kunden, gewachsen. Unser Team vergrössert sich stetig und ist bereit für jede neue Herausforderung. <a href="tq_about.php">Mehr erfahren.</a></p>
         </div>
 
     </div>

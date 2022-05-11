@@ -28,7 +28,7 @@
             <a href="references_meier_2022.php">Bäckerei Confiserie Meier</a>
         </div>
         <div class="index-col-right">
-            <p>Die Bäckerei und Confiserie Meier AG in Mägenwil ist ein innovatives Traditionsunternehmen. Neue Technologien machten einen Ausbau des internen Netzwerks nötig. So wurde in Zusammenarbeit mit einem lokalen Elektrounternehmen die bestehende Netzwerkinfrastruktur erweitert und so weitere Bereich erschlossen. <a href="references_meier_2022.php">Mehr erfahren.</a></p>
+            <p>Die Bäckerei und Confiserie Meier AG in Mägenwil ist ein innovatives Traditionsunternehmen. Neue Technologien machten einen Ausbau des internen Netzwerks nötig. So wurde in Zusammenarbeit mit einem lokalen Elektrounternehmen die bestehende Netzwerkinfrastruktur erweitert und so weitere Bereiche erschlossen. <a href="references_meier_2022.php">Mehr erfahren.</a></p>
         </div>
 
 
@@ -87,7 +87,7 @@
             <a href="references_praxisdz.php">Praxis Dolezal & Zeller</a>
         </div>
         <div class="index-col-right">
-            <p>Dolezal & Zeller ist eine Praxis für Psychotherapie und Psychatrie in Olten. Wir wurden von der Praxis engagiert um eine Prozessoptimierung im Bereich Patientenverwaltung vorzunehmen. Um dies umzusetzten, habe wir ein Tool geliefert, welches der Praxis die Möglichkeit bietet Ihre Patienten effizient und Übersichtlich zu Verwalten. <a href="references_praxisdz.php">Mehr erfahren.</a></p>
+            <p>Dolezal & Zeller ist eine Praxis für Psychotherapie und Psychatrie in Olten. Wir wurden von der Praxis engagiert um eine Prozessoptimierung im Bereich Patientenverwaltung vorzunehmen. Um dies umzusetzten, habe wir ein Tool geliefert, welches der Praxis die Möglichkeit bietet Ihre Patienten effizient und Übersichtlich zu verwalten. <a href="references_praxisdz.php">Mehr erfahren.</a></p>
         </div>
 
 
