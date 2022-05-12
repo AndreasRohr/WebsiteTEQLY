@@ -5,7 +5,7 @@ $secretKey 	= '6LcqCakeAAAAAFW2kFpajxnWd4rvyoK6Rb8zUvng';
 
 // Email configuration
 $toEmail = 'info@teqly.ch';
-$fromName = 'Kontakformular Teqly.ch';
+$fromName = 'Kontakformular TEQLY.ch';
 $formEmail = 'info@teqly.ch';
 
 $postData = $statusMsg = $valErr = '';
@@ -34,11 +34,11 @@ if(isset($_POST['submit'])){
 				
 				$subject = "$subject";
 				$htmlContent = "
-					<h2>Contact Request Details</h2>
+					<h2>ANFRAGE VIA FORMULAR TEQLY.CH (EN):</h2>
 					<p><b>Name: </b>".$name."</p>
 					<p><b>Email: </b>".$email."</p>
-                    <p><b>Subject: </b>".$subject."</p>
-					<p><b>Message: </b>".$message."</p>
+                    <p><b>Betreff: </b>".$subject."</p>
+					<p><b>Nachricht: </b>".$message."</p>
 				";
 				
 				// Always set content-type when sending HTML email

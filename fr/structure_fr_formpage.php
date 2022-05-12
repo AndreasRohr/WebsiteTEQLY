@@ -19,7 +19,7 @@
         <div class="wrapper">
             <div class="form__inner">
                 <form action="" method="post" class="form">
-                    <h3>Contact Us</h3>
+                    <h3>Contactez maintenant:</h3>
                     <!-- Status message -->
                     <?php if(!empty($statusMsg)){ ?>
                         <div class="status__msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
@@ -27,27 +27,27 @@
 
                     <!-- Form fields -->
                     <div class="form__input">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" placeholder="Enter your name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" required>
+                        <label for="name">Nom</label>
+                        <input type="text" name="name" placeholder="Saisissez votre nom" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" required>
                     </div>
                     <div class="form__input">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" placeholder="Enter your email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" required>
+                        <label for="email">E-Mail</label>
+                        <input type="text" name="email" placeholder="Saisissez votre e-mail" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" required>
                     </div>
                     <div class="form__input">
-                        <label for="subject">Subject</label>
-                        <input type="text" name="subject" placeholder="Enter subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" required>
+                        <label for="subject">Sujet</label>
+                        <input type="text" name="subject" placeholder="Saisissez le sujet" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" required>
                     </div>
                     <div class="form__input">
                         <label for="message">Message</label>
-                        <textarea name="message" placeholder="Type your message here" required><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
+                        <textarea name="message" placeholder="Saisissez votre message ici" required><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
                     </div>
                     <div class="form__input">
                         <!-- Google reCAPTCHA box -->
                         <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
                     </div>
                     <br>
-                    <input type="submit" name="submit" class="btn" value="Submit">
+                    <input type="submit" name="submit" class="btn" value="Envoyer la demande!">
                 </form>
             </div>
         </div>
