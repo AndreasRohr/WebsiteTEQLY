@@ -19,6 +19,7 @@ function closeNav() {
 
 // Get the modal
 var modal = document.getElementById("myModal");
+var modal2 = document.getElementById("myModal2");
 
 // Get the button that opens the modal
 var btn = document.getElementById("homebtnContact");
@@ -38,11 +39,11 @@ span.onclick = function() {
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target === modal) {
+window.addEventListener("click", function(event) {
+    if (event.target == modal) {
         modal.style.display = "none";
     }
-}
+})
 
 
 var btn2 = document.getElementById("navbtnContact");

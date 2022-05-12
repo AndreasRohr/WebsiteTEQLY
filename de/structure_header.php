@@ -62,7 +62,7 @@
 </div>
 <?php include 'structure_sidenav.php' ?>
 <div id="myModal" class="popupform">
-    <div class="popupform-content">
+    <div id="myModal2" class="popupform-content">
         <span class="close">&times;</span>
         <?php include 'structure_de_formpage.php' ?>
     </div>
