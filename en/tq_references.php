@@ -41,7 +41,7 @@
             <p>Xana was looking for a hardware partner to flexibly rent hardware and found TEQLY. TEQLY equipped the mobile health centres with phones, tablets, laptops and routers. <a href="references/references_xana.php">Learn more.</a></p>
         </div>
 
-
+<!--
         <div class="lineblack-index"></div>
         <h2 class="references-category">Support</h2>
         <div class="index-col-left">
@@ -50,7 +50,7 @@
         <div class="index-col-right">
             <p>Support is the be-all and end-all of every software product. TEQLY provides 1st and 2nd level support for the customer and offers an all-round package. <a href="references/references_eventon.php">Learn more.</a></p>
         </div>
-
+-->
 
         <div class="lineblack-index"></div>
         <h2 class="references-category">Special projects</h2>
