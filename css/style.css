@@ -43,7 +43,12 @@
     }
 
     #main .contact-title {
-        font-size: 3.5rem;
+        font-size: 2rem;
+    }
+
+    .three-col-block h1{
+        font-size: 1.4rem;
+        font-weight: bold;
     }
 
     .contact-row{
@@ -93,6 +98,22 @@
         font-size: 1.4rem;
     }
 
+    .index-container .index-col-left h1{
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .fa-solid {
+        font-size: 25px;
+        margin-top: 7px;
+    }
+
+    .index-container .products-col-top h1{
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+
     .index-container .index-col-left{
         margin-left: 0;
     }
@@ -137,10 +158,11 @@
     .col-footer{
         max-width: 20rem!important;
         margin-left: 0.5rem;
+        margin-top: 20px!important;
     }
 
     .contact-left{
-        margin-top: 1rem!important;
+        margin-top: 0rem!important;
     }
 
     .contact-mid{
@@ -174,6 +196,25 @@
     .header-row{
         grid-template-columns: repeat(1,auto)!important;
     }
+
+    .termsfeed-com---nb .cc-nb-main-container {
+        padding: 3rem;
+        max-height: 700px!important;
+    }
+
+    .termsfeed-com---nb .cc-nb-text {
+        font-size: 14px!important;
+    }
+
+    .termsfeed-com---palette-light.termsfeed-com---nb {
+        min-width: 100%!important;
+    }
+
+
+    .column-sidenav{
+        margin-top: -40px;
+    }
+
 }
 
 /* iphone landscape */
