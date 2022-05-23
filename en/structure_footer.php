@@ -108,7 +108,7 @@
                 <div class="col-footer">
                     <div style="border-color: black; margin-top: 0px; margin-bottom: 10px" class="linewhite"></div>
                     <a href="https://www.linkedin.com/company/teqly/" class="fa fa-linkedin"></a>
-                    <a href="https://www.youtube.com/channel/UCdUiy-JbIqQBlVXqeVmbvrQ" class="fa fa-youtube"></a>
+                    <!--<a href="https://www.youtube.com/channel/UCdUiy-JbIqQBlVXqeVmbvrQ" class="fa fa-youtube"></a>-->
                     <a href="https://www.instagram.com/teqly/" class="fa fa-instagram"></a>
                     <a href="https://open.spotify.com/show/7KG8S85T0I2XszX9QHkDB8" class="fa fa-spotify"></a>
                 </div>

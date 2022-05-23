@@ -42,7 +42,7 @@
                 <a href="tq_references.php">Projekte</a>
                 <a href="tq_contact.php">Kontakt</a>
                 <a href="tq_app_plattform.php">App-Plattform</a>
-                <a href="tq_app_plattform.php">Über TEQLY</a>
+                <a href="tq_about.php">Über TEQLY</a>
             </div>
         </div>
         <div class="column-sidenav">

@@ -41,7 +41,7 @@
                 <a href="tq_products.php">Services</a>
                 <a href="tq_references.php">Projets</a>
                 <a href="tq_contact.php">Contact</a>
-                <a href="tq_app_plattform.php">À propos de TEQLY</a>
+                <a href="tq_about.php">À propos de TEQLY</a>
             </div>
         </div>
         <div class="column-sidenav">

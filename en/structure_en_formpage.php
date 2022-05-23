@@ -19,7 +19,7 @@
         <div class="wrapper">
             <div class="form__inner">
                 <form action="" method="post" class="form">
-                    <h3>Contact Us</h3>
+                    <h3>Get in touch now:</h3>
                     <!-- Status message -->
                     <?php if(!empty($statusMsg)){ ?>
                         <div class="status__msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
@@ -47,7 +47,7 @@
                         <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
                     </div>
                     <br>
-                    <input type="submit" name="submit" class="btn" value="Submit">
+                    <input type="submit" name="submit" class="btn" value="Submit!">
                 </form>
             </div>
         </div>

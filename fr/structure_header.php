@@ -41,7 +41,7 @@
 
 <div style="position: fixed; max-width: 1464px; margin-left: auto; z-index: 1" id="header-container" class="header-container">
     <div class="header-right" style="display: flex; float: right">
-        <button id="homebtnContact" class="homebtnContact">Contactez maintenant !</button>
+        <button id="homebtnContact" class="homebtnContact">Contactez maintenant!</button>
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn" aria-hidden="true">FR</button>
             <div id="myDropdown" class="dropdown-content">
