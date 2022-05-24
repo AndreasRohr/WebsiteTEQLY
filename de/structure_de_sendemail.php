@@ -1,7 +1,7 @@
 <?php
 // Google reCAPTCHA API key configuration
-$siteKey 	= '6LcqCakeAAAAAICQB4d18zO6clauqVFZ7CdLztUj';
-$secretKey 	= '6LcqCakeAAAAAFW2kFpajxnWd4rvyoK6Rb8zUvng';
+$siteKey 	= '6LcpS_cfAAAAAO-iSmEk3TmWpJAbuqNPIn0yjIaR';
+$secretKey 	= '6LcpS_cfAAAAACRkKwWtv2PB8LsOF7aVStEkaoE2';
 
 // Email configuration
 $toEmail = 'info@teqly.ch';
@@ -11,6 +11,7 @@ $formEmail = 'info@teqly.ch';
 $postData = $statusMsg = $valErr = '';
 $status = 'error';
 
+
 // If the form is submitted
 if(isset($_POST['submit'])){
     // Get the submitted form data
@@ -19,6 +20,10 @@ if(isset($_POST['submit'])){
     $email = trim($_POST['email']);
     $subject = trim($_POST['subject']);
     $message = trim($_POST['message']);
+
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $emailErr = "Invalid email format";
+    }
 		
 		// Validate reCAPTCHA box
 		if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])){
