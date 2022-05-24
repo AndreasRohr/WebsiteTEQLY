@@ -52,7 +52,11 @@
                     <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
                     <a style="color: black" href="tq_app_plattform.php">App-Plattform</a>
                     <br>
+                    <a style="color: black" href="https://status.teqly.app">Statusseite</a>
+                    <br>
                     <a style="color: black" href="https://support.teqly.app">Support-Plattform</a>
+                    <br>
+                    <a style="color: black" href="https://newsletter.teqly.app">Newsletter-Plattform</a>
                 </div>
             </div>
         </div>
