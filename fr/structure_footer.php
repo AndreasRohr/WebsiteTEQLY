@@ -88,10 +88,10 @@
                                     "EMAIL" id="EMAIL" />
                                 </div>
                                 <div class="form-group field-text wrap-fname" style="display: block">
-                                    <label for="FNAME">Prénom</label> <input class="form-control field-fname field-type-text" placeholder="Prénom" type="text" value="" name="FNAME" id="FNAME" />
+                                    <label for="FNAME">Prénom <span class="required">*</span></label> <input class="form-control field-fname field-type-text" placeholder="Prénom" type="text" value="" name="FNAME" id="FNAME" />
                                 </div>
                                 <div class="form-group field-text wrap-lname" style="display: block">
-                                    <label for="LNAME">Nom de famille</label> <input class="form-control field-lname field-type-text" placeholder="Nom de famille" type="text" value="" name="LNAME" id="LNAME" />
+                                    <label for="LNAME">Nom de famille <span class="required">*</span></label> <input class="form-control field-lname field-type-text" placeholder="Nom de famille" type="text" value="" name="LNAME" id="LNAME" />
                                 </div>
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true">
                                     <input type="text" name="e68ee681051cb62a67b1f2c14abbca96edf7d72c" tabindex="-1" autocomplete="e68ee681051cb62a67b1f2c14abbca96edf7d72c" value="" />
