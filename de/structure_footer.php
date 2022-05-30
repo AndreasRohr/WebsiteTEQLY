@@ -88,7 +88,7 @@
                                     "EMAIL" id="EMAIL" />
                                 </div>
                                 <div class="form-group field-text wrap-fname">
-                                    <label for="FNAME">Vorname</label> <input class="form-control field-fname field-type-text" placeholder="Name" type="text" value="" name="FNAME" id="FNAME" />
+                                    <label for="FNAME">Vorname</label> <input class="form-control field-fname field-type-text" placeholder="Vorname" type="text" value="" name="FNAME" id="FNAME" />
                                 </div>
                                 <div class="form-group field-text wrap-lname">
                                     <label for="LNAME">Nachname</label> <input class="form-control field-lname field-type-text" placeholder="Nachname" type="text" value="" name="LNAME" id="LNAME" />
