@@ -1,7 +1,7 @@
 <?php
 // Google reCAPTCHA API key configuration
-$siteKey 	= '6LcpS_cfAAAAAO-iSmEk3TmWpJAbuqNPIn0yjIaR';
-$secretKey 	= '6LcpS_cfAAAAACRkKwWtv2PB8LsOF7aVStEkaoE2';
+$siteKey 	= '6LcVJwIhAAAAAF2kI8-hs-EoI-0hgb2R8RjlHy7D';
+$secretKey 	= '6LcVJwIhAAAAAEIxn9X3gly1RiPqaMt_0WzJUz2_';
 
 // Email configuration
 $toEmail = 'info@teqly.ch';
