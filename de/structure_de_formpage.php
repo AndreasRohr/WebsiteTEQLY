@@ -60,6 +60,6 @@
     function onFormSubmit() {
         // your Javascript code here
 
-        return false;
+        return fals;
     }
 </script>
