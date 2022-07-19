@@ -48,8 +48,7 @@
                         <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
                     </div>
                     <br>
-                    <button type="button" name="submit" class="btn" value="Anfrage senden!">
-                        <button id="button" type="button" value="send" class="btn">Submit</button>
+                    <input type="submit" name="submit" class="btn" value="Anfrage senden!">
                 </form>
             </div>
         </div>
