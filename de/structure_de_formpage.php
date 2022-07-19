@@ -18,7 +18,7 @@
     <div class="container">
         <div class="wrapper">
             <div class="form__inner">
-                <form action="" method="post" class="form" onsubmit="onFormSubmit();">
+                <form action="" method="post" class="form">
                     <h3>Jetzt kontaktieren!</h3>
                     <!-- Status message -->
                     <?php if(!empty($statusMsg)){ ?>
@@ -56,10 +56,3 @@
 </div>
 </body>
 </html>
-<script>
-    function onFormSubmit() {
-        event.preventDefault();
-
-        // your Javascript code here
-    }
-</script>
