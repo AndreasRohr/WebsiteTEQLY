@@ -49,6 +49,7 @@
                     </div>
                     <br>
                     <button type="button" name="submit" class="btn" value="Anfrage senden!">
+                        <button id="button" type="button" value="send" class="btn">Submit</button>
                 </form>
             </div>
         </div>
