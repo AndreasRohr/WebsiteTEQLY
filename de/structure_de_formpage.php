@@ -58,8 +58,8 @@
 </html>
 <script>
     function onFormSubmit() {
-        // your Javascript code here
+        event.preventDefault();
 
-        return false;
+        // your Javascript code here
     }
 </script>
