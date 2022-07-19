@@ -11,6 +11,18 @@
 
 @media all and (max-device-width: 480px) and (orientation: portrait) {
 
+    .wrap-lname{
+        max-width: 150px!important;
+        display: inline-block;
+        float: left;
+    }
+
+    .wrap-fname{
+        max-width: 150px!important;
+        display: inline-block;
+        float: left;
+    }
+
     .title-left h2{
         margin-left: 1rem !important;
     }
@@ -1167,4 +1179,35 @@ ul[class] li > * {
 
 .pull-right{
     margin-right: 10%;
+}
+
+input[type=submit] {
+
+    height: 2.5rem;
+    background-color: white;
+    border: solid 1px black;
+    font-family: "JetBrainsMono";
+    margin-top: 0.5rem;
+    color: black;
+    border-radius: 0;
+    padding: 0 1rem;
+
+}
+input[type=submit]:hover {
+
+   background: black;
+    color: white;
+
+}
+
+.wrap-lname{
+    max-width: 210px;
+    display: inline-block;
+    float: left;
+}
+
+.wrap-fname{
+    max-width: 210px;
+    display: inline-block;
+    float: left;
 }

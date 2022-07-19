@@ -27,39 +27,20 @@
 </head>
 <body>
 <div id="main">
+    <div style="margin-left: auto;margin-right: auto; text-align: center; font-size: 40px; font-weight: bold"><a
+                class="logo" href="index.php" style="margin-left: 0rem">
+            <div>
+                <img src="assets/teqly_logo.png" alt="TEQLY Logo" width="50">
+            </div>
+
+        </a>TEQLY
+    </div>
     <div class="three-col" style="margin-left: 3rem;margin-right: auto">
-        <div class="three-col-block">
-            <div class="card">
-                <div class="containerCard">
-                    <h1>Office</h1>
-                    <p>Büro in Brugg AG</p>
-                    <br>
-                    <a style="color: black" href="mailto:info@teqly.ch">info@teqly.ch</a><br>
-                    <a style="color: black" href="tel:+41565111133">056 511 11 33</a><br>
-                    <a style="color: black; font-weight: bolder" href="assets/vcard_bureau.vcf"
-                       download="vcard_bureau.vcf">Kontaktdaten speichern</a>
-                </div>
-            </div>
-        </div>
-        <div class="three-col-block">
-            <div class="card">
-                <div class="containerCard">
-                    <h1>Support</h1>
-                    <p>Ihr direkter Draht zu unserem Support-Team</p>
-                    <br>
-                    <a style="color: black" href="mailto:support@teqly.app">support@teqly.app</a><br>
-                    <a style="color: black" href="tel:+41565111133">056 511 11 33</a><br>
-                    <a style="color: black; font-weight: bolder; " href="assets/vcard_support.vcf"
-                       download="vcard_support.vcf">Kontaktdaten speichern</a>
-                </div>
-            </div>
-        </div>
         <div class="three-col" style="margin-right: auto">
             <div class="three-col-block">
                 <div class="card">
                     <div class="containerCard">
                         <h1>Jannik Frei</h1>
-                        <p>Leitung Entwicklung</p>
                         <br>
                         <a style="color: black" href="mailto:jannik@teqly.ch">jannik@teqly.ch</a><br>
                         <a style="color: black" href="tel:+41565111131">056 511 11 31</a><br>
@@ -72,7 +53,6 @@
                 <div class="card">
                     <div class="containerCard">
                         <h1>Andreas Rohr</h1>
-                        <p>Leitung Support & Infrastruktur</p>
                         <br>
                         <a style="color: black" href="mailto:andreas@teqly.ch">andreas@teqly.ch</a><br>
                         <a style="color: black" href="tel:+41565111132">056 511 11 32</a><br>
@@ -85,7 +65,6 @@
                 <div class="card">
                     <div class="containerCard">
                         <h1>Sandro Bütler</h1>
-                        <p>Leitung Consulting & Spezialprojekte</p>
                         <br>
                         <a style="color: black" href="mailto:sandro@teqly.ch">sandro@teqly.ch</a><br>
                         <a style="color: black" href="tel:+41565111130">056 511 11 30</a><br>
@@ -95,6 +74,31 @@
                 </div>
             </div>
         </div>
+        <div class="three-col-block">
+            <div class="card">
+                <div class="containerCard">
+                    <h1>Support</h1>
+                    <br>
+                    <a style="color: black" href="mailto:support@teqly.app">support@teqly.app</a><br>
+                    <a style="color: black" href="tel:+41565111133">056 511 11 33</a><br>
+                    <a style="color: black; font-weight: bolder; " href="assets/vcard_support.vcf"
+                       download="vcard_support.vcf">Kontaktdaten speichern</a>
+                </div>
+            </div>
+        </div>
+        <div class="three-col-block">
+            <div class="card">
+                <div class="containerCard">
+                    <h1>Office</h1>
+                    <br>
+                    <a style="color: black" href="mailto:info@teqly.ch">info@teqly.ch</a><br>
+                    <a style="color: black" href="tel:+41565111133">056 511 11 33</a><br>
+                    <a style="color: black; font-weight: bolder" href="assets/vcard_bureau.vcf"
+                       download="vcard_bureau.vcf">Kontaktdaten speichern</a>
+                </div>
+            </div>
+        </div>
+        <br>
     </div>
 </div>
 </div>
