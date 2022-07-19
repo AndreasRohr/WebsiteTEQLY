@@ -19,7 +19,7 @@
         <div class="wrapper">
             <div class="form__inner">
                 <form action="" method="post" class="form">
-                    <h3>Jetzt Kontaktieren!</h3>
+                    <h3>Jetzt kontaktieren!</h3>
                     <!-- Status message -->
                     <?php if(!empty($statusMsg)){ ?>
                         <div class="status__msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
