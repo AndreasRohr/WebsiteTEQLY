@@ -18,7 +18,7 @@
     <div class="container">
         <div class="wrapper">
             <div class="form__inner">
-                <form action="" method="post" class="form" onSubmit="return false;">
+                <form action="" method="post" class="form">
                     <h3>Jetzt kontaktieren!</h3>
                     <!-- Status message -->
                     <?php if(!empty($statusMsg)){ ?>
@@ -48,7 +48,7 @@
                         <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
                     </div>
                     <br>
-                    <button type="submit" name="submit" class="btn" value="Anfrage senden!">button</button>
+                    <input type="submit" name="submit" class="btn" value="Anfrage senden!">
                 </form>
             </div>
         </div>
