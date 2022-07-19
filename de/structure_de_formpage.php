@@ -18,7 +18,7 @@
     <div class="container">
         <div class="wrapper">
             <div class="form__inner">
-                <form action="" method="post" class="form">
+                <form action="" method="post" class="form" onSubmit="return false;">
                     <h3>Jetzt kontaktieren!</h3>
                     <!-- Status message -->
                     <?php if(!empty($statusMsg)){ ?>
