@@ -28,56 +28,7 @@
         <div class="lineblack-index"></div>
         <div  class="title-right">
             <!--EDIT HERE-->
-            <h2><b>IT-Supporter.</b><br>20% à 40% de salaire horaire.</h2>
-        </div>
-        <div class="header-row"style="grid-template-columns: repeat(2,auto); margin-top: 5rem;">
-            <div class="index-col-left" style="max-width: 20rem;white-space: normal">
-                <!--EDIT HERE-->
-                <h2>Les missions:</h2>
-            </div>
-            <div class="index-col-right" style="width: 80%; margin-bottom: 2rem">
-                <!--EDIT HERE-->
-                <ul>
-                    <li>Traiter les demandes d'assistance de premier et de deuxième niveau.</li>
-                    <li>Configurer le matériel selon les besoins du client.</li>
-                    <li>Maintenance des composants réseau à distance et sur place.</li>
-                    <li>Rédaction de documentations et de guides d'utilisation.</li>
-                </ul>
-            </div>
-            <div class="index-col-left" style="max-width: 20rem;white-space: normal">
-                <!--EDIT HERE-->
-                <h2>Qui nous recherchons:</h2>
-            </div>
-            <div class="index-col-right" style="width: 80%; margin-bottom: 2rem">
-                <!--EDIT HERE-->
-                <ul>
-                    <li>Tu étudies l'informatique ou une autre filière technique.</li>
-                    <li>Tu es une personnalité ouverte et curieuse.</li>
-                    <li>Tu souhaites acquérir de l'expérience professionnelle à temps partiel et travailler de manière autonome..</li>
-                    <li>Tu as déjà de l'expérience dans le support informatique, ainsi que dans les systèmes d'exploitation Windows & Linux.</li>
-                    <li>Tu es prêt(e) à te familiariser avec différentes nouvelles technologies..</li>
-                </ul>
-            </div>
-            <div class="index-col-left" style="max-width: 20rem;white-space: normal">
-                <!--EDIT HERE-->
-                <h2>Ce que nous offrons:</h2>
-            </div>
-            <div class="index-col-right" style="width: 80%">
-                <!--EDIT HERE-->
-                <ul>
-                    <li>Une équipe jeune et dynamique et une structure d'entreprise non hiérarchique.</li>
-                    <li>Des projets passionnants.</li>
-                    <li>Un lieu de travail moderne à Brugg AG.</li>
-                    <li>La possibilité de gérer ses propres projets.</li>
-                </ul>
-            </div>
-        </div>
-        <p style="margin-top: 3rem; margin-bottom: 5rem">N'hésite pas à nous contacter si tu as des questions. Si tu te sens concerné(e) et que tu souhaites faire plus ample connaissance avec nous, contacte-nous avec ta candidature ou le lien vers ton portfolio en ligne..</p>
-        <button style="margin-bottom: 3rem" class="homebtnContact" onclick="location.href='mailto:work@teqly.ch';">Postuler maintenant</button>
-        <div class="lineblack-index"></div>
-        <div  class="title-right">
-            <!--EDIT HERE-->
-            <h2><b>Programmeur.</b><br>30% à 80.</h2>
+            <h2><b>Programmeur.</b><br>30% à 100%</h2>
         </div>
         <div class="header-row"style="grid-template-columns: repeat(2,auto); margin-top: 5rem;">
             <div class="index-col-left" style="max-width: 20rem;white-space: normal">
