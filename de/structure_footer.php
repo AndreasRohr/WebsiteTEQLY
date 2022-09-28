@@ -33,7 +33,7 @@
                 Unternehmen
                 <div class="col-footer">
                     <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
-                    <a style="color: black" href="tq_about.php">Über uns</a>
+                    <a style="color: black" href="tq_about.php">Über uns!</a>
                     <br>
                     <a style="color: black" href="tq_jobs.php">Jobs</a>
                     <br>
