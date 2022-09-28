@@ -10,7 +10,7 @@
 <div id="main" style="margin-top: 7rem">
     <div class="title-row">
         <div class="title-left">
-                <h1 id="titleh1" class="indextitle">Seite nicht gefunden.<br>404.</h1>
+                <h1 id="titleh1" class="indextitle">Ups - Seite nicht gefunden.<br>404.</h1>
         </div>
     </div>
     <div class="index-container" style="margin-top: 4rem">
