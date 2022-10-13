@@ -98,7 +98,7 @@
                     </div>
                 </div>
             </div>
-            <div class="three-col-block" style="margin-bottom: 3rem">
+            <div class="three-col-block" style="margin-bottom: 5rem">
                 <div class="card">
                     <div class="containerCard">
                         <h1>Tobias Vonesch</h1>
