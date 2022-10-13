@@ -12,6 +12,7 @@
             transition: 0.3s;
             text-align: center;
             width: 80%;
+            margin: auto;
         }
 
         .card:hover {
