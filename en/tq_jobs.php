@@ -68,7 +68,7 @@
                 <ul>
                     <li>Young, dynamic team and a non-hierarchical company structure.</li>
                     <li>Exciting projects.</li>
-                    <li>Modern workplace in Brugg AG.</li>
+                    <li>Modern workplace in Glattbrugg.</li>
                     <li>The opportunity to lead your own projects.</li>
                 </ul>
             </div>

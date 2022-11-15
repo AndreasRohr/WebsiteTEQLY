@@ -16,11 +16,11 @@
     <div class="index-container">
         <div class="lineblack-index"></div>
         <div class="products-col-top">
-            <h1>Buttwil</h1>
+            <h1>Glattbrugg</h1>
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p><b>TEQLY GmbH</b><br>Flammbach 3a<br>5632 Buttwil<br>Switzerland</p>
+                <p><b>TEQLY GmbH</b><br>Europa-Strassse 30<br>8152 Glattbrugg</p>
                 <p><b>UID:</b> CHE-171.042.900</p>
                 <p><b>MWST:</b> CHE-171.042.900 MWST</p>
                 <br>
@@ -34,7 +34,7 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p><b>TEQLY GmbH</b><br>TECHNOPARK Aargau<br>Badenerstrasse 13<br>5200 Brugg AG<br>Switzerland</p>
+                <p><b>TEQLY GmbH</b><br>TECHNOPARK Aargau<br>Badenerstrasse 13<br>5200 Brugg AG</p>
                 <p><b>UID:</b> CHE-171.042.900</p>
                 <p><b>MWST:</b> CHE-171.042.900 MWST</p>
                 <br>

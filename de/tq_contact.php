@@ -17,16 +17,16 @@
     <h1 style="margin-top: 7rem; margin-left: 3rem" class="contact-title">Kontakt.</h1>
     <div class="contact-row">
         <div class="contact-left" style="margin-left: 2rem;margin-top: 3rem">
-            <h2 style="margin-top: 3rem;margin-bottom: 3rem;" class="contact-subtitle">Büro und Lager:</h2>
+            <h2 style="margin-top: 3rem;margin-bottom: 3rem;" class="contact-subtitle">Büro:</h2>
+            <h2 style="" class="contact-subtitle">TEQLY GmbH</h2>
+            <h2 class="contact-subtitle">Europa-Strass 30</h2>
+            <h2 class="contact-subtitle">8182 Glattbrugg</h2>
+        </div>
+        <div class="contact-mid" style="margin-left: 2rem;margin-top: 3rem">
+            <h2 style="margin-top: 3rem;margin-bottom: 3rem;" class="contact-subtitle">Lager:</h2>
             <h2 style="" class="contact-subtitle">TEQLY GmbH</h2>
             <h2 class="contact-subtitle">Badenerstrasse 13</h2>
             <h2 class="contact-subtitle">5200 Brugg</h2>
-        </div>
-        <div class="contact-mid" style="margin-left: 2rem;margin-top: 3rem">
-            <h2 style="margin-top: 3rem;margin-bottom: 3rem;" class="contact-subtitle">Sitz:</h2>
-            <h2 style="" class="contact-subtitle">TEQLY GmbH</h2>
-            <h2 class="contact-subtitle">Flammbach 3a</h2>
-            <h2 class="contact-subtitle">5632 Buttwil</h2>
 
         </div>
     </div>

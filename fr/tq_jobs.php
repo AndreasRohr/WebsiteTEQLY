@@ -68,7 +68,7 @@
                 <ul>
                     <li>Une équipe jeune et dynamique et une structure d'entreprise non hiérarchique.</li>
                     <li>Des projets passionnants.</li>
-                    <li>Un lieu de travail moderne à Brugg AG.</li>
+                    <li>Un lieu de travail moderne à Glattbrugg.</li>
                     <li>La possibilité de gérer ses propres projets.</li>
                 </ul>
             </div>

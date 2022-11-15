@@ -38,7 +38,7 @@
             <div class="index-col-right" style="width: 80%; margin-bottom: 2rem">
                 <!--EDIT HERE-->
                 <ul>
-                    <li>Erstellen von Requirements dokumenten.</li>
+                    <li>Erstellen von Requirements-Dokumenten.</li>
                     <li>Planen von Entwicklungsprojekten, inkl. Release- und Meilensteinplanung.</li>
                     <li>Entwickeln von Webseiten und Applikationen.</li>
                     <li>Erstellen von Dokumentationen.</li>
@@ -68,7 +68,7 @@
                 <ul>
                     <li>Junges, dynamisches Team und eine hirarchiefreie Firmenstruktur.</li>
                     <li>Spannende Projekte.</li>
-                    <li>Moderner Arbeitsplatz in Brugg AG.</li>
+                    <li>Moderner Arbeitsplatz in Glattbrugg.</li>
                     <li>Die Möglichkeit eigene Projekte zu leiten.</li>
                 </ul>
             </div>

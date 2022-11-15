@@ -17,9 +17,8 @@
         <div class="lineblack-index"></div>
         <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:<br><br>
             TEQLY GmbH<br>
-            Sandro Bütler<br>
-            Flammbach 3a<br>
-            5632 Buttwil<br><br>
+            Europa-Strasse 30<br>
+            8152 Glattbrugg<br><br>
             E-Mail: info@teqly.ch<br>
             Telefon: 056 511 11 33<br><br>
             <b>Allgemeiner Hinweis</b><br>
@@ -87,7 +86,7 @@
             <b>Fragen an den Datenschutzbeauftragten</b><br>
             Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz zu Beginn der Datenschutzerklärung aufgeführten, verantwortlichen Person in unserer Organisation.
             <br><br>
-            Buttwil, 24.08.2020<br>
+            Glattbrugg, 01.11.2022<br>
             Quelle: <a href="https://www.swissanwalt.ch/">SwissAnwalt</a>
         </p>
     </div>
