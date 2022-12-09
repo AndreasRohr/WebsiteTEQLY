@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div style="margin-right: 2rem; color: black" class="col-footer">
-                Applikationen
+                Applikationen & Downloads
                 <div class="col-footer">
                     <div style="border-color: black; margin-top: 0px" class="linewhite"></div>
                     <a style="color: black" href="tq_app_plattform.php">App-Plattform</a>
@@ -57,6 +57,8 @@
                     <a style="color: black" href="https://support.teqly.app">Support-Plattform</a>
                     <br>
                     <a style="color: black" href="https://newsletter.teqly.app">Newsletter-Plattform</a>
+                    <br>
+                    <a style="color: black" href="tq_remote_app.php">Download Remote Support Client</a>
                 </div>
             </div>
         </div>
