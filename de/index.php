@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     // Random String return for index.php
     var items = Array("Ihre IT-Partner.", "Ihre Problemlöser.", "Ihre Supporter.", "Ihre Programmierer.", "Ihre IT-Berater.");

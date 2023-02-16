@@ -122,10 +122,12 @@
         </div>
     </div>
     <div style="height: 10%"></div>
+
 </div>
 <div><br><br></div>
 </body>
 </html>
+
 <script src="https://support.teqly.app/assets/chat/chat.min.js"></script>
 <script>
     $(function () {
@@ -133,7 +135,7 @@
             title: 'Chat starten.',
             background: '#111',
             fontSize: '12px',
-            chatId: 1,
+            chatId: 3,
         });
     });
 </script>
