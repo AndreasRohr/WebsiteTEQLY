@@ -71,7 +71,6 @@ $(function() {
     messageTitle: 'Demande de Contact',
     messageSubmit: 'Envoyer',
     messageThankYou: 'Merci pour votre demande (#%s). Nous allons vous contacter immédiatement.',
-    debug: true,
     showTitle: true,
     modal: true,
     noCSS: true

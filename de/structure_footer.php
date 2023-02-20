@@ -146,7 +146,6 @@ $(function() {
     messageTitle: 'Feedback-Formular',
     messageSubmit: 'Übermitteln',
     messageThankYou: 'Vielen Dank für Ihre Anfrage (#%s). Wir melden uns umgehend.',
-    debug: true,
     showTitle: true,
     modal: true
   });
