@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="../css/normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style.css" media="all" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 <div>
+<button style="display: none" id="zammad-feedback-form">Feedback</button>
     <div id="main">
         <div class="row-footer">
             <div style="margin-right: 2rem; color: black" class="col-footer">
@@ -138,4 +138,17 @@
             chatId: 3,
         });
     });
+</script>
+<script id="zammad_form_script" src="https://support.teqly.app/assets/form/form.js"></script>
+<script>
+$(function() {
+  $('#zammad-feedback-form').ZammadForm({
+    messageTitle: 'Feedback-Formular',
+    messageSubmit: 'Übermitteln',
+    messageThankYou: 'Vielen Dank für Ihre Anfrage (#%s). Wir melden uns umgehend.',
+    debug: true,
+    showTitle: true,
+    modal: true
+  });
+});
 </script>

@@ -28,7 +28,7 @@
         <div class="sidenav-left" style="margin-bottom: 0.1rem; width: 50px">
             <a class="logo" href="../index.php">
                 <img  class="logo-white" alt="TEQLY" src="../assets/teqly_logo.png"
-                     width=50" height="7">
+                     width="50" height="7">
             </a>
         </div>
     </div>
@@ -65,3 +65,17 @@
 </body>
 </html>
 <script type="text/javascript" src="../../js/script.js"></script>
+<script id="zammad_form_script" src="https://support.teqly.app/assets/form/form.js"></script>
+<script>
+$(function() {
+  $('#navbtnContact').ZammadForm({
+    messageTitle: 'Kontaktanfrage',
+    messageSubmit: 'Senden',
+    messageThankYou: 'Vielen Dank für Ihre Anfrage (#%s). Wir melden uns umgehend.',
+    debug: true,
+    showTitle: true,
+    modal: true,
+    noCSS: true
+  });
+});
+</script>

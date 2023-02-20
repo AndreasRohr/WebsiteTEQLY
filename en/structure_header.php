@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/style.css" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Cookie Consent by TermsFeed (https://www.TermsFeed.com) -->
     <script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
     <script type="text/javascript" charset="UTF-8">
@@ -61,12 +61,6 @@
     </div>
 </div>
 <?php include 'structure_sidenav.php' ?>
-<div id="myModal" class="popupform">
-    <div class="popupform-content">
-        <span class="close">&times;</span>
-        <?php include 'structure_en_formpage.php' ?>
-    </div>
-</div>
 </div>
 </body>
 </html>
@@ -76,4 +70,20 @@
 </script>
 <script>window.dataLayer = window.dataLayer |I
         [];function gtag(){dataLayer.push(arguments);}gtag("js",new
-    Date());gtag ("config", "ID'); </script>
+    Date());gtag ("config", 'ID');
+</script>
+
+<script id="zammad_form_script" src="https://support.teqly.app/assets/form/form.js"></script>
+<script>
+$(function() {
+  $('#homebtnContact').ZammadForm({
+    messageTitle: 'Contact Request',
+    messageSubmit: 'Send',
+    messageThankYou: 'Thank you for your request (#%s). We will contact you immediately.',
+    debug: true,
+    showTitle: true,
+    modal: true,
+    noCSS: true
+  });
+});
+</script>

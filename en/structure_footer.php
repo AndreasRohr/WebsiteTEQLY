@@ -10,6 +10,7 @@
 </head>
 <body>
 <div>
+<button style="display: none" id="zammad-feedback-form">Feedback</button>
     <div id="main">
         <div class="row-footer">
             <div style="margin-right: 2rem; color: black" class="col-footer">
@@ -128,10 +129,23 @@
 <script>
     $(function () {
         new ZammadChat({
-            title: 'Start a Chat.',
+            title: 'Start a Chat',
             background: '#111',
             fontSize: '12px',
-            chatId: 1,
+            chatId: 3,
         });
     });
+</script>
+<script id="zammad_form_script" src="https://support.teqly.app/assets/form/form.js"></script>
+<script>
+$(function() {
+  $('#zammad-feedback-form').ZammadForm({
+    messageTitle: 'Feedback-Formular',
+    messageSubmit: 'Übermitteln',
+    messageThankYou: 'Vielen Dank für Ihre Anfrage (#%s). Wir melden uns umgehend.',
+    debug: true,
+    showTitle: true,
+    modal: true
+  });
+});
 </script>

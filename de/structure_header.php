@@ -38,7 +38,6 @@
 </head>
 <body>
 <div id="header">
-
 <div style="position: fixed; max-width: 1464px; margin-left: auto; z-index: 1" id="header-container" class="header-container">
     <div class="header-right" style="display: flex; float: right">
         <button id="homebtnContact" class="homebtnContact">Jetzt kontaktieren!</button>
@@ -61,12 +60,6 @@
     </div>
 </div>
 <?php include 'structure_sidenav.php' ?>
-<div id="myModal" class="popupform">
-    <div id="myModal2" class="popupform-content">
-        <span class="close">&times;</span>
-        <?php include 'structure_de_formpage.php' ?>
-    </div>
-</div>
 </div>
 </body>
 </html>
@@ -76,4 +69,20 @@
 </script>
 <script>window.dataLayer = window.dataLayer |I
         [];function gtag(){dataLayer.push(arguments);}gtag("js",new
-    Date());gtag ("config", "ID'); </script>
+    Date());gtag ("config", 'ID');
+</script>
+
+<script id="zammad_form_script" src="https://support.teqly.app/assets/form/form.js"></script>
+<script>
+$(function() {
+  $('#homebtnContact').ZammadForm({
+    messageTitle: 'Kontaktanfrage',
+    messageSubmit: 'Senden',
+    messageThankYou: 'Vielen Dank für Ihre Anfrage (#%s). Wir melden uns umgehend.',
+    debug: true,
+    showTitle: true,
+    modal: true,
+    noCSS: true
+  });
+});
+</script>

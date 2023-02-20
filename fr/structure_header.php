@@ -61,12 +61,6 @@
     </div>
 </div>
 <?php include 'structure_sidenav.php' ?>
-<div id="myModal" class="popupform">
-    <div class="popupform-content">
-        <span class="close">&times;</span>
-        <?php include 'structure_fr_formpage.php' ?>
-    </div>
-</div>
 </div>
 </body>
 </html>
@@ -76,4 +70,19 @@
 </script>
 <script>window.dataLayer = window.dataLayer |I
         [];function gtag(){dataLayer.push(arguments);}gtag("js",new
-    Date());gtag ("config", "ID'); </script>
+    Date());gtag ("config", 'ID');
+</script>
+<script id="zammad_form_script" src="https://support.teqly.app/assets/form/form.js"></script>
+<script>
+$(function() {
+  $('#homebtnContact').ZammadForm({
+    messageTitle: 'Demande de Contact',
+    messageSubmit: 'Envoyer',
+    messageThankYou: 'Merci pour votre demande (#%s). Nous allons vous contacter immédiatement.',
+    debug: true,
+    showTitle: true,
+    modal: true,
+    noCSS: true
+  });
+});
+</script>

@@ -65,3 +65,17 @@
 </body>
 </html>
 <script type="text/javascript" src="../../js/script.js"></script>
+<script id="zammad_form_script" src="https://support.teqly.app/assets/form/form.js"></script>
+<script>
+$(function() {
+  $('#navbtnContact').ZammadForm({
+    messageTitle: 'Contact Request',
+    messageSubmit: 'Send',
+    messageThankYou: 'Thank you for your request (#%s). We will contact you immediately.',
+    debug: true,
+    showTitle: true,
+    modal: true,
+    noCSS: true
+  });
+});
+</script>
