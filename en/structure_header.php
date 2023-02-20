@@ -42,6 +42,7 @@
 <div style="position: fixed; max-width: 1464px; margin-left: auto; z-index: 1" id="header-container" class="header-container">
     <div class="header-right" style="display: flex; float: right">
         <button id="homebtnContact" class="homebtnContact">Get in touch now!</button>
+        <button id="homebtnContact" class="homebtnMeet" onclick="window.location.href='meet.php'">Book an Appointment</button>
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn" aria-hidden="true">EN</button>
             <div id="myDropdown" class="dropdown-content">

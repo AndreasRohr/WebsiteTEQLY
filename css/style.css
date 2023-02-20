@@ -312,6 +312,26 @@ body {
 
 }
 
+.homebtnMeet {
+    height: 2.5rem;
+    background-color: white;
+    border: solid 1px black;
+    font-family: "JetBrainsMono";
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    color: black;
+    border-left: 0px;
+
+}
+
+.homebtnMeet:hover {
+    background-color: #111 !important;
+    color: white;
+    border: solid black 1px;
+    border-left: 0px;
+}
+
 .homebtnContact:hover {
     background-color: #111 !important;
     color: white;
@@ -354,6 +374,17 @@ body {
 }
 
 .navbtnContact {
+    height: 2.5rem;
+    float: right;
+    background-color: #111;
+    border: solid white 1px;
+    font-family: "JetBrainsMono";
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+}
+
+.navbtnMeet {
     height: 2.5rem;
     float: right;
     background-color: #111;

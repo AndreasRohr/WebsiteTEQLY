@@ -16,6 +16,7 @@
     <div style=" max-width: 1500px"  class="sidenav-col">
         <div class="sidenav-right" style="display: flex; float: right; position: relative">
             <button style="margin-top:0.4rem; "id="navbtnContact" class="navbtnContact">Contact now!</button>
+            <button style="margin-top:0.4rem; "id="homebtnContact" class="navbtnMeet" onclick="window.location.href='meet.php'">Book an Appointment</button>
             <div class="sidenav-dropdown">
                 <button onclick="myFunction2()" class="sidenav-dropbtn">EN</button>
                 <div id="sidenav-myDropdown" class="sidenav-dropdown-content">
