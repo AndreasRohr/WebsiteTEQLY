@@ -233,10 +233,6 @@
 
 }
 
-/* iphone landscape */
-@media all and (max-device-width: 480px) and (orientation: landscape) {
-
-}
 
 /* iPad portrait */
 @media (min-device-width: 481px) and (max-device-width: 830px) and (orientation: portrait) {
@@ -266,10 +262,7 @@
     }
 }
 
-/* iPad landscape */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
 
-}
 
 
 @media (min-width: 1500px) {
