@@ -924,6 +924,7 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
     color: white;
+    border-left:0px;
 }
 
 .navbtnClose {
@@ -934,7 +935,7 @@ body {
     border-top: solid white 1px;
     border-right: solid white 1px;
     border-bottom: solid white 1px;
-    width: 3rem;
+    width: 2.9rem;
     margin-right: 1rem;
 }
 
