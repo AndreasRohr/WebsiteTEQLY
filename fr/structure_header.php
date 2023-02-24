@@ -42,7 +42,7 @@
 <div style="position: fixed; max-width: 1464px; margin-left: auto; z-index: 1" id="header-container" class="header-container">
     <div class="header-right" style="display: flex; float: right">
         <button id="homebtnContact" class="homebtnContact">Contactez maintenant!</button>
-        <button id="homebtnContact" class="homebtnMeet" onclick="window.location.href='meet.php'">Prenez Rendez-vous</button>
+        <button id="homebtnContact" class="homebtnMeet" onclick="openModal()">Prenez Rendez-vous</button>
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn" aria-hidden="true">FR</button>
             <div id="myDropdown" class="dropdown-content">
@@ -62,6 +62,13 @@
     </div>
 </div>
 <?php include 'structure_sidenav.php' ?>
+</div>
+<!-- Popup container -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span id="modalClose" onclick="closeModal()" class="close">&times;</span>
+    <iframe src="https://app.usemotion.com/meet/teqly/team" title="Motion Booking Page" width="100%" height="840px" frameborder="0"></iframe>
+  </div>
 </div>
 </body>
 </html>

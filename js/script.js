@@ -1,21 +1,47 @@
+let isModal = false;
+
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
     document.getElementById("main").style.display="none";
     document.body.style.height = "100%";
     document.body.style.overflow = "hidden";
-    document.getElementById("side-navbar").style.display="none";
     document.getElementById("navbtnContact").style.visibility="visible";
-
-
 }
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.display="block";
     document.body.style.height = "";
     document.body.style.overflow = "";
-    document.getElementById("side-navbar").style.display="";
-
 }
+
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("homebtnContact");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+function openModal() {
+    document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal(){
+    document.getElementById("myModal").style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == document.getElementById("myModal")) {
+        document.getElementById("myModal").style.display = "none";
+    }
+}
+
+
 
 // Get the modal
 var modal = document.getElementById("myModal");
