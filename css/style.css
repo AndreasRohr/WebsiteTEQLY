@@ -102,6 +102,7 @@
 .zammad-chat-welcome-text {
     margin-left: 5px;
     font-size: 1.2em;
+    float: left;
 }
 
 .zammad-chat-header-icon {
@@ -113,6 +114,7 @@
     text-align: center;
     line-height: 3.4em;
     cursor: pointer;
+    margin-top: -1.9em;
 }
 .zammad-chat-header-icon::before {
     content: "";
