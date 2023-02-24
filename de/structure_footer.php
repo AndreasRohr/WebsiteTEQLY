@@ -136,6 +136,7 @@
             background: '#111',
             fontSize: '12px',
             chatId: 3,
+            cssAutoload: false
         });
     });
 </script>
