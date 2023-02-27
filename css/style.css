@@ -126,10 +126,12 @@
     width: 1.6em;
     height: auto;
     vertical-align: middle;
+    margin-top: -1.4rem;
 }
 
 .zammad-chat-header-icon-close {
     width: 1.3em;
+    margin-top: -0.5em;
 }
 
 .zammad-chat-header-icon-close,
