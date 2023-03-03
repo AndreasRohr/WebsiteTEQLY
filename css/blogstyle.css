@@ -28,3 +28,7 @@ figcaption{
     max-height: 10%;
 
 }
+
+#post-content p{
+    margin-bottom: 2rem;
+}
