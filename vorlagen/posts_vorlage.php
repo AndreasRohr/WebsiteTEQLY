@@ -17,3 +17,4 @@
     <br>
     <?php include '../de/structure_footer.php' ?>
   </body>
+  </html>
