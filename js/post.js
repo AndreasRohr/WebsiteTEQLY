@@ -25,13 +25,13 @@ fetch(`${apiURL}/ghost/api/v3/content/posts/slug/${postSlug}?key=${apiKey}&inclu
 
         title.textContent = post.title;
         content.innerHTML = post.html;
+        content.innerHTML += '<br>';
         author.textContent = `By ${post.primary_author.name}`;
         tags.innerHTML = post.tags.map(tag => `<li>${tag.name}</li>`).join("");
 
         postContainer.appendChild(title);
         postContainer.appendChild(content);
         postContainer.appendChild(author);
-        postContainer.appendChild(tags);
     })
     .catch(error => console.error(error));
 
