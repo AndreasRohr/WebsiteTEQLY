@@ -2,7 +2,12 @@ const apiURL = "https://blog.teqly.ch";
 const apiKey = "e3e8cd821e7165759e2a9da4bc";
 
 
-const postSlug = window.location.pathname.split("/").pop().replace(".php", "");
+const postSlug = window.location.pathname
+    .split('/')
+    .pop()
+    .replace('.php', '')
+    .replace(/^blog_/, '');
+
 
 
 const postContainer = document.getElementById("post-content");
@@ -29,3 +34,14 @@ fetch(`${apiURL}/ghost/api/v3/content/posts/slug/${postSlug}?key=${apiKey}&inclu
         postContainer.appendChild(tags);
     })
     .catch(error => console.error(error));
+
+// Get all buttons with the class "kg-toggle-card-icon"
+const buttons = document.querySelectorAll('.kg-toggle-card-icon');
+
+// Add an event listener to each button
+buttons.forEach(button => {
+        button.addEventListener('click', () => {
+                const toggleContent = button.parentNode.parentNode.querySelector('.kg-toggle-content');
+                toggleContent.classList.toggle('show');
+        });
+});
