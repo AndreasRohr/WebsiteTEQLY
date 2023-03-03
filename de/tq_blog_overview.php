@@ -79,7 +79,7 @@
           display: block;
           width: 100%;
           height: 90%;
-          object-fit: cover;
+          object-fit: contain;
           object-position: center;
         }
 
