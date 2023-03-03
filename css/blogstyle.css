@@ -1,16 +1,21 @@
-.kg-image-card{
+.kg-image-card img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 55%;
 }
-.kg-gallery-image{
+.kg-gallery-image img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 55%;
 }
 
 figcaption{
     text-align: center;
+}
+
+.kg-file-card-icon{
+    max-width: 10%;
+    max-height: 10%;
 }

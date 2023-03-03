@@ -43,5 +43,6 @@ buttons.forEach(button => {
         button.addEventListener('click', () => {
                 const toggleContent = button.parentNode.parentNode.querySelector('.kg-toggle-content');
                 toggleContent.classList.toggle('show');
+                console.log("working")
         });
 });

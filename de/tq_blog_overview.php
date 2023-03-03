@@ -15,7 +15,7 @@
 <body>
 <div id="main" style="margin-top: 4rem">
 	<h1 style="margin-top: 7rem; margin-left: 3rem" class="contact-title"> Unser Blog.</h1>
-	<div id="blog-posts" style="max-width: 1300px; margin: 0 auto;"></div>
+	<div id="blog-posts" style="max-width: 1300px; margin: 0 auto; margin-top: 1rem;"></div>
 
 	<script>
 		const apiURL = "https://blog.teqly.ch";
