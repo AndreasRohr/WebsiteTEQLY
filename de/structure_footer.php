@@ -44,6 +44,8 @@
                     <a style="color: black" href="tq_contact.php">Kontakt</a>
                     <br>
                     <a style="color: black" href="tq_press.php">Presse</a>
+                    <br>
+                    <a style="color: black" href="tq_blog_overview.php">Blog</a>
                 </div>
             </div>
             <div style="margin-right: 2rem; color: black" class="col-footer">
