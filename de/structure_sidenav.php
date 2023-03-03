@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
-    <link rel="stylesheet" href="../../css/normalize.css" media="all" type="text/css">
-    <link rel="stylesheet" href="../../css/style.css" media="all" type="text/css">
+    <title>Navigation</title>
+<?php include 'structure_header_imports.php' ?>
     <script src="https://unpkg.com/feather-icons"></script>
-    <script src="form/form.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 </head>
@@ -69,7 +67,7 @@
 </div>
 </body>
 </html>
-<script type="text/javascript" src="../../js/script.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
 <script id="zammad_form_script" src="https://support.teqly.app/assets/form/form.js"></script>
 <script>
 $(function() {
