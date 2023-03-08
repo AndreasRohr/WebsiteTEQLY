@@ -22,13 +22,20 @@ fetch(`${apiURL}/ghost/api/v3/content/posts/slug/${postSlug}?key=${apiKey}&inclu
         const content = document.createElement("div");
         const author = document.createElement("p");
         const tags = document.createElement("ul");
+        const postImage = document.createElement("img");
 
+        postImage.src = post.feature_image;
         title.textContent = post.title;
         content.innerHTML = post.html;
         content.innerHTML += '<br>';
         author.textContent = `By ${post.primary_author.name}`;
         tags.innerHTML = post.tags.map(tag => `<li>${tag.name}</li>`).join("");
-
+            if (postImage.src.endsWith("null")) {
+             console.log("No Feature Image Found")
+            }
+            else{
+                    postContainer.appendChild(postImage);
+            }
         postContainer.appendChild(title);
         postContainer.appendChild(content);
         postContainer.appendChild(author);

@@ -32,7 +32,7 @@
 					const postCard = document.createElement("div");
 					postCard.classList.add("post-card");
 					const postLink = document.createElement("a");
-					postLink.href = `blog_${post.slug}.php`;
+					postLink.href = `blog.php?slug=${post.slug}`;
 					const postImage = document.createElement("img");
 					postImage.src = post.feature_image;
 					if (postImage.src.endsWith("null")) {

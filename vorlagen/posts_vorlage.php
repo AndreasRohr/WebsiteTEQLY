@@ -13,7 +13,7 @@
 
   <body style="margin-top: 7rem">
     <div style="max-width:1000px; margin: 0 auto;"id="post-content"></div>
-    <script src="post.js"></script>
+    <script src="../js/post.js"></script>
     <br>
     <?php include '../de/structure_footer.php' ?>
   </body>
