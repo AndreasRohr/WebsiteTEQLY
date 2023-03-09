@@ -39,9 +39,9 @@
             <div class="products-col-right">
                 <p>Uns ist wichtig, dass unsere Kunden und Partner wissen, wofür wir stehen und was uns ausmacht. Darum haben wir uns selber eingen Werten verschrieben, an die wir glauben und welche wir leben.<br></p>
                 <ul>
-                    <li><a style="color: black" href="#transparency">Fairness</a></li>
-                    <li><a style="color: black" href="#agility">Ehrlichkeit</a></li>
-                    <li><a style="color: black" href="#participation">Lösungsorientiert</a></li>
+                    <li><a style="color: black" href="#transparency">Transparenz</a></li>
+                    <li><a style="color: black" href="#agility">Agilität</a></li>
+                    <li><a style="color: black" href="#participation">Partizipation</a></li>
                 </ul>
             </div>
         </div>
@@ -49,30 +49,30 @@
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <h1>Fairness</h1>
+                <h1>Transparenz</h1>
             </div>
             <div class="under-section-col-right">
-                <p>Wir pflegen einen respektvollen und gleichberechtigten Umgang mit allen Mitarbeitenden und Auftraggebenden. Wir treffen Entscheidungen auf der Grundlage objektiver Kriterien, ohne Voreingenommenheit oder Bevorzugung.</p>
+                <p>Bei uns werden Probleme angesprochen und nicht unter den Teppich gekehrt. Mit unseren Kunden und Partnern pflegen wir ein offenes und ehrliches Verhältnis. Egal ob im Rahmen von Vertragsverhandlungen oder während Projektmeetings – wir vertreten stets unsere Meinung. Intern legen wir Daten und Dokumente offen, damit alle den Durchblick haben und wir gemeinsam diskutieren, argumentieren und entscheiden können.</p>
             </div>
         </div>
         <div id="agility" class="under-section">
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <h1>Ehrlichkeit</h1>
+                <h1>Agilität</h1>
             </div>
             <div class="under-section-col-right">
-                <p>Bei TEQLY führen wir wahrheitsgemässe und transparente Kommunikation mit allen Beteiligten. Wir geben Fehler zu und übernehmen die Verantwortung für unser Handeln.</p>
+                <p>Jede Entwicklung ist ein Prozess und bei uns ist dieser nie starr. Unsere Projekte setzen wir in Scrum oder anderen agilen Metoden um. Damit schaffen wir einerseits ein erstklassiges Arbeitsumfeld für Design und Entwicklung, andererseits stellen wir so sicher, dass wir hochwertige Web- und Mobile-Applikationen entwickeln, welche unsere Kunden und Nutzenden begeistern. Bei Unsicherheiten führen wir Kunden und Partner in die agilen Methoden ein und überzeugen Sie von unserer Arbeitsweise.</p>
             </div>
         </div>
         <div id="participation" class="under-section">
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <h1>Lösungsorientiert</h1>
+                <h1>Partizipation</h1>
             </div>
             <div class="under-section-col-right">
-                <p>Wir konzentrieren uns auf die Suche nach praktischen Lösungen für Herausforderungen, statt auf Schuldzuweisungen. Wir ermutigen zur Zusammenarbeit und Teamwork, um innovative Lösungen zu finden. Kontinuierliche Verbesserung und die Bereitschaft aus Fehlern zu lernen eröffnen uns neue Ansätze, Probleme zu erkennen und zu lösen.</p>
+                <p>Bei uns ist jede und jeder Chef. Wir halten nichts von starren Hierarchien, Entscheidungen werden nicht im Chefbüro, sondern immer unter Berücksichtigung der Meinungen aller im Team getroffen. Es besteht immer absolute Meinungsfreiheit. Alle sollen sagen, was sie denken, auch wenn das manchmal weh tut. Wir diskutieren, argumentieren, wägen ab und finden in den meisten Fällen einen Konsent. Unsere Entscheidungen sind nachhaltiger, weil sie vom Kollektiv getragen werden.</p>
             </div>
         </div>
         <div id="founders" class="lineblack-index"></div>
