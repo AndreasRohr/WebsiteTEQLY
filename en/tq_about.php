@@ -38,9 +38,9 @@
             <div class="products-col-right">
                 <p>It is important to us that our customers and partners know what we stand for and what makes us special. That is why we have dedicated ourselves to values that we believe in and live by.<br></p>
                 <ul>
-                    <li><a style="color: black" href="#transparency">Transparency</a></li>
-                    <li><a style="color: black" href="#agility">Agility</a></li>
-                    <li><a style="color: black" href="#participation">Participation</a></li>
+                    <li><a style="color: black" href="#transparency">Fairness</a></li>
+                    <li><a style="color: black" href="#agility">Honesty</a></li>
+                    <li><a style="color: black" href="#participation">Solution-oriented</a></li>
                 </ul>
             </div>
         </div>
@@ -48,30 +48,30 @@
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <h1>Transparency</h1>
+                <h1>Fairness</h1>
             </div>
             <div class="under-section-col-right">
-                <p>With us, problems are addressed and not swept under the carpet. We maintain an open and honest relationship with our clients and partners. Whether in the context of contract negotiations or during project meetings - we always represent our opinion. Internally, we disclose data and documents so that everyone has an overview, and we can discuss, argue and decide together.</p>
+                <p>We treat all employees and contractors with respect and equality. We make decisions based on objective criteria, without bias or favoritism.</p>
             </div>
         </div>
         <div id="agility" class="under-section">
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <h1>Agility</h1>
+                <h1>Honesty</h1>
             </div>
             <div class="under-section-col-right">
-                <p>Every development is a process and for us it is never rigid. We implement our projects in Scrum or other agile methods. On the one hand, this creates a first-class working environment for design and development, and on the other hand, it ensures that we develop high-quality web and mobile applications that delight our customers and users. In case of uncertainty, we introduce customers and partners to agile methods and convince them of our way of working.</p>
+                <p>At TEQLY, we conduct truthful and transparent communication with all stakeholders. We admit mistakes and take responsibility for our actions.</p>
             </div>
         </div>
         <div id="participation" class="under-section">
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <h1>Participation</h1>
+                <h1>Solution-oriented</h1>
             </div>
             <div class="under-section-col-right">
-                <p>With us, everyone is the boss. We don't believe in rigid hierarchies, decisions are not made in the boss's office, but always taking into account the opinions of everyone in the team. There is always absolute freedom of opinion. Everyone should say what they think, even if that sometimes hurts. We discuss, argue, weigh and in most cases find a consensus. Our decisions are more sustainable because they are supported by the collective.</p>
+                <p>We focus on finding practical solutions to challenges, rather than blame. We encourage collaboration and teamwork to find innovative solutions. Continuous improvement and a willingness to learn from mistakes open us up to new approaches to identifying and solving problems.</p>
             </div>
         </div>
         <div id="founders" class="lineblack-index"></div>
