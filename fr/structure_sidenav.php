@@ -36,32 +36,42 @@
             </a>
         </div>
     </div>
-    <div class="header-row">
+ <div class="header-row">
         <div class="column-sidenav">
             <div class="linewhite"></div>
             <p id="navigation">NAVIGATION</p>
             <div class="navBlack">
                 <a href="index.php">Start</a>
                 <a href="tq_products.php">Services</a>
-                <a href="tq_references.php">Projets</a>
+                <a href="tq_references.php">Projects</a>
                 <a href="tq_contact.php">Contact</a>
+                <a href="../de/tq_blog_overview.php">Blog</a>
                 <a href="tq_about.php">À propos de TEQLY</a>
+                <br>
+                <br>
+
             </div>
         </div>
+         <div class="column-sidenav">
+                    <div class="linewhite"></div>
+                    <p id="navigation">APPLICATIONS & TÉLÉCHARGEMENTS</p>
+                    <div class="navBlack">
+                        <a href="tq_app_plattform.php">Plate-forme d'application</a>
+                        <a href="https://support.teqly.app">Support</a>
+                        <a href="https://newsletter.teqly.app/customer/index.php/guest/index">Bulletin</a>
+                        <a href="tq_remote_app.php">Client distant</a>
+                         <br>
+                         <br>
+                    </div>
+                </div>
         <div class="column-sidenav">
-            <div id="blog-line" class="linewhite"></div>
-            <p class="blog-nav" id="navigation">BLOG</p>
-            <div class="blog-content">
-                <?php include 'structure_blog.php' ?>
-            </div>
-        </div>
-        <div class="columnnav-2">
             <div class="linewhite"></div>
             <p id="navigation">EASIT.rent</p>
-            <a style="color: white; font-size: 16px" href="https://easit.rent">Cliquez ici pour accéder à EASIT.rent.</a>
-            <p id="navigation">Vidéo de présentation d'EASIT.rent:</p>
-            <iframe src="https://www.youtube.com/embed/gTN6CIMeIag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+            <a style="color: white; font-size: 16px" href="https://easit.rent">Cliquez ici pour accéder à EASIT.rent</a>
+                <br>
+                <a href="https://easit.rent" style="margin-bottom: 9rem;">
+                  <img class="logo-white" style="max-height: 250px;" alt="TEQLY" src="../assets/easit_logo.png">
+                </a>
         </div>
     </div>
 </div>

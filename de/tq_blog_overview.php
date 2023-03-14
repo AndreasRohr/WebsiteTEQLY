@@ -2,7 +2,8 @@
 <html lang="de">
 <head>
     <?php include 'structure_header_imports.php' ?>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
     <link rel="stylesheet" href="../css/normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="../css/style.css" media="all" type="text/css">
     <meta charset="UTF-8">
@@ -21,7 +22,7 @@
 		const apiURL = "https://blog.teqly.ch";
 		const apiKey = "e3e8cd821e7165759e2a9da4bc";
 
-		fetch(`${apiURL}/ghost/api/v3/content/posts/?key=${apiKey}&fields=title,slug,feature_image&limit=all`)
+		fetch(`${apiURL}/ghost/api/v3/content/posts/?key=${apiKey}&fields=title,slug,feature_image,published_at&include=tag,authors&limit=all`)
 			.then(response => response.json())
 			.then(data => {
 				const blogPosts = document.getElementById("blog-posts");
@@ -40,11 +41,20 @@
 					}
 					postImage.alt = post.title;
 					const postTitle = document.createElement("h2");
+
 					postTitle.textContent = post.title;
+
+					const postAuthor = document.createElement("p");
+                    					postAuthor.textContent = new Date(post.published_at).toLocaleDateString()+"  |  "+post.authors[0].name;
+
+
+
 					postLink.appendChild(postImage);
 					postLink.appendChild(postTitle);
 					postCard.appendChild(postLink);
 					blogPosts.appendChild(postCard);
+					postLink.appendChild(postAuthor);
+
 				}
 			})
 			.catch(error => console.error(error));
@@ -53,8 +63,8 @@
 	<style>
 		.post-card {
           display: inline-block;
-          width: 280px;
-          height: 280px;
+          width: 24.5rem;
+          height: 23rem;
           margin: 20px;
           border: 1px solid #ccc;
           overflow: hidden;
@@ -65,7 +75,6 @@
           display: block;
           text-decoration: none;
           color: #333;
-          padding: 10px;
           height: 100%;
           box-sizing: border-box;
           transition: all 0.2s ease-in-out;
@@ -78,20 +87,30 @@
         .post-card img {
           display: block;
           width: 100%;
-          height: 90%;
-          object-fit: contain;
-          object-position: center;
+          height:60%;
+          object-fit: cover
+
+
         }
 
         .post-card h2 {
-          font-size: 1.2rem;
-          margin-top: 10px;
-          height: 70px;
+          font-size: 1.1rem;
+          margin-top: 1rem;
           box-sizing: border-box;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          white-space: nowrap;
+          font-weight: bold;
+          margin-left: auto;
+          margin-right: auto;
+          max-width:90%;
         }
+
+                .post-card p {
+                  margin-top: 1rem;
+                  box-sizing: border-box;
+                  margin-left: auto;
+                  margin-right: auto;
+                  max-width:90%;
+                  bottom: 0;
+                }
 
 	</style>
 	<br>
@@ -99,3 +118,8 @@
     </div>
 </body>
 </html>
+
+<script>
+    // Fix template to make zooming work correctly in Chrome on mobile.
+    $('meta[name="viewport"').attr("content", "width=device-width, initial-scale=0.9, maximum-scale=4, minimum-scale=0.9");
+</script>

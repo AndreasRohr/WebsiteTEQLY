@@ -1,3 +1,24 @@
+@media only screen and (max-width: 800px) {
+.post img{
+    max-width: 80vw!important;
+}
+
+    .post h1{
+        font-size: 32px;
+    }
+
+    .post h2{
+        font-size: 25px;
+    }
+
+    .post p{
+        font-size: 14px;
+    }
+
+    .post figcaption{
+        font-size: 8px;
+    }
+}
 
 .kg-gallery-image img{
     display: block;
@@ -22,6 +43,27 @@ figcaption{
 
 }
 
+.post {
+    width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.post > h1:first-of-type{
+    margin-bottom: 4rem;
+}
+
+.post > h1:first-of-type{
+    margin-bottom: 2rem;
+}
+
+
+.post > :last-child{
+   margin-bottom: 10rem;
+}
+
+
 #post-content p{
     margin-bottom: 2rem;
 }
@@ -31,6 +73,200 @@ figcaption{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    max-width: 1000px;
+    max-width: 45rem;
     height: auto;
 }
+
+
+.kg-toggle-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0s ease-out, opacity 0.4s ease-in;
+    opacity: 0; /* Set the initial opacity to 0 */
+}
+
+.kg-toggle-content.hidden {
+    max-height: none;
+}
+
+.kg-toggle-card-icon.active {
+    transform: rotate(180deg);
+    background-color: white;
+}
+
+.kg-toggle-heading {
+    display: flex;
+    align-items: center;
+}
+
+.kg-toggle-heading-text {
+    flex-grow: 1;
+}
+
+.kg-toggle-card-icon {
+    margin-left: auto;
+    width: 30px;
+    height: auto;
+    border: none;
+    background-color: white;
+}
+
+.kg-toggle-card {
+    border: 0.5px solid grey;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    background-color: white;
+}
+
+.kg-callout-text{
+    background-color: #FCECF6
+}
+
+.cls-1{
+    color: grey;
+}
+
+.kg-toggle-content.show {
+    max-height: 1000px; /* Set a high value for max-height to ensure the element expands fully */
+    opacity: 1; /* Set the opacity to 1 to make the element visible */
+}
+
+.post video{
+    height: auto;
+    max-width:100%;
+}
+
+
+
+
+
+
+
+
+.kg-video-container {
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+.kg-video-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top:23%;
+    margin-left:1%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 1;
+
+}
+
+.kg-video-player.kg-video-player-show {
+    opacity: 1;
+}
+
+.kg-video-large-play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6rem;
+    height: 6rem;
+    background-image: url("https://www.svgrepo.com/show/13672/play-button.svg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 2;
+    border: none;
+    background-color: white;
+}
+
+.kg-video-hide {
+    display: none;
+}
+
+.kg-video-player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kg-video-play-icon,
+.kg-video-pause-icon,
+.kg-video-mute-icon,
+.kg-video-unmute-icon {
+    width: 3rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    background-color: white;
+    border: 0.5px solid black;
+}
+
+.kg-video-play-icon {
+    background-image: url("path/to/play-icon.svg");
+}
+
+.kg-video-pause-icon {
+    background-image: url("path/to/pause-icon.svg");
+}
+
+.kg-video-mute-icon {
+    background-image: url("path/to/mute-icon.svg");
+}
+
+.kg-video-unmute-icon {
+    background-image: url("path/to/unmute-icon.svg");
+}
+
+.kg-video-volume-slider,
+.kg-video-seek-slider {
+    width: 100%;
+    margin: 0 1rem;
+}
+
+.kg-video-time {
+    font-size: 1.4rem;
+    margin: 0 1rem;
+}
+
+.kg-video-current-time:before {
+    content: "-";
+    margin-right: 0.5rem;
+}
+
+.kg-video-duration:after {
+    content: "-";
+    margin-left: 0.5rem;
+}
+
+.kg-video-playback-rate , .kg-video-mute-icon, .kg-video-unmute-icon{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
