@@ -60,7 +60,7 @@
     <div class="header-left" style="max-width: 50px">
         <a class="logo" href="index.php" style="margin-left: 0rem">
             <div>
-                <img src="../assets/teqly_logo.png" alt="TEQLY Logo" width="50">
+                <img style="max-height: 50px" src="../assets/teqly_logo.png" alt="TEQLY Logo" width="50">
             </div>
         </a>
     </div>

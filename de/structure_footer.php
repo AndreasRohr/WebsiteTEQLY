@@ -39,11 +39,13 @@
                     <br>
                     <a style="color: black" href="tq_references.php">Projekte</a>
                     <br>
-                    <a style="color: black" href="https://blog.teqly.ch">Blog</a>
+                    <a style="color: black" href="../de/tq_blog_overview.php">Blog</a>
                     <br>
                     <a style="color: black" href="tq_contact.php">Kontakt</a>
                     <br>
                     <a style="color: black" href="tq_press.php">Presse</a>
+
+
                 </div>
             </div>
             <div style="margin-right: 2rem; color: black" class="col-footer">

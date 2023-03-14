@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
-    <link rel="stylesheet" href="../../css/normalize.css" media="all" type="text/css">
-    <link rel="stylesheet" href="../../css/style.css" media="all" type="text/css">
+    <title>Navigation</title>
+<?php include 'structure_header_imports.php' ?>
     <script src="https://unpkg.com/feather-icons"></script>
-    <script src="form/form.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 </head>
@@ -32,7 +30,7 @@
         </div>
         <div class="sidenav-left" style="margin-bottom: 0.1rem; width: 50px">
             <a class="logo" href="../index.php">
-                <img  class="logo-white" alt="TEQLY" src="../assets/teqly_logo.png"
+                <img style="max-height: 50px" class="logo-white" alt="TEQLY" src="../assets/teqly_logo.png"
                      width="50" height="7">
             </a>
         </div>
@@ -46,30 +44,39 @@
                 <a href="tq_products.php">Dienstleistungen</a>
                 <a href="tq_references.php">Projekte</a>
                 <a href="tq_contact.php">Kontakt</a>
-                <a href="tq_app_plattform.php">App-Plattform</a>
+                <a href="tq_blog_overview.php">Blog</a>
                 <a href="tq_about.php">Über TEQLY</a>
+                <br>
+                <br>
+
             </div>
         </div>
+         <div class="column-sidenav">
+                    <div class="linewhite"></div>
+                    <p id="navigation">APPLIKATIONEN & DOWNLOADS</p>
+                    <div class="navBlack">
+                        <a href="tq_app_plattform.php">App-Plattform</a>
+                        <a href="https://support.teqly.app">Support</a>
+                        <a href="https://newsletter.teqly.app/customer/index.php/guest/index">Newsletter</a>
+                        <a href="tq_remote_app.php">Remote Client</a>
+                         <br>
+                         <br>
+                    </div>
+                </div>
         <div class="column-sidenav">
-            <div id="blog-line" class="linewhite"></div>
-            <p class="blog-nav" id="navigation">BLOG</p>
-            <div class="blog-content">
-                <?php include 'structure_blog.php' ?>
-            </div>
-        </div>
-        <div class="columnnav-2">
             <div class="linewhite"></div>
             <p id="navigation">EASIT.rent</p>
             <a style="color: white; font-size: 16px" href="https://easit.rent">Hier klicken um auf EASIT.rent zu gelangen.</a>
-            <p id="navigation">EASIT.rent Vorstellungsvideo:</p>
-            <iframe src="https://www.youtube.com/embed/gTN6CIMeIag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+                <br>
+                <a href="https://easit.rent" style="margin-bottom: 9rem;">
+                  <img class="logo-white" style="max-height: 250px;" alt="TEQLY" src="../assets/easit_logo.png">
+                </a>
         </div>
     </div>
 </div>
 </body>
 </html>
-<script type="text/javascript" src="../../js/script.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
 <script id="zammad_form_script" src="https://support.teqly.app/assets/form/form.js"></script>
 <script>
 $(function() {

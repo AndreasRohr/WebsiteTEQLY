@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="../css/normalize.css" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style.css" media="all" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 <div>
@@ -40,7 +39,7 @@
                     <br>
                     <a style="color: black" href="tq_references.php">Projects</a>
                     <br>
-                    <a style="color: black" href="https://blog.teqly.ch">Blog</a>
+                    <a style="color: black" href="../de/tq_blog_overview.php">Blog</a>
                     <br>
                     <a style="color: black" href="tq_contact.php">Contact</a>
                     <br>
