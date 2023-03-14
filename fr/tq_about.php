@@ -81,10 +81,74 @@
         </div>
         <div class="products-wrapper">
             <div class="products-col-right">
-                <p>Les trois fondateurs Jannik, Sandro et Andreas (de gauche à droite) se sont rencontrés à l'école de maturité professionnelle de la BSA. Après avoir obtenu leur diplôme à la BSA, ils ont commencé ensemble des études d'informatique à la FHNW à Brugg. Jannik et Sandro ont changé de voie pour se lancer dans l'informatique. Tous deux ont fait des apprentissages en construction mécanique et ont appris le métier d'informaticien de A à Z à l'université. Andreas, quant à lui, est resté fidèle à l'informatique depuis son apprentissage. Il a fait un apprentissage d'informaticien et a ainsi apporté une expérience précieuse à l'équipe. Entre-temps, Andreas se charge de la direction de l'assistance, Jannik des projets de développement et Sandro du conseil. </p><br>
+                <p>Les trois fondateurs Jannik, Sandro et Andreas se sont rencontrés à l'école de maturité professionnelle de la BSA. Après avoir obtenu leur diplôme à la BSA, ils ont commencé ensemble des études d'informatique à la FHNW à Brugg. Jannik et Sandro ont changé de voie pour se lancer dans l'informatique. Tous deux ont fait des apprentissages en construction mécanique et ont appris le métier d'informaticien de A à Z à l'université. Andreas, quant à lui, est resté fidèle à l'informatique depuis son apprentissage. Il a fait un apprentissage d'informaticien et a ainsi apporté une expérience précieuse à l'équipe. Entre-temps, Andreas se charge de la direction de l'assistance, Jannik des projets de développement et Sandro du conseil. </p><br>
             </div>
         </div>
-        <img alt="Photo des fondateurs de TEQLY, Jannik, Sandro et Andreas." src="../assets/teqly_header_team.png">
+            <div id="values" class="lineblack-index"></div>
+                <div class="index-col-left">
+                    <h1>Jannik Frei</h1>
+                </div>
+                <div class="imagetext-wrapper">
+                    <div class="imagetext-col-left">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,<br></p>
+                    </div>
+                    <div class="image-col-right">
+                        <img src="../assets/jannik_frei.jpeg"onmouseover="this.src='../assets/jannik_frei.jpeg';" onmouseout="this.src='../assets/jannik_frei.jpeg';" />
+                    </div>
+                </div>
+
+
+                <div id="values" class="lineblack-index"></div>
+                <div class="index-col-left" >
+                    <h1>Sandro Bütler</h1>
+                </div>
+                <div class="image-col-left">
+                    <img src='../assets/sandro_buetler.JPG' onmouseover="this.src='../assets/jannik_frei.jpeg';" onmouseout="this.src='../assets/sandro_buetler.JPG';" />
+
+                </div>
+                <div class="imagetext-wrapper">
+                    <div class="imagetext-col-right">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,<br></p>
+                    </div>
+                </div>
+
+
+                        <div id="values" class="lineblack-index"></div>
+                        <div class="index-col-left">
+                            <h1>Tobias Vonesch</h1>
+                        </div>
+                        <div class="imagetext-wrapper">
+                            <div class="imagetext-col-left">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+                                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,<br></p>
+                            </div>
+                            <div class="image-col-right">
+                                <img src="../assets/tobias_vonesch.jpg" onmouseover="this.src='../assets/jannik_frei.jpeg';" onmouseout="this.src='../assets/tobias_vonesch.jpg';" />
+                            </div>
+                        </div>
+
+
+
+                              <div id="values" class="lineblack-index"></div>
+                                <div class="index-col-left" >
+                                    <h1>Andreas Rohr</h1>
+                                </div>
+                                <div class="image-col-left">
+                                    <img src='../assets/andreas_rohr.JPG' onmouseover="this.src='../assets/jannik_frei.jpeg';" onmouseout="this.src='../assets/andreas_rohr.JPG';" />
+
+                                </div>
+                                <div class="imagetext-wrapper">
+                                    <div class="imagetext-col-right">
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+                                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,<br></p>
+                                    </div>
+                                </div>
         <div id="jobs" class="lineblack-index"></div>
         <div class="products-col-top">
             <h1>Emplois</h1>
