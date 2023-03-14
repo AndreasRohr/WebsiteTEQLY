@@ -39,9 +39,9 @@
             <div class="products-col-right">
                 <p>Il est important pour nous que nos clients et partenaires sachent ce que nous représentons et ce qui nous caractérise. C'est pourquoi nous nous sommes engagés à respecter certaines valeurs auxquelles nous croyons et que nous vivons.<br></p>
                 <ul>
-                    <li><a style="color: black" href="#transparency">Transparence</a></li>
-                    <li><a style="color: black" href="#agility">Agilité</a></li>
-                    <li><a style="color: black" href="#participation">Participation</a></li>
+                    <li><a style="color: black" href="#transparency">Équité</a></li>
+                    <li><a style="color: black" href="#agility">Honnêteté</a></li>
+                    <li><a style="color: black" href="#participation">Orienté vers les solutions</a></li>
                 </ul>
             </div>
         </div>
@@ -49,30 +49,30 @@
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <h1>Transparence</h1>
+                <h1>Équité</h1>
             </div>
             <div class="under-section-col-right">
-                <p>Chez nous, les problèmes sont abordés et ne sont pas balayés sous le tapis. Nous entretenons des relations ouvertes et honnêtes avec nos clients et nos partenaires. Que ce soit dans le cadre de négociations contractuelles ou lors de réunions de projet, nous défendons toujours notre opinion. En interne, nous divulguons les données et les documents afin que tout le monde puisse y voir clair et que nous puissions discuter, argumenter et décider ensemble.</p>
+                <p>Nous entretenons des relations respectueuses et équitables avec tous nos collaborateurs et donneurs d'ordre. Nous prenons des décisions sur la base de critères objectifs, sans parti pris ni favoritisme.</p>
             </div>
         </div>
         <div id="agility" class="under-section">
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <h1>Agilité</h1>
+                <h1>Honnêteté</h1>
             </div>
             <div class="under-section-col-right">
-                <p>Tout développement est un processus et chez nous, il n'est jamais figé. Nous réalisons nos projets en Scrum ou selon d'autres méthodes agiles. Nous créons ainsi un environnement de travail de premier ordre pour la conception et le développement, et nous nous assurons que nous développons des applications web et mobiles de qualité qui enthousiasment nos clients et utilisateurs. En cas d'incertitude, nous introduisons les clients et les partenaires aux méthodes agiles et les convainquons de notre manière de travailler.</p>
+                <p>Chez TEQLY, nous communiquons de manière véridique et transparente avec toutes les personnes concernées. Nous reconnaissons nos erreurs et assumons la responsabilité de nos actes.</p>
             </div>
         </div>
         <div id="participation" class="under-section">
             <div class="lineblack-index"></div>
             <div class="index-col-left">
                 <i class="fa-solid fa-arrow-right fa-2xl" style="vertical-align: text-top; -webkit-text-stroke: 1.5px white"></i>
-                <h1>Participation</h1>
+                <h1>Orienté vers les solutions</h1>
             </div>
             <div class="under-section-col-right">
-                <p>Chez nous, chacun et chacune est chef. Nous n'aimons pas les hiérarchies rigides, les décisions ne sont pas prises dans le bureau du chef, mais toujours en tenant compte des opinions de tous les membres de l'équipe. Il y a toujours une liberté d'expression absolue. Chacun doit dire ce qu'il pense, même si cela fait parfois mal. Nous discutons, argumentons, pesons le pour et le contre et trouvons un consensus dans la plupart des cas. Nos décisions sont plus durables parce qu'elles sont portées par le collectif.</p>
+                <p>Nous nous concentrons sur la recherche de solutions pratiques aux défis plutôt que sur le blâme. Nous encourageons la collaboration et le travail d'équipe afin de trouver des solutions innovantes. L'amélioration continue et la volonté d'apprendre de nos erreurs nous ouvrent de nouvelles approches pour identifier et résoudre les problèmes.</p>
             </div>
         </div>
         <div id="founders" class="lineblack-index"></div>
