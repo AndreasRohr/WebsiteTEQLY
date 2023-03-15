@@ -20,6 +20,7 @@
     }
 }
 
+
 .kg-gallery-image img{
     display: block;
     margin-left: auto;
@@ -31,10 +32,11 @@ figcaption{
     text-align: center;
     margin-bottom: 2rem;
     color: grey;
-    width: 50%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-size: 12px;
 }
 
 .kg-file-card-icon{
@@ -68,8 +70,12 @@ figcaption{
     margin-bottom: 2rem;
 }
 
+.post > img:first-of-type{
+    margin-bottom: 3rem;
+}
+
 .post img{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
     display: block;
