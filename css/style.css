@@ -8,19 +8,13 @@
 }
 
 
-.image-col-left img {
-    float: left;
-    width: 22%;
-    height: auto;
-    margin-bottom: 4rem;
-    margin-left: 3.1rem;
+
+
+
+.image-text-container{
+    display: flex;
 }
 
-.image-col-right img {
-    width: 22%;
-    height: auto;
-    margin-left: 2rem;
-}
 
 
 .zammad-chat {
@@ -43,6 +37,7 @@
     z-index: 999;
 }
 @media only screen and (max-width: 768px) {
+
     .zammad-chat {
         right: 0;
         width: 100%;
@@ -313,7 +308,59 @@
     -ms-scroll-chaining: none;
     overscroll-behavior: contain;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+
+
+    .image-col-left img{
+        height: auto;
+        width: auto;
+    }
+
+    .image-col-right img{
+        height: auto;
+        width: auto;
+    }
+
+    .image-col-left{
+        margin: auto auto auto auto!important;
+        order: 1!important;
+        margin-bottom: 2rem!important;
+        min-width: 90%!important;
+        display: inline-block!important;
+        text-align: center;
+    }
+
+
+    .image-col-right{
+        display: inline-block!important;
+        margin: auto auto auto auto!important;
+        order: 1!important;
+        margin-bottom: 2rem!important;
+        min-width: 90%!important;
+        text-align: center;
+
+    }
+
+    .imagetext-col-left{
+        margin: auto 4%!important;
+        order: 2!important;
+        max-width: 100%!important;
+    }
+
+    .imagetext-col-right{
+        order: 2!important;
+        max-width: 100%!important;
+        margin: auto 4%!important;
+    }
+
+    .image-text-container {
+        display: flex;
+        flex-direction: column!important;
+    }
+
+
+
+
     .zammad-chat-body {
         height: auto;
         -webkit-box-flex: 1;
@@ -1350,25 +1397,76 @@ input[type=submit]:hover {
     width: 65%;
 }
 
-.imagetext-col-right {
-    margin-left: auto;
-    margin-right: 2rem;
-    display: block;
-    width: 65%;
-}
-
-.imagetext-col-left {
-    margin-left: auto;
-    margin-right: 2rem;
-    display: block;
-    width: 65%;
-    float: left;
-}
 
 .products-col-right a {
     color: black;
     font-weight: bolder;
 }
+
+
+
+
+.image-col-left img{
+    height: auto;
+    width: auto;
+}
+
+.image-col-right img{
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+.image-col-left{
+    max-width: 25%;
+    min-width: 15%;
+    margin-right: 8rem;
+    order: 1;
+    margin-left: 3rem;
+}
+
+
+.image-col-right{
+    max-width: 25%;
+    min-width: 15%;
+    order: 2;
+    margin-left: 8rem;
+    margin-right: 3rem;
+
+}
+
+.imagetext-col-left{
+    order: 1;
+    margin: auto auto auto 3rem;
+    max-width: 60%;
+
+}
+
+.imagetext-col-right{
+    margin: auto 3rem auto auto;
+    order: 2;
+    max-width: 60%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*INDEX*/
