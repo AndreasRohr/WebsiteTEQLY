@@ -1,6 +1,6 @@
 <?php
   $apiURL = "https://blog.teqly.ch";
-  $apiKey = "e3e8cd821e7165759e2a9da4bc";
+  $apiKey = "09d2b5f78c3774701e1685a192";
 
   // retrieve the slug parameter from the URL
   $slug = $_GET['slug'];
