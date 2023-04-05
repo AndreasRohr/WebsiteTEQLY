@@ -20,7 +20,7 @@
 
 	<script>
 		const apiURL = "https://blog.teqly.ch";
-		const apiKey = "e3e8cd821e7165759e2a9da4bc";
+		const apiKey = "09d2b5f78c3774701e1685a192";
 
 		fetch(`${apiURL}/ghost/api/v3/content/posts/?key=${apiKey}&fields=title,slug,feature_image,published_at&include=tag,authors&limit=all`)
 			.then(response => response.json())
