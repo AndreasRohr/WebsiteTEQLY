@@ -77,8 +77,8 @@
 
     const blogPostsContainer = document.getElementById("blog-posts-container");
     const blogPostsSlider = document.getElementById("blog-posts-slider");
-    fetch(`${apiURL}/ghost/api/v3/content/posts/?key=${apiKey}&fields=title,,excerpt,slug,feature_image,published_at&include=tag,authors&limit=all`)
-    /*fetch(`${apiURL}/ghost/api/v3/content/posts/?key=${apiKey}&fields=title,slug,feature_image,published_at&include=tag,authors&limit=all&filter=tag:success-stories`)*/
+
+    fetch(`${apiURL}/ghost/api/v3/content/posts/?key=${apiKey}&fields=title,slug,feature_image,published_at&include=tag,authors&limit=all&filter=tag:success-stories`)
         .then(response => response.json())
         .then(data => {
             const posts = data.posts;
