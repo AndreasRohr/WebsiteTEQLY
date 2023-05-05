@@ -24,7 +24,6 @@ $response = file_get_contents("${apiURL}/ghost/api/v3/content/posts/slug/${slug}
 <div id="main" style="margin-top: 7rem">
 <div style="max-width: 80vw; margin: 0 auto; margin-top: 1rem;" class="post">
   <h1><?php echo $post->title; ?></h1>
-    <p><?php echo date('d/m/Y', strtotime($post->published_at)) ?></p>
   <?php if (filter_var($post->feature_image, FILTER_VALIDATE_URL)) : ?>
     <img src="<?php echo $post->feature_image; ?>" alt="<?php echo $post->title; ?>">
   <?php endif; ?>
