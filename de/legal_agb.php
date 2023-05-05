@@ -235,7 +235,7 @@
         des Kunden;<br>
         d) mit Remote-Service als Ferndiagnose und Ferneinwirkung mittels direkter Informationsübertragung zwischen
         dem System des Lieferanten und dem System des Kunden;<br>
-        e) mit Brief- und Paketzustellung.<p/>
+        e) mit Brief- und Paketzustellung.</p>
             <h1>V. Teilnichtigkeit</h1>
         <p>Sollten einzelne Vereinbarung gegen geltendes Recht verstossen wird dadurch nicht der gesamte Vertrag
             nichtig. Die nichtigen Klauseln werden durch sinngemässe, konforme Regelungen ersetzt.</p>
