@@ -77,7 +77,7 @@
             </div>
         </div>
         <div class="lineblack-index"></div>
-        <div class="index-col-left">
+        <div class="index-col-left" id="successStories">
             <a>Success-Stories</a>
         </div>
         <?php include 'success_stories.php' ?>
