@@ -14,7 +14,7 @@
         .post-card {
             display: inline-block;
             width: 24.5rem;
-            height: 23rem;
+            height: 35rem;
             margin: 0 10px;
             border: 1px solid #ccc;
         }
@@ -35,8 +35,9 @@
         .post-card img {
             display: block;
             width: 100%;
-            height:60%;
+            height:45%;
             object-fit: cover;
+            border-bottom: 1px solid lightgrey;
         }
 
         .post-card h2 {
@@ -47,6 +48,7 @@
             margin-left: auto;
             margin-right: auto;
             max-width:90%;
+            height: 3rem;
         }
 
         .post-card p {
@@ -78,7 +80,7 @@
     const blogPostsContainer = document.getElementById("blog-posts-container");
     const blogPostsSlider = document.getElementById("blog-posts-slider");
 
-    fetch(`${apiURL}/ghost/api/v3/content/posts/?key=${apiKey}&fields=title,slug,feature_image,published_at&include=tag,authors&limit=all&filter=tag:success-stories`)
+    fetch(`${apiURL}/ghost/api/v3/content/posts/?key=${apiKey}&fields=title,excerpt,slug,feature_image,published_at&include=tag,authors&limit=all&filter=tag:success-stories`)
         .then(response => response.json())
         .then(data => {
             const posts = data.posts;
@@ -114,9 +116,6 @@
                 focusOnSelect: true,
                 waitForAnimate: false,
                 autoplay: true,
-                autoplaySpeed: 1000,
-                speed: 3000,
-                cssEase: 'ease',
                 responsive: [
                     {
                         breakpoint: 992,

@@ -88,7 +88,8 @@
           display: block;
           width: 100%;
           height:60%;
-          object-fit: cover
+          object-fit: cover;
+          border-bottom: 1px solid lightgrey;
 
 
         }
