@@ -5,6 +5,36 @@
     <title>Blog Posts Carousel</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <style>
+
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0 0 0;
+            margin-top: 2rem!important;
+        }
+
+        .slick-dots li {
+            margin: 0 5px;
+        }
+
+        .slick-dots li button {
+            display: block;
+            width: 10px;
+            height: 10px;
+            padding: 0;
+            border: none;
+            background-color: #bbb;
+            border-radius: 50%;
+            text-indent: -9999px;
+            cursor: pointer;
+        }
+
+        .slick-dots li.slick-active button {
+            background-color: black;
+            box-shadow: none;
+        }
+
+
         #blog-posts-slider {
             width: 100%;
             margin: 0 auto;
@@ -116,6 +146,7 @@
                 focusOnSelect: true,
                 waitForAnimate: false,
                 autoplay: true,
+                dots: true,
                 responsive: [
                     {
                         breakpoint: 992,
