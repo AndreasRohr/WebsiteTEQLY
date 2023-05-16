@@ -122,6 +122,30 @@
     </div>
     <div style="height: 10%"></div>
 </div>
+<div><br></div>
+<div class="partner-section">
+
+    <div class="partner-logo">
+        <a class="sds-logo" href="https://www.swissmadesoftware.org/about/swiss-digital-services.html" target="_blank">
+            <img style="height: 70%" src="../assets/sds-logo.png" alt="Swiss Digital Service">
+        </a>
+    </div>
+
+
+
+    <div class="partner-logo">
+        <a class="sms-logo" href="https://www.swissmadesoftware.org/about/swiss-made-software.html" target="_blank">
+            <img style="height: 65%; margin-left: 1%;" src="../assets/sms-logo.png" alt="Swiss Made Software">
+        </a>
+    </div>
+
+    <div class="partner-logo">
+        <a class="ms-logo" href="https://www.microsoft.com/de-ch" target="_blank">
+            <img style="height: 95%" src="../assets/microsoft-logo-black-2rows.jpg" alt="Microsoft Logo">
+        </a>
+    </div>
+
+</div>
 <div><br><br></div>
 </body>
 </html>
