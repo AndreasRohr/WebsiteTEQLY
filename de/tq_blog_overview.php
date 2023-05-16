@@ -20,9 +20,9 @@
 
 	<script>
 		const apiURL = "https://blog.teqly.ch";
-		const apiKey = "e3e8cd821e7165759e2a9da4bc";
+		const apiKey = "09d2b5f78c3774701e1685a192";
 
-		fetch(`${apiURL}/ghost/api/v3/content/posts/?key=${apiKey}&fields=title,slug,feature_image,published_at&include=tag,authors&limit=all`)
+        fetch(`${apiURL}/ghost/api/v3/content/posts/?key=${apiKey}&fields=title,slug,feature_image,published_at&include=tag,authors&limit=all&filter=tag:-success-stories`)
 			.then(response => response.json())
 			.then(data => {
 				const blogPosts = document.getElementById("blog-posts");
@@ -88,7 +88,8 @@
           display: block;
           width: 100%;
           height:60%;
-          object-fit: cover
+          object-fit: cover;
+          border-bottom: 1px solid lightgrey;
 
 
         }

@@ -34,7 +34,7 @@
         </div>
         <div class="index-col-right" style="width: 80%">
             <!--EDIT HERE-->
-            <p>Umfassende Um- und Ausbauarbeiten waren im über 100 Jahre alten Haus in LeLocle nötig um eine neue Netzwerkinfrastruktur betreiben zu können. Die massive Bauweise des Gebäudes stellte hohe Anforderungen an die Netzwerkkomponenten um eine gute Wireless-Abdeckung garantieren zu können. Neben dem Umfassenden Ausbau des Netzwerks wurde auch ein Serverraum neu erstellt in dem zusätzliche Komponenten Platz gefunden haben. Die bestehende Fernsehinstallation via Satelit wurde durch eine neue Internet-TV-Lösung ersetzt. An diesen Projekt haben wir eng mit Netzbetreibern und lokalen Handwerksbetrieben zusammengearbeitet und konnten so am Ende eine optimale Gesamtlösung realisieren.</p>
+            <p>Umfassende Um- und Ausbauarbeiten waren im über 100 Jahre alten Haus in LeLocle nötig um eine neue Netzwerkinfrastruktur betreiben zu können. Die massive Bauweise des Gebäudes stellte hohe Anforderungen an die Netzwerkkomponenten um eine gute Wireless-Abdeckung garantieren zu können. Neben dem Umfassenden Ausbau des Netzwerks wurde auch ein Serverraum neu erstellt in dem zusätzliche Komponenten Platz gefunden haben. Die bestehende Fernsehinstallation via Satellit wurde durch eine neue Internet-TV-Lösung ersetzt. An diesen Projekt haben wir eng mit Netzbetreibern und lokalen Handwerksbetrieben zusammengearbeitet und konnten so am Ende eine optimale Gesamtlösung realisieren.</p>
         </div>
         </div>
     </div>
