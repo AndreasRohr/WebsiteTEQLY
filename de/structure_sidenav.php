@@ -19,7 +19,6 @@
             <button style="margin-top:0.4rem;" id="navbtnContact" class="navbtnMeet" onclick="openModal()">
             <span style="margin-top: -0.5px" class="fa fa-calendar"></span>
             </button>
-            </div>
             <button style="margin-top:0.4rem;" id="navbtnClose" class="navbtnClose"  onclick="closeNav()"><img src="../assets/page_x.svg" aria-hidden="true"></button>
         </div>
         <div class="sidenav-left" style="margin-bottom: 0.1rem; width: 50px">
