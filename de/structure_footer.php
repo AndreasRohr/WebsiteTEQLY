@@ -112,13 +112,29 @@
                 </div>
             </div>
             <div style="margin-right: 2rem; color: black" class="col-footer">
-                Social Media
+                Partner
                 <div class="col-footer">
                     <div style="border-color: black; margin-top: 0px; margin-bottom: 10px" class="linewhite"></div>
-                    <a href="https://www.linkedin.com/company/teqly/" class="fa fa-linkedin"></a>
-                    <!--<a href="https://www.youtube.com/channel/UCdUiy-JbIqQBlVXqeVmbvrQ" class="fa fa-youtube"></a>-->
-                    <a href="https://www.instagram.com/teqly/" class="fa fa-instagram"></a>
-                    <a href="https://open.spotify.com/show/7KG8S85T0I2XszX9QHkDB8" class="fa fa-spotify"></a>
+
+                    <div class="partner-logo">
+                        <a class="sds-logo" href="https://www.swissmadesoftware.org/about/swiss-digital-services.html" target="_blank">
+                            <img style="height: 70%" src="../assets/sds-logo.png" alt="Swiss Digital Service">
+                        </a>
+                    </div>
+
+
+
+                    <div class="partner-logo">
+                        <a class="sms-logo" href="https://www.swissmadesoftware.org/about/swiss-made-software.html" target="_blank">
+                            <img style="height: 65%; margin-left: 1%;" src="../assets/sms-logo.png" alt="Swiss Made Software">
+                        </a>
+                    </div>
+
+                    <div class="partner-logo">
+                        <a class="ms-logo" href="https://www.microsoft.com/de-ch" target="_blank">
+                            <img style="height: 95%" src="../assets/microsoft-logo-black-2rows.jpg" alt="Microsoft Logo">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
