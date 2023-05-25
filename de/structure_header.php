@@ -47,14 +47,6 @@
 <button id="homebtnMeet" class="homebtnMeet" onclick="openModal()">
   <span style="margin-top: -0.5px" class="fa fa-calendar"></span>
 </button>
-
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn" aria-hidden="true">DE</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="../en/index.php">EN</a>
-                <a href="../fr/index.php">FR</a>
-            </div>
-        </div>
         <button class="homebtnBurger" onclick="openNav()"><img src="../assets/page_menu.svg" aria-hidden="true"></button>
     </div>
     <div class="header-left" style="max-width: 50px">
