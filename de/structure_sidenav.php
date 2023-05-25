@@ -19,12 +19,6 @@
             <button style="margin-top:0.4rem;" id="navbtnContact" class="navbtnMeet" onclick="openModal()">
             <span style="margin-top: -0.5px" class="fa fa-calendar"></span>
             </button>
-            <div class="sidenav-dropdown">
-                <button onclick="myFunction2()" class="sidenav-dropbtn">DE</button>
-                <div id="sidenav-myDropdown" class="sidenav-dropdown-content">
-                    <a href="../en/index.php">EN</a>
-                    <a href="../fr/index.php">FR</a>
-                </div>
             </div>
             <button style="margin-top:0.4rem;" id="navbtnClose" class="navbtnClose"  onclick="closeNav()"><img src="../assets/page_x.svg" aria-hidden="true"></button>
         </div>
